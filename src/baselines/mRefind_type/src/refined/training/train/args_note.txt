@@ -1,0 +1,4 @@
+Namespace(attention_probs_dropout_prob=0.1, bs=32, cased=False, data_dir=None, dataset='conll', device='cuda:0', distilled=False, dropout=0.1, epochs=10, fine_tune=True, hidden_dropout_prob=0.1, large=False, lr=5e-05, max_seq=510, n_gpu=1, output_dir='model_output', overwrite_output_dir=False, restore_model_path=None, transformer_name='roberta-base')
+
+
+Namespace(batch_size=8, candidate_dropout=0.0, checkpoint_every_n_steps=2000, checkpoint_metric='ed', data_dir='/home/gourav-pg/.cache/refined', device='cuda:0', download_files=True, ed_dropout=0.05, ed_threshold=0.15, el=True, entity_set='wikipedia', epochs=2, et_dropout=0.1, experiment_name='test', gradient_accumulation_steps=1, lr=5e-05, mask_prob=0.7, mask_random_prob=0.05, max_mentions=25, n_gpu=1, num_candidates_eval=30, num_candidates_train=30, num_warmup_steps=10, output_dir='fine_tuned_models', restore_model_path=None, resume=False, transformer_name='roberta-base', use_precomputed_descriptions=False)

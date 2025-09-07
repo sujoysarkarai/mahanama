@@ -1,0 +1,96 @@
+import logging
+import numpy as np
+import torch
+
+from metrics import CorefEvaluator, MentionEvaluator, CorefCategories
+from lingmess_token_level.util_original import create_clusters, create_mention_to_antecedent, update_metrics, \
+    output_evaluation_metrics, write_prediction_to_jsonlines, create_mentions, update_cluster_with_singleton, \
+    get_vaild_mention_to_antecedent, extract_mentions_to_clusters, vaild_mention
+from tqdm import tqdm
+
+logger = logging.getLogger(__name__)
+
+
+class Evaluator:
+    def __init__(self, args, eval_dataloader):
+        self.args = args
+        self.output_dir = args.output_dir
+        self.eval_dataloader = eval_dataloader
+
+    def evaluate(self, model, prefix=""):
+        # Eval!
+        model.eval()
+
+        logger.info(f"***** RRunning Inference on {self.args.eval_split} split {prefix} *****")
+        logger.info(f"  Examples number: {len(self.eval_dataloader.dataset)}")
+
+        metrics_dict = {'loss': 0., 'post_pruning': MentionEvaluator(), 'mentions': MentionEvaluator(),
+                        'coref': CorefEvaluator(), 'coref_categories': CorefCategories()}
+        doc_to_tokens = {}
+        doc_to_subtoken_map = {}
+        doc_to_new_word_map = {}
+        doc_to_prediction = {}
+
+        evaluation = False
+        with tqdm(desc="Inference", total=len(self.eval_dataloader.dataset)) as progress_bar:
+            for idx, batch in enumerate(self.eval_dataloader):
+                doc_keys = batch['doc_key']
+                tokens = batch['tokens']
+                subtoken_map = batch['subtoken_map']
+                new_token_map = batch['new_token_map']
+                gold_clusters = batch['gold_clusters']
+
+                with torch.no_grad():
+                    outputs = model(batch, gold_clusters=gold_clusters, return_all_outputs=True)
+
+                outputs_np = tuple(tensor.cpu().numpy() for tensor in outputs)
+
+                if gold_clusters is not None:
+                    evaluation = True
+                    gold_clusters = gold_clusters.cpu().numpy()
+                    loss, span_starts, span_ends, coref_logits, mention_logits, categories_labels, clusters_labels = outputs_np
+                    metrics_dict['loss'] += loss.item()
+                    metrics_dict['coref_categories'].update(coref_logits, categories_labels, clusters_labels)
+                else:
+                    span_starts, span_ends, coref_logits, mention_logits = outputs_np
+
+                # print(type(coref_logits))
+                # print(coref_logits)
+                # print(type(coref_logits))
+                # print(coref_logits.shape)
+                doc_indices_men, mentions = create_mentions(span_starts, span_ends, mention_logits, coref_logits)
+                doc_indices, mention_to_antecedent = create_mention_to_antecedent(span_starts, span_ends, coref_logits)
+
+                for i, doc_key in enumerate(doc_keys):
+                    doc_mention_to_antecedent = mention_to_antecedent[np.nonzero(doc_indices == i)]
+                    doc_mentions = mentions[np.nonzero(doc_indices_men == i)]
+                    
+                    doc_mention_to_antecedent = get_vaild_mention_to_antecedent(doc_mention_to_antecedent, subtoken_map[i])
+
+                    predicted_clusters = create_clusters(doc_mention_to_antecedent)
+                    predicted_clusters = update_cluster_with_singleton(predicted_clusters, doc_mentions)
+                    # print(predicted_clusters)
+
+                    doc_to_prediction[doc_key] = predicted_clusters
+                    doc_to_tokens[doc_key] = tokens[i]
+                    doc_to_subtoken_map[doc_key] = subtoken_map[i]
+                    doc_to_new_word_map[doc_key] = new_token_map[i]
+
+                    if gold_clusters is not None:
+                        update_metrics(metrics_dict, span_starts[i], span_ends[i], gold_clusters[i], predicted_clusters)
+
+                progress_bar.update(n=len(doc_keys))
+
+        write_prediction_to_jsonlines(
+            self.args, doc_to_prediction,
+            doc_to_tokens, doc_to_subtoken_map, doc_to_new_word_map
+        )
+
+        # print(metrics_dict)
+        results = {}
+        if evaluation:
+            results = output_evaluation_metrics(
+                metrics_dict=metrics_dict, output_dir=self.output_dir, prefix=prefix
+            )
+
+        return results

@@ -1,0 +1,4 @@
+- experiment=sanskrit_slp_dual
+- model/doc_encoder/transformer=longformer_large
+- override_encoder=True
+- train=True

@@ -1,0 +1,1739 @@
+Namespace(batch_size=8, candidate_dropout=0.0, checkpoint_every_n_steps=5000, checkpoint_metric='ed', data_dir='/home/gourav-pg/.cache/refined', device='cuda:0', download_files=True, ed_dropout=0.05, ed_threshold=0.15, el=True, entity_set='wikipedia', epochs=50, et_dropout=0.1, experiment_name='sans_deva_50_type', gradient_accumulation_steps=1, lr=5e-05, mask_prob=0.7, mask_random_prob=0.05, max_mentions=100, n_gpu=1, num_candidates_eval=30, num_candidates_train=30, num_warmup_steps=10, output_dir='fine_tuned_models', restore_model_path=None, resume=False, transformer_name='google/muril-base-cased', use_precomputed_descriptions=False)
+01:41:10 - refined.training.train.training_args - INFO - Using batch size 8 as n_gpu is 1.
+resource files-
+{'roberta_base_model': '/home/gourav-pg/.cache/refined/roberta-base/pytorch_model.bin', 'roberta_base_model_config': '/home/gourav-pg/.cache/refined/roberta-base/config.json', 'roberta_base_vocab': '/home/gourav-pg/.cache/refined/roberta-base/vocab.json', 'roberta_base_tokenizer_merges': '/home/gourav-pg/.cache/refined/roberta-base/merges.txt', 'wiki_pem': '/home/gourav-pg/.cache/refined/wikipedia_data/pem.lmdb', 'class_to_label': '/home/gourav-pg/.cache/refined/wikipedia_data/class_to_label.json', 'human_qcodes': '/home/gourav-pg/.cache/refined/wikipedia_data/human_qcodes.json', 'class_to_idx': '/home/gourav-pg/.cache/refined/wikipedia_data/class_to_idx.json', 'qcode_to_idx': '/home/gourav-pg/.cache/refined/wikipedia_data/qcode_to_idx.lmdb', 'qcode_idx_to_class_idx': '/home/gourav-pg/.cache/refined/wikipedia_data/qcode_to_class_tns_6269457-138.np', 'subclasses': '/home/gourav-pg/.cache/refined/wikipedia_data/subclasses.lmdb', 'descriptions_tns': '/home/gourav-pg/.cache/refined/wikipedia_data/descriptions_tns.pt', 'nltk_sentence_splitter_english': '/home/gourav-pg/.cache/refined/wikipedia_data/nltk_sentence_splitter_english.pickle'}
+01:41:27 - refined.training.fine_tune.fine_tune - INFO - Starting epoch number 0
+01:41:27 - refined.training.fine_tune.fine_tune - INFO - lr: 0.0
+01:41:27 - refined.training.fine_tune.fine_tune - INFO - lr: 0.0
+01:41:27 - refined.training.fine_tune.fine_tune - INFO - lr: 0.0
+01:41:27 - refined.training.fine_tune.fine_tune - INFO - lr: 0.0
+01:41:27 - refined.training.fine_tune.fine_tune - INFO - lr: 0.0
+01:41:50 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.7371660507086552
+01:42:11 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.5966191965730945
+01:42:32 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.5288459460771203
+01:42:52 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.4827796487711874
+01:43:13 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.450832752484776
+01:43:35 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.433269959876006
+01:43:55 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.4155658711232938
+01:44:17 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.4028511673575722
+01:44:39 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.39143002337804095
+check point end -  5000  and steps - total
+01:44:52 - refined.evaluation.evaluation - INFO - Running entity linking evaluation
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+no entity span
+*****************************
+
+
+Dataset name: WIKI_DEV
+
+****************
+************
+f1: 0.0000
+accuracy: 0.0000
+gold_recall: 0.9892
+p: 0.0000
+r: 0.0000
+num_gold_spans: 6945
+************
+*******MD*****
+MD_f1: 0.0000, (p: 0.0000, r: 0.0000)
+*****************
+
+*****************************
+
+
+01:44:56 - refined.evaluation.evaluation - INFO - Printing EL errors
+[{'doc_title': 'vol_13_chapter_1_subchapter_81_82.txt',
+  'fn_errors': [('yuDizWira', 0, 'Q12633'),
+                ('BIzma', 109, 'Q1497'),
+                ('SriyA', 182, 'Q2701'),
+                ('Baratasattama', 188, 'Q12633'),
+                ('SrIH', 205, 'Q2701'),
+                ('SrI', 499, 'Q2701'),
+                ('SrI', 533, 'Q2701'),
+                ('dEtyAH', 560, 'Q3078'),
+                ('indro', 650, 'Q4618'),
+                ('vivasvAn', 656, 'Q10478'),
+                ('somaS', 665, 'Q9973'),
+                ('vizRur', 673, 'Q12207'),
+                ("'gnir", 682, 'Q239'),
+                ('CrI', 949, 'Q2701'),
+                ('SrIr', 1178, 'Q2701'),
+                ('dAnava', 1432, 'Q3078'),
+                ('piSAco', 1448, 'Q7849'),
+                ('oraga', 1453, 'Q11188'),
+                ('rAkzasAH', 1458, 'Q8920'),
+                ('Sriyam', 2247, 'Q2701'),
+                ('SrIr', 2368, 'Q2701'),
+                ('SrIr', 2507, 'Q2701'),
+                ('BArata', 2522, 'Q12633')],
+  'fp_errors': []},
+ {'doc_title': 'vol_6_chapter_3_subchapter_27_16.txt',
+  'fn_errors': [('arjuna', 0, 'Q801'),
+                ('janArdana', 47, 'Q5907'),
+                ('keSava', 95, 'Q5907'),
+                ('yogena', 265, 'Q12614'),
+                ('sAMKyA', 272, 'Q9478'),
+                ('yogena', 287, 'Q12614'),
+                ("'rjuna", 620, 'Q801'),
+                ('yogam', 647, 'Q12614'),
+                ('prajApatiH', 903, 'Q1741'),
+                ('brahmo', 1341, 'Q1743'),
+                ('brahmA', 1360, 'Q1743'),
+                ('brahma', 1402, 'Q1743'),
+                ('pArTa', 1507, 'Q801'),
+                ('janakAd', 1828, 'Q4769'),
+                ('pArTA', 1983, 'Q801'),
+                ('pArTa', 2146, 'Q801'),
+                ('BArata', 2294, 'Q801'),
+                ('prakfteH', 2445, 'Q8537'),
+                ('arjuna', 3269, 'Q801'),
+                ('vArzReya', 3339, 'Q5907'),
+                ('kOnteya', 3606, 'Q801'),
+                ('BaratarzaBa', 3752, 'Q801')],
+  'fp_errors': []},
+ {'doc_title': 'vol_3_chapter_16_subchapter_263_3.txt',
+  'fn_errors': [('vESampAyana', 0, 'Q11327'),
+                ('kAmyake', 60, 'Q5282'),
+                ('BarataSrezWA', 68, 'Q1347'),
+                ('pARqavA', 193, 'Q7969'),
+                ('indra', 244, 'Q4618'),
+                ('drOpadIm', 374, 'Q3660'),
+                ('tfRabindor', 396, 'Q10998'),
+                ('DOmyasya', 437, 'Q3468'),
+                ('sinDUnAM ', 475, 'Q9927'),
+                ('vArdDakzatrir', 484, 'Q4869'),
+                ('SAlveyAn', 521, 'Q2356'),
+                ('kAmyaka', 625, 'Q5282'),
+                ('pARqavA', 688, 'Q7969'),
+                ('drOpadI', 733, 'Q3660'),
+                ('sinDUnAM ', 932, 'Q9927'),
+                ('jayadraTaH', 954, 'Q4869'),
+                ('kowikAsyaM', 1015, 'Q5828'),
+                ('kowika', 1440, 'Q5828'),
+                ('kowikAsyas', 1453, 'Q5828')],
+  'fp_errors': []},
+ {'doc_title': 'vol_9_chapter_1_subchapter_117_22.txt',
+  'fn_errors': [('saMjaya', 0, 'Q9460'),
+                ('rudraH', 85, 'Q2661'),
+                ('pARqavA', 221, 'Q7969'),
+                ('BArata', 371, 'Q3508'),
+                ('duryoDanena', 508, 'Q3805'),
+                ('duryoDano', 598, 'Q3805'),
+                ('pArTA', 698, 'Q8185'),
+                ('BArata', 718, 'Q3508'),
+                ('yuDizWiraM', 727, 'Q12633'),
+                ('BaratarzaBa', 755, 'Q3508'),
+                ('BIma', 769, 'Q1454'),
+                ('sahadevaM', 791, 'Q9239'),
+                ('nakulaM', 816, 'Q7528'),
+                ('DfzwadyumnaM', 839, 'Q3497'),
+                ('drOpadeyAM', 873, 'Q3652'),
+                ('sAtyakim', 901, 'Q9732'),
+                ('sahadevasya', 934, 'Q9239'),
+                ('mAdrIputraH', 977, 'Q9239'),
+                ('duryoDanaM', 1054, 'Q3805'),
+                ('nakulas', 1097, 'Q7528'),
+                ('sAtyakiS', 1183, 'Q9732'),
+                ('drOpadeyAs', 1224, 'Q3652'),
+                ('DarmarAjaS', 1246, 'Q12633'),
+                ('BIma', 1278, 'Q1454'),
+                ('DArtarAzwrA', 1492, 'Q3457'),
+                ('BIma', 1763, 'Q1454'),
+                ('droRaputro', 1785, 'Q118'),
+                ('BArata', 1925, 'Q3508'),
+                ('Sakunis', 2027, 'Q2304'),
+                ('yuDizWiram', 2047, 'Q12633'),
+                ('subalasya', 2092, 'Q10092'),
+                ('sahadevaH', 2217, 'Q9239'),
+                ('yuDizWiraH', 2272, 'Q12633'),
+                ('Sakuni', 2285, 'Q2304'),
+                ('sidDa', 2444, 'Q9884'),
+                ('ulUkas', 2465, 'Q11129'),
+                ('nakulaM', 2485, 'Q7528'),
+                ('nakulaH', 2560, 'Q7528'),
+                ('kftavarmARaM ', 2730, 'Q5957'),
+                ('SEneyaH', 2743, 'Q9732'),
+                ('baliM', 2786, 'Q1197'),
+                ('Sakra', 2792, 'Q4618'),
+                ('duryoDano', 2808, 'Q3805'),
+                ('Dfzwadyumnasya', 2830, 'Q3497'),
+                ('Dfzwadyumno', 2901, 'Q3497'),
+                ('BaratarzaBa', 3022, 'Q3508'),
+                ('gOtamas', 3082, 'Q5903'),
+                ('drOpadeyAn', 3104, 'Q3652'),
+                ('BArata', 3388, 'Q3508'),
+                ('divAkara', 3906, 'Q10478'),
+                ('BAskaro', 3949, 'Q10478'),
+                ('Baratasattama', 4090, 'Q3508'),
+                ('BArata', 4188, 'Q3508')],
+  'fp_errors': []},
+ {'doc_title': 'vol_7_chapter_3_subchapter_37_6.txt',
+  'fn_errors': [('DftarAzwra', 0, 'Q3508'),
+                ('Arjuni', 61, 'Q13'),
+                ('saMjaya', 108, 'Q9460'),
+                ('BAradvAjena', 187, 'Q3676'),
+                ('madreSaM', 211, 'Q2358'),
+                ('sOBadreRA', 235, 'Q13'),
+                ('SalyAd', 256, 'Q2358'),
+                ('ArjuniH', 398, 'Q13'),
+                ('ArjuneH', 764, 'Q13'),
+                ('BUtAni', 826, 'Q1628'),
+                ('BArata', 846, 'Q3508'),
+                ('SalyaBrAtary', 856, 'Q2359'),
+                ("'rjunAtmajam", 927, 'Q13'),
+                ("'rjunanandanam", 1152, 'Q13'),
+                ('sOBadraH', 1240, 'Q13'),
+                ('vAsudevAd', 1400, 'Q5907'),
+                ('DanaMjayAt', 1433, 'Q801'),
+                ('kArzRiH', 1461, 'Q13'),
+                ('savitur', 1650, 'Q98481'),
+                ('BAradvAjasya', 2132, 'Q3676')],
+  'fp_errors': []}]
+01:44:56 - refined.evaluation.evaluation - INFO - Printing MD errors
+[{'doc_title': 'vol_13_chapter_1_subchapter_81_82.txt',
+  'fn_errors_md': [('yuDizWira', 0, 'MENTION'),
+                   ('BIzma', 109, 'MENTION'),
+                   ('SriyA', 182, 'MENTION'),
+                   ('Baratasattama', 188, 'MENTION'),
+                   ('SrIH', 205, 'MENTION'),
+                   ('SrI', 499, 'MENTION'),
+                   ('SrI', 533, 'MENTION'),
+                   ('dEtyAH', 560, 'MENTION'),
+                   ('indro', 650, 'MENTION'),
+                   ('vivasvAn', 656, 'MENTION'),
+                   ('somaS', 665, 'MENTION'),
+                   ('vizRur', 673, 'MENTION'),
+                   ("'gnir", 682, 'MENTION'),
+                   ('CrI', 949, 'MENTION'),
+                   ('SrIr', 1178, 'MENTION'),
+                   ('dAnava', 1432, 'MENTION'),
+                   ('piSAco', 1448, 'MENTION'),
+                   ('oraga', 1453, 'MENTION'),
+                   ('rAkzasAH', 1458, 'MENTION'),
+                   ('Sriyam', 2247, 'MENTION'),
+                   ('SrIr', 2368, 'MENTION'),
+                   ('SrIr', 2507, 'MENTION'),
+                   ('BArata', 2522, 'MENTION')],
+  'fp_errors_md': [('DizWira', 2, 'MENTION'),
+                   ('Izma', 110, 'MENTION'),
+                   ('Iz', 2122, 'MENTION'),
+                   ('Iz', 2474, 'MENTION')]},
+ {'doc_title': 'vol_6_chapter_3_subchapter_27_16.txt',
+  'fn_errors_md': [('arjuna', 0, 'MENTION'),
+                   ('janArdana', 47, 'MENTION'),
+                   ('keSava', 95, 'MENTION'),
+                   ('yogena', 265, 'MENTION'),
+                   ('sAMKyA', 272, 'MENTION'),
+                   ('yogena', 287, 'MENTION'),
+                   ("'rjuna", 620, 'MENTION'),
+                   ('yogam', 647, 'MENTION'),
+                   ('prajApatiH', 903, 'MENTION'),
+                   ('brahmo', 1341, 'MENTION'),
+                   ('brahmA', 1360, 'MENTION'),
+                   ('brahma', 1402, 'MENTION'),
+                   ('pArTa', 1507, 'MENTION'),
+                   ('janakAd', 1828, 'MENTION'),
+                   ('pArTA', 1983, 'MENTION'),
+                   ('pArTa', 2146, 'MENTION'),
+                   ('BArata', 2294, 'MENTION'),
+                   ('prakfteH', 2445, 'MENTION'),
+                   ('arjuna', 3269, 'MENTION'),
+                   ('vArzReya', 3339, 'MENTION'),
+                   ('kOnteya', 3606, 'MENTION'),
+                   ('BaratarzaBa', 3752, 'MENTION')],
+  'fp_errors_md': []},
+ {'doc_title': 'vol_3_chapter_16_subchapter_263_3.txt',
+  'fn_errors_md': [('vESampAyana', 0, 'MENTION'),
+                   ('kAmyake', 60, 'MENTION'),
+                   ('BarataSrezWA', 68, 'MENTION'),
+                   ('pARqavA', 193, 'MENTION'),
+                   ('indra', 244, 'MENTION'),
+                   ('drOpadIm', 374, 'MENTION'),
+                   ('tfRabindor', 396, 'MENTION'),
+                   ('DOmyasya', 437, 'MENTION'),
+                   ('sinDUnAM ', 475, 'MENTION'),
+                   ('vArdDakzatrir', 484, 'MENTION'),
+                   ('SAlveyAn', 521, 'MENTION'),
+                   ('kAmyaka', 625, 'MENTION'),
+                   ('pARqavA', 688, 'MENTION'),
+                   ('drOpadI', 733, 'MENTION'),
+                   ('sinDUnAM ', 932, 'MENTION'),
+                   ('jayadraTaH', 954, 'MENTION'),
+                   ('kowikAsyaM', 1015, 'MENTION'),
+                   ('kowika', 1440, 'MENTION'),
+                   ('kowikAsyas', 1453, 'MENTION')],
+  'fp_errors_md': [('ESampAyana', 1, 'MENTION')]},
+ {'doc_title': 'vol_9_chapter_1_subchapter_117_22.txt',
+  'fn_errors_md': [('saMjaya', 0, 'MENTION'),
+                   ('rudraH', 85, 'MENTION'),
+                   ('pARqavA', 221, 'MENTION'),
+                   ('BArata', 371, 'MENTION'),
+                   ('duryoDanena', 508, 'MENTION'),
+                   ('duryoDano', 598, 'MENTION'),
+                   ('pArTA', 698, 'MENTION'),
+                   ('BArata', 718, 'MENTION'),
+                   ('yuDizWiraM', 727, 'MENTION'),
+                   ('BaratarzaBa', 755, 'MENTION'),
+                   ('BIma', 769, 'MENTION'),
+                   ('sahadevaM', 791, 'MENTION'),
+                   ('nakulaM', 816, 'MENTION'),
+                   ('DfzwadyumnaM', 839, 'MENTION'),
+                   ('drOpadeyAM', 873, 'MENTION'),
+                   ('sAtyakim', 901, 'MENTION'),
+                   ('sahadevasya', 934, 'MENTION'),
+                   ('mAdrIputraH', 977, 'MENTION'),
+                   ('duryoDanaM', 1054, 'MENTION'),
+                   ('nakulas', 1097, 'MENTION'),
+                   ('sAtyakiS', 1183, 'MENTION'),
+                   ('drOpadeyAs', 1224, 'MENTION'),
+                   ('DarmarAjaS', 1246, 'MENTION'),
+                   ('BIma', 1278, 'MENTION'),
+                   ('DArtarAzwrA', 1492, 'MENTION'),
+                   ('BIma', 1763, 'MENTION'),
+                   ('droRaputro', 1785, 'MENTION'),
+                   ('BArata', 1925, 'MENTION'),
+                   ('Sakunis', 2027, 'MENTION'),
+                   ('yuDizWiram', 2047, 'MENTION'),
+                   ('subalasya', 2092, 'MENTION'),
+                   ('sahadevaH', 2217, 'MENTION'),
+                   ('yuDizWiraH', 2272, 'MENTION'),
+                   ('Sakuni', 2285, 'MENTION'),
+                   ('sidDa', 2444, 'MENTION'),
+                   ('ulUkas', 2465, 'MENTION'),
+                   ('nakulaM', 2485, 'MENTION'),
+                   ('nakulaH', 2560, 'MENTION'),
+                   ('kftavarmARaM ', 2730, 'MENTION'),
+                   ('SEneyaH', 2743, 'MENTION'),
+                   ('baliM', 2786, 'MENTION'),
+                   ('Sakra', 2792, 'MENTION'),
+                   ('duryoDano', 2808, 'MENTION'),
+                   ('Dfzwadyumnasya', 2830, 'MENTION'),
+                   ('Dfzwadyumno', 2901, 'MENTION'),
+                   ('BaratarzaBa', 3022, 'MENTION'),
+                   ('gOtamas', 3082, 'MENTION'),
+                   ('drOpadeyAn', 3104, 'MENTION'),
+                   ('BArata', 3388, 'MENTION'),
+                   ('divAkara', 3906, 'MENTION'),
+                   ('BAskaro', 3949, 'MENTION'),
+                   ('Baratasattama', 4090, 'MENTION'),
+                   ('BArata', 4188, 'MENTION')],
+  'fp_errors_md': [('izW', 730, 'MENTION'),
+                   ('kuni', 2029, 'MENTION'),
+                   ('DizWiraH', 2274, 'MENTION'),
+                   ('kuni', 2287, 'MENTION')]},
+ {'doc_title': 'vol_7_chapter_3_subchapter_37_6.txt',
+  'fn_errors_md': [('DftarAzwra', 0, 'MENTION'),
+                   ('Arjuni', 61, 'MENTION'),
+                   ('saMjaya', 108, 'MENTION'),
+                   ('BAradvAjena', 187, 'MENTION'),
+                   ('madreSaM', 211, 'MENTION'),
+                   ('sOBadreRA', 235, 'MENTION'),
+                   ('SalyAd', 256, 'MENTION'),
+                   ('ArjuniH', 398, 'MENTION'),
+                   ('ArjuneH', 764, 'MENTION'),
+                   ('BUtAni', 826, 'MENTION'),
+                   ('BArata', 846, 'MENTION'),
+                   ('SalyaBrAtary', 856, 'MENTION'),
+                   ("'rjunAtmajam", 927, 'MENTION'),
+                   ("'rjunanandanam", 1152, 'MENTION'),
+                   ('sOBadraH', 1240, 'MENTION'),
+                   ('vAsudevAd', 1400, 'MENTION'),
+                   ('DanaMjayAt', 1433, 'MENTION'),
+                   ('kArzRiH', 1461, 'MENTION'),
+                   ('savitur', 1650, 'MENTION'),
+                   ('BAradvAjasya', 2132, 'MENTION')],
+  'fp_errors_md': [('ftarAzw', 1, 'MENTION')]}]
+01:44:56 - refined.evaluation.evaluation - INFO - Running entity disambiguation evaluation
+new surface form -  vol_3_chapter_16_subchapter_263_3.txt sinDUnAM  475 Q9927
+new surface form -  vol_3_chapter_16_subchapter_263_3.txt sinDUnAM  932 Q9927
+new surface form -  vol_9_chapter_1_subchapter_117_22.txt kftavarmARaM  2730 Q5957
+new surface form -  vol_1_chapter_5_subchapter_31_20.txt vasavo  1403 Q11679
+new surface form -  vol_12_chapter_1_subchapter_71_72.txt pitaro  1888 Q8386
+new surface form -  vol_8_chapter_1_subchapter_27_28.txt paYcAlAnahanat  4232 Q7902
+new surface form -  vol_1_chapter_11_subchapter_173_10.txt ikzvAkavo  873 Q4604
+new surface form -  vol_3_chapter_11_subchapter_196_16.txt kapotaromARaM  3242 Q5383
+new surface form -  vol_3_chapter_7_subchapter_115_37.txt prasenajitaM  107 Q8593
+new surface form -  vol_13_chapter_1_subchapter_74_75.txt vedAnAM  234 Q11773
+new surface form -  vol_13_chapter_1_subchapter_74_75.txt pitaro  2937 Q8386
+new surface form -  vol_14_chapter_2_subchapter_196_14.txt pitara  1902 Q8386
+new surface form -  vol_3_chapter_11_subchapter_226_46.txt kArtikeyasya  706 Q9952
+new surface form -  vol_1_chapter_7_subchapter_79_16.txt devayAnIkfte  2018 Q3319
+new surface form -  vol_13_chapter_1_subchapter_88_89.txt ASlezAyAM  376 Q57
+new surface form -  vol_1_chapter_14_subchapter_210_12.txt viSvakarmARaM  916 Q11914
+new surface form -  vol_7_chapter_8_subchapter_196_4.txt kuravo  1054 Q6239
+new surface form -  vol_3_chapter_6_subchapter_63_13.txt nEzaDAnAM  1091 Q7509
+new surface form -  vol_3_chapter_6_subchapter_63_13.txt vidarBARAM  4111 Q11970
+new surface form -  vol_12_chapter_3_subchapter_113_114.txt vedAntAnAM  2008 Q11785
+new surface form -  vol_5_chapter_6_subchapter_212_70.txt DArtarAzwrazu  3709 Q3805
+new surface form -  vol_1_chapter_4_subchapter_10_8.txt vedAnAM  1414 Q11773
+new surface form -  vol_3_chapter_7_subchapter_91_13.txt rakzoByo  434 Q8920
+new surface form -  vol_3_chapter_7_subchapter_91_13.txt rakzasva  530 Q8920
+new surface form -  vol_3_chapter_9_subchapter_170_7.txt tridivOkasAm  2246 Q10920
+new surface form -  vol_1_chapter_5_subchapter_36_25.txt kaSyapasya  2995 Q5022
+new surface form -  vol_3_chapter_11_subchapter_224_44.txt saptarzIRAM  412 Q9516
+new surface form -  vol_3_chapter_11_subchapter_224_44.txt saptarzIRAM  1290 Q9516
+new surface form -  vol_3_chapter_10_subchapter_180_6.txt brahmarzIRAM  3324 Q1782
+new surface form -  vol_3_chapter_10_subchapter_180_6.txt agastayena  3465 Q214
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  5189 Q11773
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  5322 Q11773
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  6398 Q11773
+new surface form -  vol_14_chapter_2_subchapter_209_27.txt pitaro  5654 Q8386
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  4905 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  4996 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  5084 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  5270 Q2082
+new surface form -  vol_4_chapter_3_subchapter_36_13.txt virAwasya  434 Q12161
+new surface form -  vol_9_chapter_2_subchapter_152_26.txt saMjayAnAM  5005 Q7902
+new surface form -  vol_9_chapter_2_subchapter_152_26.txt saMjayAnAM  5052 Q7902
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitfByo  31 Q8386
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitaro  280 Q8386
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitaro  509 Q8386
+new surface form -  vol_4_chapter_1_subchapter_3_4.txt dupadasya  165 Q3703
+new surface form -  vol_5_chapter_1_subchapter_81_10.txt tridivOkasaH  331 Q10920
+new surface form -  vol_13_chapter_1_subchapter_78_79.txt vasUnAM  1782 Q11679
+new surface form -  vol_9_chapter_2_subchapter_137_11.txt viprarvasizWasya  237 Q11659
+new surface form -  vol_12_chapter_2_subchapter_169_40.txt kaSyapasya  119 Q5022
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitaro  1038 Q8386
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitara  1818 Q8386
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitaro  1886 Q8386
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt virAwasya  1412 Q12161
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt bandiBiH  3819 Q11521
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt suBadrAyAM  4740 Q10104
+new surface form -  vol_1_chapter_14_subchapter_203_5.txt dupadaputrARAM  664 Q3708
+new surface form -  vol_1_chapter_14_subchapter_203_5.txt kuravo  2556 Q6239
+new surface form -  vol_1_chapter_11_subchapter_170_7.txt aMSumantaM  1237 Q10478
+new surface form -  vol_2_chapter_9_subchapter_284_6.txt vErAmAMH  951 Q11389
+new surface form -  vol_8_chapter_1_subchapter_52_53.txt saMSaptakAnAM  103 Q9356
+new surface form -  vol_8_chapter_1_subchapter_52_53.txt parivarDanaMjayam  4079 Q801
+new surface form -  vol_1_chapter_18_subchapter_228_8.txt viprarziAhmaRo  2039 Q7040
+new surface form -  vol_3_chapter_11_subchapter_225_45.txt saptarzIRAM  905 Q9516
+new surface form -  vol_5_chapter_6_subchapter_183_41.txt prozWapadAByAM  249 Q1244
+new surface form -  vol_13_chapter_1_subchapter_2_3.txt brahmarzIRAM  1299 Q1782
+new surface form -  vol_7_chapter_5_subchapter_119_36.txt mAtyakiM  2851 Q9732
+new surface form -  vol_7_chapter_5_subchapter_122_39.txt trigartAnAM  1090 Q10928
+new surface form -  vol_14_chapter_2_subchapter_259_77.txt Bfgavo  4201 Q1543
+new surface form -  vol_9_chapter_2_subchapter_136_10.txt vEcitravIryaRaH  136 Q3512
+new surface form -  vol_9_chapter_2_subchapter_136_10.txt nEmizIyARAM  251 Q7502
+new surface form -  vol_3_chapter_6_subchapter_61_11.txt vasavo  2115 Q11679
+new surface form -  vol_14_chapter_2_subchapter_232_50.txt yakzARAM  566 Q12536
+new surface form -  vol_3_chapter_8_subchapter_159_2.txt maRimantaM  6374 Q7070
+new surface form -  vol_6_chapter_4_subchapter_109_67.txt dupadaSca  703 Q3703
+new surface form -  vol_6_chapter_4_subchapter_109_67.txt SiKARqanam  3753 Q2622
+*****************************
+
+
+Dataset name: WIKI_DEV
+
+****************
+************
+f1: 0.9056
+accuracy: 0.8857
+gold_recall: 0.9892
+p: 0.9264
+r: 0.8857
+num_gold_spans: 6945
+************
+
+*****************************
+
+
+01:45:03 - refined.evaluation.evaluation - INFO - Printing ED errors
+[{'doc_title': 'vol_13_chapter_1_subchapter_81_82.txt',
+  'fn_errors': [('BArata', 2522, 'Q12633')],
+  'fp_errors': []},
+ {'doc_title': 'vol_6_chapter_3_subchapter_27_16.txt',
+  'fn_errors': [('brahmo', 1341, 'Q1743'),
+                ('brahmA', 1360, 'Q1743'),
+                ('pArTA', 1983, 'Q801'),
+                ('BArata', 2294, 'Q801'),
+                ('kOnteya', 3606, 'Q801'),
+                ('BaratarzaBa', 3752, 'Q801')],
+  'fp_errors': [('brahmo', 1341, 'Q1741'),
+                ('brahmA', 1360, 'Q1741'),
+                ('pArTA', 1983, 'Q8185'),
+                ('kOnteya', 3606, 'Q12633')]},
+ {'doc_title': 'vol_3_chapter_16_subchapter_263_3.txt',
+  'fn_errors': [('sinDUnAM ', 475, 'Q9927'), ('sinDUnAM ', 932, 'Q9927')],
+  'fp_errors': []},
+ {'doc_title': 'vol_9_chapter_1_subchapter_117_22.txt',
+  'fn_errors': [('BArata', 371, 'Q3508'),
+                ('BArata', 718, 'Q3508'),
+                ('BaratarzaBa', 755, 'Q3508'),
+                ('BArata', 1925, 'Q3508'),
+                ('kftavarmARaM ', 2730, 'Q5957'),
+                ('BaratarzaBa', 3022, 'Q3508'),
+                ('gOtamas', 3082, 'Q5903'),
+                ('BArata', 3388, 'Q3508'),
+                ('Baratasattama', 4090, 'Q3508'),
+                ('BArata', 4188, 'Q3508')],
+  'fp_errors': [('gOtamas', 3082, 'Q4085'), ('Baratasattama', 4090, 'Q12633')]},
+ {'doc_title': 'vol_7_chapter_3_subchapter_37_6.txt',
+  'fn_errors': [('BArata', 846, 'Q3508'), ('savitur', 1650, 'Q98481')],
+  'fp_errors': [('savitur', 1650, 'Q10478')]}]
+01:45:03 - refined.training.fine_tune.fine_tune - INFO - Using ED performance for checkpoint metric
+01:45:03 - refined.training.fine_tune.fine_tune - INFO - Using EL performance for checkpoint metric
+model save
+01:45:03 - refined.training.fine_tune.fine_tune - INFO - Starting epoch number 1
+01:45:03 - refined.training.fine_tune.fine_tune - INFO - lr: 0.004999936266658169
+01:45:03 - refined.training.fine_tune.fine_tune - INFO - lr: 4.999936266658169e-05
+01:45:03 - refined.training.fine_tune.fine_tune - INFO - lr: 0.004999936266658169
+01:45:03 - refined.training.fine_tune.fine_tune - INFO - lr: 4.999936266658169e-05
+01:45:03 - refined.training.fine_tune.fine_tune - INFO - lr: 4.999936266658169e-05
+01:45:26 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.3075776467419634
+01:45:47 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2940044468596353
+01:46:08 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.28832301766577373
+01:46:29 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2832334317957847
+01:46:50 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2801978506058275
+01:47:11 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.28346314483348634
+01:47:33 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.28345915516078984
+01:47:54 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.28255684443228457
+01:48:15 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2818624685529839
+check point end -  5000  and steps - total
+01:48:28 - refined.evaluation.evaluation - INFO - Running entity linking evaluation
+*****************************
+
+
+Dataset name: WIKI_DEV
+
+****************
+************
+f1: 0.4524
+accuracy: 0.3247
+gold_recall: 0.9892
+p: 0.7457
+r: 0.3247
+num_gold_spans: 6945
+************
+*******MD*****
+MD_f1: 0.4671, (p: 0.6348, r: 0.3695)
+*****************
+
+*****************************
+
+
+01:48:34 - refined.evaluation.evaluation - INFO - Printing EL errors
+[{'doc_title': 'vol_13_chapter_1_subchapter_81_82.txt',
+  'fn_errors': [('SriyA', 182, 'Q2701'),
+                ('SrIH', 205, 'Q2701'),
+                ('SrI', 499, 'Q2701'),
+                ('SrI', 533, 'Q2701'),
+                ('vivasvAn', 656, 'Q10478'),
+                ('somaS', 665, 'Q9973'),
+                ('vizRur', 673, 'Q12207'),
+                ("'gnir", 682, 'Q239'),
+                ('CrI', 949, 'Q2701'),
+                ('SrIr', 1178, 'Q2701'),
+                ('dAnava', 1432, 'Q3078'),
+                ('piSAco', 1448, 'Q7849'),
+                ('oraga', 1453, 'Q11188'),
+                ('rAkzasAH', 1458, 'Q8920'),
+                ('Sriyam', 2247, 'Q2701'),
+                ('SrIr', 2368, 'Q2701'),
+                ('SrIr', 2507, 'Q2701')],
+  'fp_errors': [('BIzma', 2121, 'Q1497'), ('BIzma', 2473, 'Q1497')]},
+ {'doc_title': 'vol_6_chapter_3_subchapter_27_16.txt',
+  'fn_errors': [('janArdana', 47, 'Q5907'),
+                ('yogena', 265, 'Q12614'),
+                ('sAMKyA', 272, 'Q9478'),
+                ('yogena', 287, 'Q12614'),
+                ('yogam', 647, 'Q12614'),
+                ('brahmo', 1341, 'Q1743'),
+                ('brahmA', 1360, 'Q1743'),
+                ('brahma', 1402, 'Q1743'),
+                ('janakAd', 1828, 'Q4769'),
+                ('pArTA', 1983, 'Q801'),
+                ('BArata', 2294, 'Q801'),
+                ('prakfteH', 2445, 'Q8537'),
+                ('kOnteya', 3606, 'Q801'),
+                ('BaratarzaBa', 3752, 'Q801')],
+  'fp_errors': [('kOnteya', 837, 'Q12633'),
+                ('BArata', 2294, 'Q12633'),
+                ('kOnteya', 3606, 'Q12633'),
+                ('BaratarzaBa', 3752, 'Q12633')]},
+ {'doc_title': 'vol_3_chapter_16_subchapter_263_3.txt',
+  'fn_errors': [('kAmyake', 60, 'Q5282'),
+                ('BarataSrezWA', 68, 'Q1347'),
+                ('indra', 244, 'Q4618'),
+                ('tfRabindor', 396, 'Q10998'),
+                ('sinDUnAM ', 475, 'Q9927'),
+                ('vArdDakzatrir', 484, 'Q4869'),
+                ('SAlveyAn', 521, 'Q2356'),
+                ('kAmyaka', 625, 'Q5282'),
+                ('sinDUnAM ', 932, 'Q9927'),
+                ('jayadraTaH', 954, 'Q4869'),
+                ('kowikAsyaM', 1015, 'Q5828'),
+                ('kowika', 1440, 'Q5828'),
+                ('kowikAsyas', 1453, 'Q5828')],
+  'fp_errors': []},
+ {'doc_title': 'vol_9_chapter_1_subchapter_117_22.txt',
+  'fn_errors': [('BArata', 371, 'Q3508'),
+                ('pArTA', 698, 'Q8185'),
+                ('BArata', 718, 'Q3508'),
+                ('BaratarzaBa', 755, 'Q3508'),
+                ('BIma', 769, 'Q1454'),
+                ('drOpadeyAM', 873, 'Q3652'),
+                ('nakulas', 1097, 'Q7528'),
+                ('BIma', 1278, 'Q1454'),
+                ('BIma', 1763, 'Q1454'),
+                ('BArata', 1925, 'Q3508'),
+                ('Sakunis', 2027, 'Q2304'),
+                ('yuDizWiram', 2047, 'Q12633'),
+                ('subalasya', 2092, 'Q10092'),
+                ('sidDa', 2444, 'Q9884'),
+                ('ulUkas', 2465, 'Q11129'),
+                ('kftavarmARaM ', 2730, 'Q5957'),
+                ('baliM', 2786, 'Q1197'),
+                ('BaratarzaBa', 3022, 'Q3508'),
+                ('gOtamas', 3082, 'Q5903'),
+                ('BArata', 3388, 'Q3508'),
+                ('divAkara', 3906, 'Q10478'),
+                ('BAskaro', 3949, 'Q10478'),
+                ('Baratasattama', 4090, 'Q3508'),
+                ('BArata', 4188, 'Q3508')],
+  'fp_errors': [('BArata', 371, 'Q12633'),
+                ('BArata', 718, 'Q12633'),
+                ('BImas', 769, 'Q1454'),
+                ('BImas', 1278, 'Q1454'),
+                ('BImas', 1763, 'Q1454'),
+                ('BArata', 1925, 'Q12633'),
+                ('Sakuni', 2027, 'Q2304'),
+                ('Darmaputro', 2261, 'Q12633'),
+                ('sObalasya', 2574, 'Q2304'),
+                ('BArata', 3388, 'Q12633'),
+                ('Baratasattama', 4090, 'Q12633'),
+                ('BArata', 4188, 'Q12633')]},
+ {'doc_title': 'vol_7_chapter_3_subchapter_37_6.txt',
+  'fn_errors': [('madreSaM', 211, 'Q2358'),
+                ('SalyAd', 256, 'Q2358'),
+                ('BUtAni', 826, 'Q1628'),
+                ('BArata', 846, 'Q3508'),
+                ('SalyaBrAtary', 856, 'Q2359'),
+                ("'rjunAtmajam", 927, 'Q13'),
+                ('vAsudevAd', 1400, 'Q5907'),
+                ('kArzRiH', 1461, 'Q13'),
+                ('savitur', 1650, 'Q98481')],
+  'fp_errors': [('BArata', 846, 'Q12633'),
+                ('Salya', 856, 'Q2358'),
+                ("'rjunA", 927, 'Q801'),
+                ('sOBadro', 1778, 'Q13')]}]
+01:48:34 - refined.evaluation.evaluation - INFO - Printing MD errors
+[{'doc_title': 'vol_13_chapter_1_subchapter_81_82.txt',
+  'fn_errors_md': [('SriyA', 182, 'MENTION'),
+                   ('SrIH', 205, 'MENTION'),
+                   ('SrI', 499, 'MENTION'),
+                   ('SrI', 533, 'MENTION'),
+                   ('vivasvAn', 656, 'MENTION'),
+                   ('somaS', 665, 'MENTION'),
+                   ('vizRur', 673, 'MENTION'),
+                   ("'gnir", 682, 'MENTION'),
+                   ('CrI', 949, 'MENTION'),
+                   ('SrIr', 1178, 'MENTION'),
+                   ('dAnava', 1432, 'MENTION'),
+                   ('piSAco', 1448, 'MENTION'),
+                   ('oraga', 1453, 'MENTION'),
+                   ('rAkzasAH', 1458, 'MENTION'),
+                   ('Sriyam', 2247, 'MENTION'),
+                   ('SrIr', 2368, 'MENTION'),
+                   ('SrIr', 2507, 'MENTION')],
+  'fp_errors_md': [('BIzma', 2121, 'MENTION'), ('BIzma', 2473, 'MENTION')]},
+ {'doc_title': 'vol_6_chapter_3_subchapter_27_16.txt',
+  'fn_errors_md': [('janArdana', 47, 'MENTION'),
+                   ('yogena', 265, 'MENTION'),
+                   ('sAMKyA', 272, 'MENTION'),
+                   ('yogena', 287, 'MENTION'),
+                   ('yogam', 647, 'MENTION'),
+                   ('brahmo', 1341, 'MENTION'),
+                   ('brahmA', 1360, 'MENTION'),
+                   ('brahma', 1402, 'MENTION'),
+                   ('janakAd', 1828, 'MENTION'),
+                   ('pArTA', 1983, 'MENTION'),
+                   ('prakfteH', 2445, 'MENTION')],
+  'fp_errors_md': [('Ardana', 50, 'MENTION'),
+                   ('kOnteya', 837, 'MENTION'),
+                   ('bra', 1360, 'MENTION'),
+                   ('jana', 1828, 'MENTION'),
+                   ('pArTAsti', 1983, 'MENTION')]},
+ {'doc_title': 'vol_3_chapter_16_subchapter_263_3.txt',
+  'fn_errors_md': [('kAmyake', 60, 'MENTION'),
+                   ('BarataSrezWA', 68, 'MENTION'),
+                   ('indra', 244, 'MENTION'),
+                   ('tfRabindor', 396, 'MENTION'),
+                   ('sinDUnAM ', 475, 'MENTION'),
+                   ('vArdDakzatrir', 484, 'MENTION'),
+                   ('SAlveyAn', 521, 'MENTION'),
+                   ('kAmyaka', 625, 'MENTION'),
+                   ('sinDUnAM ', 932, 'MENTION'),
+                   ('jayadraTaH', 954, 'MENTION'),
+                   ('kowikAsyaM', 1015, 'MENTION'),
+                   ('kowika', 1440, 'MENTION'),
+                   ('kowikAsyas', 1453, 'MENTION')],
+  'fp_errors_md': [('ata', 71, 'MENTION')]},
+ {'doc_title': 'vol_9_chapter_1_subchapter_117_22.txt',
+  'fn_errors_md': [('pArTA', 698, 'MENTION'),
+                   ('BaratarzaBa', 755, 'MENTION'),
+                   ('BIma', 769, 'MENTION'),
+                   ('drOpadeyAM', 873, 'MENTION'),
+                   ('nakulas', 1097, 'MENTION'),
+                   ('BIma', 1278, 'MENTION'),
+                   ('BIma', 1763, 'MENTION'),
+                   ('Sakunis', 2027, 'MENTION'),
+                   ('yuDizWiram', 2047, 'MENTION'),
+                   ('subalasya', 2092, 'MENTION'),
+                   ('sidDa', 2444, 'MENTION'),
+                   ('ulUkas', 2465, 'MENTION'),
+                   ('kftavarmARaM ', 2730, 'MENTION'),
+                   ('baliM', 2786, 'MENTION'),
+                   ('BaratarzaBa', 3022, 'MENTION'),
+                   ('gOtamas', 3082, 'MENTION'),
+                   ('divAkara', 3906, 'MENTION'),
+                   ('BAskaro', 3949, 'MENTION')],
+  'fp_errors_md': [('BImas', 769, 'MENTION'),
+                   ('nakulast', 1097, 'MENTION'),
+                   ('BImas', 1278, 'MENTION'),
+                   ('pARqavAnA', 1742, 'MENTION'),
+                   ('BImas', 1763, 'MENTION'),
+                   ('Sakuni', 2027, 'MENTION'),
+                   ('yuDizWiramap', 2047, 'MENTION'),
+                   ('Darmaputro', 2261, 'MENTION'),
+                   ('sObalasya', 2574, 'MENTION'),
+                   ('kftavarmARa', 2730, 'MENTION'),
+                   ('atarzaBa', 3025, 'MENTION')]},
+ {'doc_title': 'vol_7_chapter_3_subchapter_37_6.txt',
+  'fn_errors_md': [('madreSaM', 211, 'MENTION'),
+                   ('SalyAd', 256, 'MENTION'),
+                   ('BUtAni', 826, 'MENTION'),
+                   ('SalyaBrAtary', 856, 'MENTION'),
+                   ("'rjunAtmajam", 927, 'MENTION'),
+                   ('vAsudevAd', 1400, 'MENTION'),
+                   ('kArzRiH', 1461, 'MENTION'),
+                   ('savitur', 1650, 'MENTION')],
+  'fp_errors_md': [('SalyAdavarajaH', 256, 'MENTION'),
+                   ('yug', 497, 'MENTION'),
+                   ('Salya', 856, 'MENTION'),
+                   ("'rjunA", 927, 'MENTION'),
+                   ('vAsudev', 1400, 'MENTION'),
+                   ('k', 1461, 'MENTION'),
+                   ('sOBadro', 1778, 'MENTION')]}]
+01:48:34 - refined.evaluation.evaluation - INFO - Running entity disambiguation evaluation
+new surface form -  vol_3_chapter_16_subchapter_263_3.txt sinDUnAM  475 Q9927
+new surface form -  vol_3_chapter_16_subchapter_263_3.txt sinDUnAM  932 Q9927
+new surface form -  vol_9_chapter_1_subchapter_117_22.txt kftavarmARaM  2730 Q5957
+new surface form -  vol_1_chapter_5_subchapter_31_20.txt vasavo  1403 Q11679
+new surface form -  vol_12_chapter_1_subchapter_71_72.txt pitaro  1888 Q8386
+new surface form -  vol_8_chapter_1_subchapter_27_28.txt paYcAlAnahanat  4232 Q7902
+new surface form -  vol_1_chapter_11_subchapter_173_10.txt ikzvAkavo  873 Q4604
+new surface form -  vol_3_chapter_11_subchapter_196_16.txt kapotaromARaM  3242 Q5383
+new surface form -  vol_3_chapter_7_subchapter_115_37.txt prasenajitaM  107 Q8593
+new surface form -  vol_13_chapter_1_subchapter_74_75.txt vedAnAM  234 Q11773
+new surface form -  vol_13_chapter_1_subchapter_74_75.txt pitaro  2937 Q8386
+new surface form -  vol_14_chapter_2_subchapter_196_14.txt pitara  1902 Q8386
+new surface form -  vol_3_chapter_11_subchapter_226_46.txt kArtikeyasya  706 Q9952
+new surface form -  vol_1_chapter_7_subchapter_79_16.txt devayAnIkfte  2018 Q3319
+new surface form -  vol_13_chapter_1_subchapter_88_89.txt ASlezAyAM  376 Q57
+new surface form -  vol_1_chapter_14_subchapter_210_12.txt viSvakarmARaM  916 Q11914
+new surface form -  vol_7_chapter_8_subchapter_196_4.txt kuravo  1054 Q6239
+new surface form -  vol_3_chapter_6_subchapter_63_13.txt nEzaDAnAM  1091 Q7509
+new surface form -  vol_3_chapter_6_subchapter_63_13.txt vidarBARAM  4111 Q11970
+new surface form -  vol_12_chapter_3_subchapter_113_114.txt vedAntAnAM  2008 Q11785
+new surface form -  vol_5_chapter_6_subchapter_212_70.txt DArtarAzwrazu  3709 Q3805
+new surface form -  vol_1_chapter_4_subchapter_10_8.txt vedAnAM  1414 Q11773
+new surface form -  vol_3_chapter_7_subchapter_91_13.txt rakzoByo  434 Q8920
+new surface form -  vol_3_chapter_7_subchapter_91_13.txt rakzasva  530 Q8920
+new surface form -  vol_3_chapter_9_subchapter_170_7.txt tridivOkasAm  2246 Q10920
+new surface form -  vol_1_chapter_5_subchapter_36_25.txt kaSyapasya  2995 Q5022
+new surface form -  vol_3_chapter_11_subchapter_224_44.txt saptarzIRAM  412 Q9516
+new surface form -  vol_3_chapter_11_subchapter_224_44.txt saptarzIRAM  1290 Q9516
+new surface form -  vol_3_chapter_10_subchapter_180_6.txt brahmarzIRAM  3324 Q1782
+new surface form -  vol_3_chapter_10_subchapter_180_6.txt agastayena  3465 Q214
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  5189 Q11773
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  5322 Q11773
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  6398 Q11773
+new surface form -  vol_14_chapter_2_subchapter_209_27.txt pitaro  5654 Q8386
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  4905 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  4996 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  5084 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  5270 Q2082
+new surface form -  vol_4_chapter_3_subchapter_36_13.txt virAwasya  434 Q12161
+new surface form -  vol_9_chapter_2_subchapter_152_26.txt saMjayAnAM  5005 Q7902
+new surface form -  vol_9_chapter_2_subchapter_152_26.txt saMjayAnAM  5052 Q7902
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitfByo  31 Q8386
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitaro  280 Q8386
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitaro  509 Q8386
+new surface form -  vol_4_chapter_1_subchapter_3_4.txt dupadasya  165 Q3703
+new surface form -  vol_5_chapter_1_subchapter_81_10.txt tridivOkasaH  331 Q10920
+new surface form -  vol_13_chapter_1_subchapter_78_79.txt vasUnAM  1782 Q11679
+new surface form -  vol_9_chapter_2_subchapter_137_11.txt viprarvasizWasya  237 Q11659
+new surface form -  vol_12_chapter_2_subchapter_169_40.txt kaSyapasya  119 Q5022
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitaro  1038 Q8386
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitara  1818 Q8386
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitaro  1886 Q8386
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt virAwasya  1412 Q12161
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt bandiBiH  3819 Q11521
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt suBadrAyAM  4740 Q10104
+new surface form -  vol_1_chapter_14_subchapter_203_5.txt dupadaputrARAM  664 Q3708
+new surface form -  vol_1_chapter_14_subchapter_203_5.txt kuravo  2556 Q6239
+new surface form -  vol_1_chapter_11_subchapter_170_7.txt aMSumantaM  1237 Q10478
+new surface form -  vol_2_chapter_9_subchapter_284_6.txt vErAmAMH  951 Q11389
+new surface form -  vol_8_chapter_1_subchapter_52_53.txt saMSaptakAnAM  103 Q9356
+new surface form -  vol_8_chapter_1_subchapter_52_53.txt parivarDanaMjayam  4079 Q801
+new surface form -  vol_1_chapter_18_subchapter_228_8.txt viprarziAhmaRo  2039 Q7040
+new surface form -  vol_3_chapter_11_subchapter_225_45.txt saptarzIRAM  905 Q9516
+new surface form -  vol_5_chapter_6_subchapter_183_41.txt prozWapadAByAM  249 Q1244
+new surface form -  vol_13_chapter_1_subchapter_2_3.txt brahmarzIRAM  1299 Q1782
+new surface form -  vol_7_chapter_5_subchapter_119_36.txt mAtyakiM  2851 Q9732
+new surface form -  vol_7_chapter_5_subchapter_122_39.txt trigartAnAM  1090 Q10928
+new surface form -  vol_14_chapter_2_subchapter_259_77.txt Bfgavo  4201 Q1543
+new surface form -  vol_9_chapter_2_subchapter_136_10.txt vEcitravIryaRaH  136 Q3512
+new surface form -  vol_9_chapter_2_subchapter_136_10.txt nEmizIyARAM  251 Q7502
+new surface form -  vol_3_chapter_6_subchapter_61_11.txt vasavo  2115 Q11679
+new surface form -  vol_14_chapter_2_subchapter_232_50.txt yakzARAM  566 Q12536
+new surface form -  vol_3_chapter_8_subchapter_159_2.txt maRimantaM  6374 Q7070
+new surface form -  vol_6_chapter_4_subchapter_109_67.txt dupadaSca  703 Q3703
+new surface form -  vol_6_chapter_4_subchapter_109_67.txt SiKARqanam  3753 Q2622
+*****************************
+
+
+Dataset name: WIKI_DEV
+
+****************
+************
+f1: 0.9036
+accuracy: 0.8975
+gold_recall: 0.9892
+p: 0.9098
+r: 0.8975
+num_gold_spans: 6945
+************
+
+*****************************
+
+
+01:48:41 - refined.evaluation.evaluation - INFO - Printing ED errors
+[{'doc_title': 'vol_13_chapter_1_subchapter_81_82.txt',
+  'fn_errors': [],
+  'fp_errors': []},
+ {'doc_title': 'vol_6_chapter_3_subchapter_27_16.txt',
+  'fn_errors': [('brahmo', 1341, 'Q1743'),
+                ('brahmA', 1360, 'Q1743'),
+                ('pArTA', 1983, 'Q801'),
+                ('BArata', 2294, 'Q801'),
+                ('kOnteya', 3606, 'Q801'),
+                ('BaratarzaBa', 3752, 'Q801')],
+  'fp_errors': [('brahmo', 1341, 'Q1741'),
+                ('brahmA', 1360, 'Q1741'),
+                ('pArTA', 1983, 'Q8185'),
+                ('BArata', 2294, 'Q12633'),
+                ('kOnteya', 3606, 'Q12633'),
+                ('BaratarzaBa', 3752, 'Q12633')]},
+ {'doc_title': 'vol_3_chapter_16_subchapter_263_3.txt',
+  'fn_errors': [('sinDUnAM ', 475, 'Q9927'), ('sinDUnAM ', 932, 'Q9927')],
+  'fp_errors': []},
+ {'doc_title': 'vol_9_chapter_1_subchapter_117_22.txt',
+  'fn_errors': [('BArata', 371, 'Q3508'),
+                ('BArata', 718, 'Q3508'),
+                ('BaratarzaBa', 755, 'Q3508'),
+                ('BArata', 1925, 'Q3508'),
+                ('kftavarmARaM ', 2730, 'Q5957'),
+                ('BaratarzaBa', 3022, 'Q3508'),
+                ('BArata', 3388, 'Q3508'),
+                ('Baratasattama', 4090, 'Q3508'),
+                ('BArata', 4188, 'Q3508')],
+  'fp_errors': [('BArata', 371, 'Q12633'),
+                ('BArata', 718, 'Q12633'),
+                ('BaratarzaBa', 755, 'Q12633'),
+                ('BArata', 1925, 'Q12633'),
+                ('BaratarzaBa', 3022, 'Q12633'),
+                ('BArata', 3388, 'Q12633'),
+                ('Baratasattama', 4090, 'Q12633'),
+                ('BArata', 4188, 'Q12633')]},
+ {'doc_title': 'vol_7_chapter_3_subchapter_37_6.txt',
+  'fn_errors': [('BArata', 846, 'Q3508')],
+  'fp_errors': [('BArata', 846, 'Q12633')]}]
+01:48:41 - refined.training.fine_tune.fine_tune - INFO - Using ED performance for checkpoint metric
+01:48:41 - refined.training.fine_tune.fine_tune - INFO - Using EL performance for checkpoint metric
+model save
+01:48:41 - refined.training.fine_tune.fine_tune - INFO - Obtained best F1 so far of 0.452 (previous best 0.000)
+01:48:41 - refined.training.fine_tune.fine_tune - INFO - Storing model at fine_tuned_models/sans_deva_50_type/f1_0.4524 along with optimizer, scheduler, and scaler
+01:48:46 - refined.training.fine_tune.fine_tune - INFO - Starting epoch number 2
+01:48:46 - refined.training.fine_tune.fine_tune - INFO - lr: 0.004999872066649609
+01:48:46 - refined.training.fine_tune.fine_tune - INFO - lr: 4.999872066649609e-05
+01:48:46 - refined.training.fine_tune.fine_tune - INFO - lr: 0.004999872066649609
+01:48:46 - refined.training.fine_tune.fine_tune - INFO - lr: 4.999872066649609e-05
+01:48:46 - refined.training.fine_tune.fine_tune - INFO - lr: 4.999872066649609e-05
+01:49:10 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2809765108607032
+01:49:31 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2775190197792485
+01:49:52 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2721219772977574
+01:50:13 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2692290458053276
+01:50:34 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.26685680271329765
+01:50:55 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2722568511838507
+01:51:16 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.27078340696077663
+01:51:37 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2721383759497813
+01:51:58 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.27204011809764567
+check point end -  5000  and steps - total
+01:52:11 - refined.evaluation.evaluation - INFO - Running entity linking evaluation
+*****************************
+
+
+Dataset name: WIKI_DEV
+
+****************
+************
+f1: 0.5233
+accuracy: 0.3895
+gold_recall: 0.9892
+p: 0.7972
+r: 0.3895
+num_gold_spans: 6945
+************
+*******MD*****
+MD_f1: 0.4951, (p: 0.5910, r: 0.4259)
+*****************
+
+*****************************
+
+
+01:52:17 - refined.evaluation.evaluation - INFO - Printing EL errors
+[{'doc_title': 'vol_13_chapter_1_subchapter_81_82.txt',
+  'fn_errors': [('SriyA', 182, 'Q2701'),
+                ('Baratasattama', 188, 'Q12633'),
+                ('SrIH', 205, 'Q2701'),
+                ('SrI', 499, 'Q2701'),
+                ('SrI', 533, 'Q2701'),
+                ('somaS', 665, 'Q9973'),
+                ("'gnir", 682, 'Q239'),
+                ('CrI', 949, 'Q2701'),
+                ('SrIr', 1178, 'Q2701'),
+                ('dAnava', 1432, 'Q3078'),
+                ('piSAco', 1448, 'Q7849'),
+                ('oraga', 1453, 'Q11188'),
+                ('rAkzasAH', 1458, 'Q8920'),
+                ('Sriyam', 2247, 'Q2701'),
+                ('SrIr', 2368, 'Q2701'),
+                ('SrIr', 2507, 'Q2701'),
+                ('BArata', 2522, 'Q12633')],
+  'fp_errors': [('BIzma', 2121, 'Q1497'), ('BIzma', 2473, 'Q1497')]},
+ {'doc_title': 'vol_6_chapter_3_subchapter_27_16.txt',
+  'fn_errors': [('arjuna', 0, 'Q801'),
+                ('yogena', 265, 'Q12614'),
+                ('sAMKyA', 272, 'Q9478'),
+                ('yogena', 287, 'Q12614'),
+                ('yogam', 647, 'Q12614'),
+                ('brahmo', 1341, 'Q1743'),
+                ('brahmA', 1360, 'Q1743'),
+                ('brahma', 1402, 'Q1743'),
+                ('janakAd', 1828, 'Q4769'),
+                ('pArTA', 1983, 'Q801'),
+                ('BArata', 2294, 'Q801'),
+                ('prakfteH', 2445, 'Q8537'),
+                ('arjuna', 3269, 'Q801'),
+                ('kOnteya', 3606, 'Q801'),
+                ('BaratarzaBa', 3752, 'Q801')],
+  'fp_errors': [('kOnteya', 837, 'Q12633'), ('kOnteya', 3606, 'Q12633')]},
+ {'doc_title': 'vol_3_chapter_16_subchapter_263_3.txt',
+  'fn_errors': [('BarataSrezWA', 68, 'Q1347'),
+                ('pARqavA', 193, 'Q7969'),
+                ('indra', 244, 'Q4618'),
+                ('tfRabindor', 396, 'Q10998'),
+                ('sinDUnAM ', 475, 'Q9927'),
+                ('vArdDakzatrir', 484, 'Q4869'),
+                ('SAlveyAn', 521, 'Q2356'),
+                ('pARqavA', 688, 'Q7969'),
+                ('sinDUnAM ', 932, 'Q9927'),
+                ('jayadraTaH', 954, 'Q4869'),
+                ('kowikAsyaM', 1015, 'Q5828'),
+                ('kowika', 1440, 'Q5828'),
+                ('kowikAsyas', 1453, 'Q5828')],
+  'fp_errors': []},
+ {'doc_title': 'vol_9_chapter_1_subchapter_117_22.txt',
+  'fn_errors': [('saMjaya', 0, 'Q9460'),
+                ('BArata', 371, 'Q3508'),
+                ('BArata', 718, 'Q3508'),
+                ('BaratarzaBa', 755, 'Q3508'),
+                ('BIma', 769, 'Q1454'),
+                ('drOpadeyAM', 873, 'Q3652'),
+                ('nakulas', 1097, 'Q7528'),
+                ('BIma', 1278, 'Q1454'),
+                ('BIma', 1763, 'Q1454'),
+                ('BArata', 1925, 'Q3508'),
+                ('Sakunis', 2027, 'Q2304'),
+                ('yuDizWiram', 2047, 'Q12633'),
+                ('subalasya', 2092, 'Q10092'),
+                ('sidDa', 2444, 'Q9884'),
+                ('kftavarmARaM ', 2730, 'Q5957'),
+                ('baliM', 2786, 'Q1197'),
+                ('BaratarzaBa', 3022, 'Q3508'),
+                ('gOtamas', 3082, 'Q5903'),
+                ('BArata', 3388, 'Q3508'),
+                ('divAkara', 3906, 'Q10478'),
+                ('BAskaro', 3949, 'Q10478'),
+                ('Baratasattama', 4090, 'Q3508'),
+                ('BArata', 4188, 'Q3508')],
+  'fp_errors': [('pARqavAn', 1742, 'Q7969'),
+                ('Sakuni', 2027, 'Q2304'),
+                ('Darmaputro', 2261, 'Q12633'),
+                ('sObalasya', 2574, 'Q2304')]},
+ {'doc_title': 'vol_7_chapter_3_subchapter_37_6.txt',
+  'fn_errors': [('Arjuni', 61, 'Q13'),
+                ('madreSaM', 211, 'Q2358'),
+                ('SalyAd', 256, 'Q2358'),
+                ('BUtAni', 826, 'Q1628'),
+                ('BArata', 846, 'Q3508'),
+                ('SalyaBrAtary', 856, 'Q2359'),
+                ('vAsudevAd', 1400, 'Q5907'),
+                ('savitur', 1650, 'Q98481')],
+  'fp_errors': [('yuga', 497, 'Q12635'),
+                ('Salya', 856, 'Q2358'),
+                ('vAsudevA', 1400, 'Q5907'),
+                ('kfzRA', 1469, 'Q3660'),
+                ('sOBadro', 1778, 'Q13')]}]
+01:52:17 - refined.evaluation.evaluation - INFO - Printing MD errors
+[{'doc_title': 'vol_13_chapter_1_subchapter_81_82.txt',
+  'fn_errors_md': [('SriyA', 182, 'MENTION'),
+                   ('Baratasattama', 188, 'MENTION'),
+                   ('SrIH', 205, 'MENTION'),
+                   ('SrI', 499, 'MENTION'),
+                   ('SrI', 533, 'MENTION'),
+                   ('somaS', 665, 'MENTION'),
+                   ("'gnir", 682, 'MENTION'),
+                   ('CrI', 949, 'MENTION'),
+                   ('SrIr', 1178, 'MENTION'),
+                   ('dAnava', 1432, 'MENTION'),
+                   ('piSAco', 1448, 'MENTION'),
+                   ('oraga', 1453, 'MENTION'),
+                   ('rAkzasAH', 1458, 'MENTION'),
+                   ('Sriyam', 2247, 'MENTION'),
+                   ('SrIr', 2368, 'MENTION'),
+                   ('SrIr', 2507, 'MENTION'),
+                   ('BArata', 2522, 'MENTION')],
+  'fp_errors_md': [('Bar', 188, 'MENTION'),
+                   ('satta', 194, 'MENTION'),
+                   ('nav', 1434, 'MENTION'),
+                   ('arvAH', 1442, 'MENTION'),
+                   ('piSAcor', 1448, 'MENTION'),
+                   ('zasAH', 1461, 'MENTION'),
+                   ('BIzma', 2121, 'MENTION'),
+                   ('BIzma', 2473, 'MENTION'),
+                   ('BA', 2522, 'MENTION')]},
+ {'doc_title': 'vol_6_chapter_3_subchapter_27_16.txt',
+  'fn_errors_md': [('arjuna', 0, 'MENTION'),
+                   ('yogena', 265, 'MENTION'),
+                   ('sAMKyA', 272, 'MENTION'),
+                   ('yogena', 287, 'MENTION'),
+                   ('yogam', 647, 'MENTION'),
+                   ('brahmo', 1341, 'MENTION'),
+                   ('brahmA', 1360, 'MENTION'),
+                   ('brahma', 1402, 'MENTION'),
+                   ('janakAd', 1828, 'MENTION'),
+                   ('pArTA', 1983, 'MENTION'),
+                   ('BArata', 2294, 'MENTION'),
+                   ('prakfteH', 2445, 'MENTION'),
+                   ('arjuna', 3269, 'MENTION'),
+                   ('BaratarzaBa', 3752, 'MENTION')],
+  'fp_errors_md': [('kOnteya', 837, 'MENTION'),
+                   ('bra', 1341, 'MENTION'),
+                   ('bra', 1360, 'MENTION'),
+                   ('pArTAsti', 1983, 'MENTION'),
+                   ('Bar', 3752, 'MENTION')]},
+ {'doc_title': 'vol_3_chapter_16_subchapter_263_3.txt',
+  'fn_errors_md': [('BarataSrezWA', 68, 'MENTION'),
+                   ('pARqavA', 193, 'MENTION'),
+                   ('indra', 244, 'MENTION'),
+                   ('tfRabindor', 396, 'MENTION'),
+                   ('sinDUnAM ', 475, 'MENTION'),
+                   ('vArdDakzatrir', 484, 'MENTION'),
+                   ('SAlveyAn', 521, 'MENTION'),
+                   ('pARqavA', 688, 'MENTION'),
+                   ('sinDUnAM ', 932, 'MENTION'),
+                   ('jayadraTaH', 954, 'MENTION'),
+                   ('kowikAsyaM', 1015, 'MENTION'),
+                   ('kowika', 1440, 'MENTION'),
+                   ('kowikAsyas', 1453, 'MENTION')],
+  'fp_errors_md': [('Bar', 68, 'MENTION'),
+                   ('pARqa', 193, 'MENTION'),
+                   ('v', 484, 'MENTION'),
+                   ('ak', 489, 'MENTION'),
+                   ('pARqa', 688, 'MENTION'),
+                   ('A', 694, 'MENTION'),
+                   ('v', 941, 'MENTION'),
+                   ('ak', 946, 'MENTION')]},
+ {'doc_title': 'vol_9_chapter_1_subchapter_117_22.txt',
+  'fn_errors_md': [('saMjaya', 0, 'MENTION'),
+                   ('BArata', 371, 'MENTION'),
+                   ('BArata', 718, 'MENTION'),
+                   ('BaratarzaBa', 755, 'MENTION'),
+                   ('BIma', 769, 'MENTION'),
+                   ('drOpadeyAM', 873, 'MENTION'),
+                   ('nakulas', 1097, 'MENTION'),
+                   ('BIma', 1278, 'MENTION'),
+                   ('BIma', 1763, 'MENTION'),
+                   ('BArata', 1925, 'MENTION'),
+                   ('Sakunis', 2027, 'MENTION'),
+                   ('yuDizWiram', 2047, 'MENTION'),
+                   ('subalasya', 2092, 'MENTION'),
+                   ('sidDa', 2444, 'MENTION'),
+                   ('kftavarmARaM ', 2730, 'MENTION'),
+                   ('baliM', 2786, 'MENTION'),
+                   ('BaratarzaBa', 3022, 'MENTION'),
+                   ('gOtamas', 3082, 'MENTION'),
+                   ('BArata', 3388, 'MENTION'),
+                   ('divAkara', 3906, 'MENTION'),
+                   ('BAskaro', 3949, 'MENTION'),
+                   ('Baratasattama', 4090, 'MENTION'),
+                   ('BArata', 4188, 'MENTION')],
+  'fp_errors_md': [('Mjaya', 2, 'MENTION'),
+                   ('B', 769, 'MENTION'),
+                   ('nakulast', 1097, 'MENTION'),
+                   ('B', 1278, 'MENTION'),
+                   ('mas', 1280, 'MENTION'),
+                   ('pARqavAn', 1742, 'MENTION'),
+                   ('B', 1763, 'MENTION'),
+                   ('mas', 1765, 'MENTION'),
+                   ('BA', 1925, 'MENTION'),
+                   ('Sakuni', 2027, 'MENTION'),
+                   ('yuDizWiramap', 2047, 'MENTION'),
+                   ('sub', 2092, 'MENTION'),
+                   ('sya', 2098, 'MENTION'),
+                   ('Darmaputro', 2261, 'MENTION'),
+                   ('sidDacAraRase', 2444, 'MENTION'),
+                   ('sObalasya', 2574, 'MENTION'),
+                   ('kftavarmARa', 2730, 'MENTION'),
+                   ('Bar', 3022, 'MENTION'),
+                   ('gOtamastu', 3082, 'MENTION'),
+                   ('BA', 3388, 'MENTION'),
+                   ('Bar', 4090, 'MENTION'),
+                   ('sattama', 4096, 'MENTION')]},
+ {'doc_title': 'vol_7_chapter_3_subchapter_37_6.txt',
+  'fn_errors_md': [('Arjuni', 61, 'MENTION'),
+                   ('madreSaM', 211, 'MENTION'),
+                   ('SalyAd', 256, 'MENTION'),
+                   ('BUtAni', 826, 'MENTION'),
+                   ('BArata', 846, 'MENTION'),
+                   ('SalyaBrAtary', 856, 'MENTION'),
+                   ('vAsudevAd', 1400, 'MENTION'),
+                   ('savitur', 1650, 'MENTION')],
+  'fp_errors_md': [('Arjun', 61, 'MENTION'),
+                   ('SalyAda', 256, 'MENTION'),
+                   ('yuga', 497, 'MENTION'),
+                   ('BA', 846, 'MENTION'),
+                   ('Salya', 856, 'MENTION'),
+                   ('vAsudevA', 1400, 'MENTION'),
+                   ('kfzRA', 1469, 'MENTION'),
+                   ('sOBadro', 1778, 'MENTION')]}]
+01:52:17 - refined.evaluation.evaluation - INFO - Running entity disambiguation evaluation
+new surface form -  vol_3_chapter_16_subchapter_263_3.txt sinDUnAM  475 Q9927
+new surface form -  vol_3_chapter_16_subchapter_263_3.txt sinDUnAM  932 Q9927
+new surface form -  vol_9_chapter_1_subchapter_117_22.txt kftavarmARaM  2730 Q5957
+new surface form -  vol_1_chapter_5_subchapter_31_20.txt vasavo  1403 Q11679
+new surface form -  vol_12_chapter_1_subchapter_71_72.txt pitaro  1888 Q8386
+new surface form -  vol_8_chapter_1_subchapter_27_28.txt paYcAlAnahanat  4232 Q7902
+new surface form -  vol_1_chapter_11_subchapter_173_10.txt ikzvAkavo  873 Q4604
+new surface form -  vol_3_chapter_11_subchapter_196_16.txt kapotaromARaM  3242 Q5383
+new surface form -  vol_3_chapter_7_subchapter_115_37.txt prasenajitaM  107 Q8593
+new surface form -  vol_13_chapter_1_subchapter_74_75.txt vedAnAM  234 Q11773
+new surface form -  vol_13_chapter_1_subchapter_74_75.txt pitaro  2937 Q8386
+new surface form -  vol_14_chapter_2_subchapter_196_14.txt pitara  1902 Q8386
+new surface form -  vol_3_chapter_11_subchapter_226_46.txt kArtikeyasya  706 Q9952
+new surface form -  vol_1_chapter_7_subchapter_79_16.txt devayAnIkfte  2018 Q3319
+new surface form -  vol_13_chapter_1_subchapter_88_89.txt ASlezAyAM  376 Q57
+new surface form -  vol_1_chapter_14_subchapter_210_12.txt viSvakarmARaM  916 Q11914
+new surface form -  vol_7_chapter_8_subchapter_196_4.txt kuravo  1054 Q6239
+new surface form -  vol_3_chapter_6_subchapter_63_13.txt nEzaDAnAM  1091 Q7509
+new surface form -  vol_3_chapter_6_subchapter_63_13.txt vidarBARAM  4111 Q11970
+new surface form -  vol_12_chapter_3_subchapter_113_114.txt vedAntAnAM  2008 Q11785
+new surface form -  vol_5_chapter_6_subchapter_212_70.txt DArtarAzwrazu  3709 Q3805
+new surface form -  vol_1_chapter_4_subchapter_10_8.txt vedAnAM  1414 Q11773
+new surface form -  vol_3_chapter_7_subchapter_91_13.txt rakzoByo  434 Q8920
+new surface form -  vol_3_chapter_7_subchapter_91_13.txt rakzasva  530 Q8920
+new surface form -  vol_3_chapter_9_subchapter_170_7.txt tridivOkasAm  2246 Q10920
+new surface form -  vol_1_chapter_5_subchapter_36_25.txt kaSyapasya  2995 Q5022
+new surface form -  vol_3_chapter_11_subchapter_224_44.txt saptarzIRAM  412 Q9516
+new surface form -  vol_3_chapter_11_subchapter_224_44.txt saptarzIRAM  1290 Q9516
+new surface form -  vol_3_chapter_10_subchapter_180_6.txt brahmarzIRAM  3324 Q1782
+new surface form -  vol_3_chapter_10_subchapter_180_6.txt agastayena  3465 Q214
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  5189 Q11773
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  5322 Q11773
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  6398 Q11773
+new surface form -  vol_14_chapter_2_subchapter_209_27.txt pitaro  5654 Q8386
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  4905 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  4996 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  5084 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  5270 Q2082
+new surface form -  vol_4_chapter_3_subchapter_36_13.txt virAwasya  434 Q12161
+new surface form -  vol_9_chapter_2_subchapter_152_26.txt saMjayAnAM  5005 Q7902
+new surface form -  vol_9_chapter_2_subchapter_152_26.txt saMjayAnAM  5052 Q7902
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitfByo  31 Q8386
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitaro  280 Q8386
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitaro  509 Q8386
+new surface form -  vol_4_chapter_1_subchapter_3_4.txt dupadasya  165 Q3703
+new surface form -  vol_5_chapter_1_subchapter_81_10.txt tridivOkasaH  331 Q10920
+new surface form -  vol_13_chapter_1_subchapter_78_79.txt vasUnAM  1782 Q11679
+new surface form -  vol_9_chapter_2_subchapter_137_11.txt viprarvasizWasya  237 Q11659
+new surface form -  vol_12_chapter_2_subchapter_169_40.txt kaSyapasya  119 Q5022
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitaro  1038 Q8386
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitara  1818 Q8386
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitaro  1886 Q8386
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt virAwasya  1412 Q12161
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt bandiBiH  3819 Q11521
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt suBadrAyAM  4740 Q10104
+new surface form -  vol_1_chapter_14_subchapter_203_5.txt dupadaputrARAM  664 Q3708
+new surface form -  vol_1_chapter_14_subchapter_203_5.txt kuravo  2556 Q6239
+new surface form -  vol_1_chapter_11_subchapter_170_7.txt aMSumantaM  1237 Q10478
+new surface form -  vol_2_chapter_9_subchapter_284_6.txt vErAmAMH  951 Q11389
+new surface form -  vol_8_chapter_1_subchapter_52_53.txt saMSaptakAnAM  103 Q9356
+new surface form -  vol_8_chapter_1_subchapter_52_53.txt parivarDanaMjayam  4079 Q801
+new surface form -  vol_1_chapter_18_subchapter_228_8.txt viprarziAhmaRo  2039 Q7040
+new surface form -  vol_3_chapter_11_subchapter_225_45.txt saptarzIRAM  905 Q9516
+new surface form -  vol_5_chapter_6_subchapter_183_41.txt prozWapadAByAM  249 Q1244
+new surface form -  vol_13_chapter_1_subchapter_2_3.txt brahmarzIRAM  1299 Q1782
+new surface form -  vol_7_chapter_5_subchapter_119_36.txt mAtyakiM  2851 Q9732
+new surface form -  vol_7_chapter_5_subchapter_122_39.txt trigartAnAM  1090 Q10928
+new surface form -  vol_14_chapter_2_subchapter_259_77.txt Bfgavo  4201 Q1543
+new surface form -  vol_9_chapter_2_subchapter_136_10.txt vEcitravIryaRaH  136 Q3512
+new surface form -  vol_9_chapter_2_subchapter_136_10.txt nEmizIyARAM  251 Q7502
+new surface form -  vol_3_chapter_6_subchapter_61_11.txt vasavo  2115 Q11679
+new surface form -  vol_14_chapter_2_subchapter_232_50.txt yakzARAM  566 Q12536
+new surface form -  vol_3_chapter_8_subchapter_159_2.txt maRimantaM  6374 Q7070
+new surface form -  vol_6_chapter_4_subchapter_109_67.txt dupadaSca  703 Q3703
+new surface form -  vol_6_chapter_4_subchapter_109_67.txt SiKARqanam  3753 Q2622
+*****************************
+
+
+Dataset name: WIKI_DEV
+
+****************
+************
+f1: 0.9048
+accuracy: 0.8991
+gold_recall: 0.9892
+p: 0.9106
+r: 0.8991
+num_gold_spans: 6945
+************
+
+*****************************
+
+
+01:52:24 - refined.evaluation.evaluation - INFO - Printing ED errors
+[{'doc_title': 'vol_13_chapter_1_subchapter_81_82.txt',
+  'fn_errors': [],
+  'fp_errors': []},
+ {'doc_title': 'vol_6_chapter_3_subchapter_27_16.txt',
+  'fn_errors': [('brahmo', 1341, 'Q1743'),
+                ('brahmA', 1360, 'Q1743'),
+                ('pArTA', 1983, 'Q801'),
+                ('BArata', 2294, 'Q801'),
+                ('kOnteya', 3606, 'Q801'),
+                ('BaratarzaBa', 3752, 'Q801')],
+  'fp_errors': [('brahmo', 1341, 'Q1741'),
+                ('brahmA', 1360, 'Q1741'),
+                ('pArTA', 1983, 'Q8185'),
+                ('BArata', 2294, 'Q12633'),
+                ('kOnteya', 3606, 'Q12633'),
+                ('BaratarzaBa', 3752, 'Q12633')]},
+ {'doc_title': 'vol_3_chapter_16_subchapter_263_3.txt',
+  'fn_errors': [('sinDUnAM ', 475, 'Q9927'), ('sinDUnAM ', 932, 'Q9927')],
+  'fp_errors': []},
+ {'doc_title': 'vol_9_chapter_1_subchapter_117_22.txt',
+  'fn_errors': [('BArata', 371, 'Q3508'),
+                ('BArata', 718, 'Q3508'),
+                ('BaratarzaBa', 755, 'Q3508'),
+                ('BArata', 1925, 'Q3508'),
+                ('kftavarmARaM ', 2730, 'Q5957'),
+                ('BaratarzaBa', 3022, 'Q3508'),
+                ('gOtamas', 3082, 'Q5903'),
+                ('BArata', 3388, 'Q3508'),
+                ('Baratasattama', 4090, 'Q3508'),
+                ('BArata', 4188, 'Q3508')],
+  'fp_errors': [('BArata', 371, 'Q12633'),
+                ('BArata', 718, 'Q12633'),
+                ('BaratarzaBa', 755, 'Q12633'),
+                ('BArata', 1925, 'Q12633'),
+                ('BaratarzaBa', 3022, 'Q12633'),
+                ('gOtamas', 3082, 'Q4085'),
+                ('BArata', 3388, 'Q12633'),
+                ('Baratasattama', 4090, 'Q12633'),
+                ('BArata', 4188, 'Q12633')]},
+ {'doc_title': 'vol_7_chapter_3_subchapter_37_6.txt',
+  'fn_errors': [('BArata', 846, 'Q3508')],
+  'fp_errors': [('BArata', 846, 'Q12633')]}]
+01:52:24 - refined.training.fine_tune.fine_tune - INFO - Using ED performance for checkpoint metric
+01:52:24 - refined.training.fine_tune.fine_tune - INFO - Using EL performance for checkpoint metric
+model save
+01:52:24 - refined.training.fine_tune.fine_tune - INFO - Obtained best F1 so far of 0.523 (previous best 0.452)
+01:52:24 - refined.training.fine_tune.fine_tune - INFO - Storing model at fine_tuned_models/sans_deva_50_type/f1_0.5233 along with optimizer, scheduler, and scaler
+01:52:29 - refined.training.fine_tune.fine_tune - INFO - Starting epoch number 3
+01:52:29 - refined.training.fine_tune.fine_tune - INFO - lr: 0.004999807799974373
+01:52:29 - refined.training.fine_tune.fine_tune - INFO - lr: 4.999807799974373e-05
+01:52:29 - refined.training.fine_tune.fine_tune - INFO - lr: 0.004999807799974373
+01:52:29 - refined.training.fine_tune.fine_tune - INFO - lr: 4.999807799974373e-05
+01:52:29 - refined.training.fine_tune.fine_tune - INFO - lr: 4.999807799974373e-05
+01:52:53 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.27793150816601936
+01:53:13 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2736178896572422
+01:53:34 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2689157656727228
+01:53:55 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2648876544676329
+01:54:15 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.26261481478855103
+01:54:37 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.26833252257081325
+01:54:58 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2662081620356172
+01:55:19 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.2666585892975069
+01:55:41 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.26680331306119714
+check point end -  5000  and steps - total
+01:55:53 - refined.evaluation.evaluation - INFO - Running entity linking evaluation
+*****************************
+
+
+Dataset name: WIKI_DEV
+
+****************
+************
+f1: 0.5230
+accuracy: 0.3880
+gold_recall: 0.9892
+p: 0.8018
+r: 0.3880
+num_gold_spans: 6945
+************
+*******MD*****
+MD_f1: 0.5022, (p: 0.6105, r: 0.4265)
+*****************
+
+*****************************
+
+
+01:55:59 - refined.evaluation.evaluation - INFO - Printing EL errors
+[{'doc_title': 'vol_13_chapter_1_subchapter_81_82.txt',
+  'fn_errors': [('SriyA', 182, 'Q2701'),
+                ('Baratasattama', 188, 'Q12633'),
+                ('SrIH', 205, 'Q2701'),
+                ('SrI', 499, 'Q2701'),
+                ('SrI', 533, 'Q2701'),
+                ('vivasvAn', 656, 'Q10478'),
+                ('somaS', 665, 'Q9973'),
+                ("'gnir", 682, 'Q239'),
+                ('CrI', 949, 'Q2701'),
+                ('SrIr', 1178, 'Q2701'),
+                ('dAnava', 1432, 'Q3078'),
+                ('piSAco', 1448, 'Q7849'),
+                ('oraga', 1453, 'Q11188'),
+                ('rAkzasAH', 1458, 'Q8920'),
+                ('Sriyam', 2247, 'Q2701'),
+                ('SrIr', 2368, 'Q2701'),
+                ('SrIr', 2507, 'Q2701'),
+                ('BArata', 2522, 'Q12633')],
+  'fp_errors': [('BIzma', 2121, 'Q1497'), ('BIzma', 2473, 'Q1497')]},
+ {'doc_title': 'vol_6_chapter_3_subchapter_27_16.txt',
+  'fn_errors': [('yogena', 265, 'Q12614'),
+                ('sAMKyA', 272, 'Q9478'),
+                ('yogena', 287, 'Q12614'),
+                ('yogam', 647, 'Q12614'),
+                ('brahmo', 1341, 'Q1743'),
+                ('brahmA', 1360, 'Q1743'),
+                ('brahma', 1402, 'Q1743'),
+                ('janakAd', 1828, 'Q4769'),
+                ('pArTA', 1983, 'Q801'),
+                ('BArata', 2294, 'Q801'),
+                ('prakfteH', 2445, 'Q8537'),
+                ('kOnteya', 3606, 'Q801'),
+                ('BaratarzaBa', 3752, 'Q801')],
+  'fp_errors': [('kOnteya', 837, 'Q12633'), ('kOnteya', 3606, 'Q12633')]},
+ {'doc_title': 'vol_3_chapter_16_subchapter_263_3.txt',
+  'fn_errors': [('BarataSrezWA', 68, 'Q1347'),
+                ('indra', 244, 'Q4618'),
+                ('drOpadIm', 374, 'Q3660'),
+                ('tfRabindor', 396, 'Q10998'),
+                ('sinDUnAM ', 475, 'Q9927'),
+                ('vArdDakzatrir', 484, 'Q4869'),
+                ('SAlveyAn', 521, 'Q2356'),
+                ('sinDUnAM ', 932, 'Q9927'),
+                ('jayadraTaH', 954, 'Q4869'),
+                ('kowikAsyaM', 1015, 'Q5828'),
+                ('kowika', 1440, 'Q5828'),
+                ('kowikAsyas', 1453, 'Q5828')],
+  'fp_errors': [('drOpadI', 374, 'Q3660')]},
+ {'doc_title': 'vol_9_chapter_1_subchapter_117_22.txt',
+  'fn_errors': [('BArata', 371, 'Q3508'),
+                ('pArTA', 698, 'Q8185'),
+                ('BArata', 718, 'Q3508'),
+                ('BaratarzaBa', 755, 'Q3508'),
+                ('BIma', 769, 'Q1454'),
+                ('nakulaM', 816, 'Q7528'),
+                ('drOpadeyAM', 873, 'Q3652'),
+                ('nakulas', 1097, 'Q7528'),
+                ('BIma', 1278, 'Q1454'),
+                ('BIma', 1763, 'Q1454'),
+                ('BArata', 1925, 'Q3508'),
+                ('Sakunis', 2027, 'Q2304'),
+                ('yuDizWiram', 2047, 'Q12633'),
+                ('subalasya', 2092, 'Q10092'),
+                ('sidDa', 2444, 'Q9884'),
+                ('kftavarmARaM ', 2730, 'Q5957'),
+                ('baliM', 2786, 'Q1197'),
+                ('Dfzwadyumno', 2901, 'Q3497'),
+                ('BaratarzaBa', 3022, 'Q3508'),
+                ('gOtamas', 3082, 'Q5903'),
+                ('BArata', 3388, 'Q3508'),
+                ('divAkara', 3906, 'Q10478'),
+                ('BAskaro', 3949, 'Q10478'),
+                ('Baratasattama', 4090, 'Q3508'),
+                ('BArata', 4188, 'Q3508')],
+  'fp_errors': [('BImas', 769, 'Q1454'),
+                ('BImas', 1278, 'Q1454'),
+                ('BImas', 1763, 'Q1454'),
+                ('Sakuni', 2027, 'Q2304'),
+                ('Darmaputro', 2261, 'Q12633'),
+                ('sObalasya', 2574, 'Q2304'),
+                ('kftavarmARaM', 2730, 'Q5957'),
+                ("Dfzwadyumno'", 2901, 'Q3497'),
+                ('Baratar', 3022, 'Q3508'),
+                ('Baratasattama', 4090, 'Q12633')]},
+ {'doc_title': 'vol_7_chapter_3_subchapter_37_6.txt',
+  'fn_errors': [('Arjuni', 61, 'Q13'),
+                ('SalyAd', 256, 'Q2358'),
+                ('ArjuneH', 764, 'Q13'),
+                ('BUtAni', 826, 'Q1628'),
+                ('BArata', 846, 'Q3508'),
+                ('SalyaBrAtary', 856, 'Q2359'),
+                ('vAsudevAd', 1400, 'Q5907'),
+                ('DanaMjayAt', 1433, 'Q801'),
+                ('savitur', 1650, 'Q98481')],
+  'fp_errors': [('yugaM', 497, 'Q12635'),
+                ('Salya', 856, 'Q2358'),
+                ('vAsudevA', 1400, 'Q5907'),
+                ('sOBadro', 1778, 'Q13')]}]
+01:55:59 - refined.evaluation.evaluation - INFO - Printing MD errors
+[{'doc_title': 'vol_13_chapter_1_subchapter_81_82.txt',
+  'fn_errors_md': [('SriyA', 182, 'MENTION'),
+                   ('Baratasattama', 188, 'MENTION'),
+                   ('SrIH', 205, 'MENTION'),
+                   ('SrI', 499, 'MENTION'),
+                   ('SrI', 533, 'MENTION'),
+                   ('vivasvAn', 656, 'MENTION'),
+                   ('somaS', 665, 'MENTION'),
+                   ("'gnir", 682, 'MENTION'),
+                   ('CrI', 949, 'MENTION'),
+                   ('SrIr', 1178, 'MENTION'),
+                   ('dAnava', 1432, 'MENTION'),
+                   ('piSAco', 1448, 'MENTION'),
+                   ('oraga', 1453, 'MENTION'),
+                   ('rAkzasAH', 1458, 'MENTION'),
+                   ('Sriyam', 2247, 'MENTION'),
+                   ('SrIr', 2368, 'MENTION'),
+                   ('SrIr', 2507, 'MENTION'),
+                   ('BArata', 2522, 'MENTION')],
+  'fp_errors_md': [('Bar', 188, 'MENTION'),
+                   ('vivas', 656, 'MENTION'),
+                   ('devadAnav', 1428, 'MENTION'),
+                   ('agan', 1437, 'MENTION'),
+                   ('DarvAH', 1441, 'MENTION'),
+                   ('agar', 1455, 'MENTION'),
+                   ('AkzasAH', 1459, 'MENTION'),
+                   ('BIzma', 2121, 'MENTION'),
+                   ('BIzma', 2473, 'MENTION')]},
+ {'doc_title': 'vol_6_chapter_3_subchapter_27_16.txt',
+  'fn_errors_md': [('yogena', 265, 'MENTION'),
+                   ('sAMKyA', 272, 'MENTION'),
+                   ('yogena', 287, 'MENTION'),
+                   ('yogam', 647, 'MENTION'),
+                   ('brahmo', 1341, 'MENTION'),
+                   ('brahmA', 1360, 'MENTION'),
+                   ('brahma', 1402, 'MENTION'),
+                   ('janakAd', 1828, 'MENTION'),
+                   ('pArTA', 1983, 'MENTION'),
+                   ('BArata', 2294, 'MENTION'),
+                   ('prakfteH', 2445, 'MENTION'),
+                   ('BaratarzaBa', 3752, 'MENTION')],
+  'fp_errors_md': [('kOnteya', 837, 'MENTION'),
+                   ('p', 1983, 'MENTION'),
+                   ('BaratarzaB', 3752, 'MENTION')]},
+ {'doc_title': 'vol_3_chapter_16_subchapter_263_3.txt',
+  'fn_errors_md': [('BarataSrezWA', 68, 'MENTION'),
+                   ('indra', 244, 'MENTION'),
+                   ('drOpadIm', 374, 'MENTION'),
+                   ('tfRabindor', 396, 'MENTION'),
+                   ('sinDUnAM ', 475, 'MENTION'),
+                   ('vArdDakzatrir', 484, 'MENTION'),
+                   ('SAlveyAn', 521, 'MENTION'),
+                   ('sinDUnAM ', 932, 'MENTION'),
+                   ('jayadraTaH', 954, 'MENTION'),
+                   ('kowikAsyaM', 1015, 'MENTION'),
+                   ('kowika', 1440, 'MENTION'),
+                   ('kowikAsyas', 1453, 'MENTION')],
+  'fp_errors_md': [('drOpadI', 374, 'MENTION')]},
+ {'doc_title': 'vol_9_chapter_1_subchapter_117_22.txt',
+  'fn_errors_md': [('BArata', 371, 'MENTION'),
+                   ('pArTA', 698, 'MENTION'),
+                   ('BArata', 718, 'MENTION'),
+                   ('BaratarzaBa', 755, 'MENTION'),
+                   ('BIma', 769, 'MENTION'),
+                   ('nakulaM', 816, 'MENTION'),
+                   ('drOpadeyAM', 873, 'MENTION'),
+                   ('nakulas', 1097, 'MENTION'),
+                   ('BIma', 1278, 'MENTION'),
+                   ('BIma', 1763, 'MENTION'),
+                   ('BArata', 1925, 'MENTION'),
+                   ('Sakunis', 2027, 'MENTION'),
+                   ('yuDizWiram', 2047, 'MENTION'),
+                   ('subalasya', 2092, 'MENTION'),
+                   ('sidDa', 2444, 'MENTION'),
+                   ('kftavarmARaM ', 2730, 'MENTION'),
+                   ('baliM', 2786, 'MENTION'),
+                   ('Dfzwadyumno', 2901, 'MENTION'),
+                   ('BaratarzaBa', 3022, 'MENTION'),
+                   ('gOtamas', 3082, 'MENTION'),
+                   ('BArata', 3388, 'MENTION'),
+                   ('divAkara', 3906, 'MENTION'),
+                   ('BAskaro', 3949, 'MENTION'),
+                   ('BArata', 4188, 'MENTION')],
+  'fp_errors_md': [('Bar', 755, 'MENTION'),
+                   ('BImas', 769, 'MENTION'),
+                   ('nakul', 816, 'MENTION'),
+                   ('nakulast', 1097, 'MENTION'),
+                   ('BImas', 1278, 'MENTION'),
+                   ('pARqavAnA', 1742, 'MENTION'),
+                   ('BImas', 1763, 'MENTION'),
+                   ('Sakuni', 2027, 'MENTION'),
+                   ('yuDizWiramap', 2047, 'MENTION'),
+                   ('Darmaputro', 2261, 'MENTION'),
+                   ('sid', 2444, 'MENTION'),
+                   ('acAraRase', 2448, 'MENTION'),
+                   ('sObalasya', 2574, 'MENTION'),
+                   ('kftavarmARaM', 2730, 'MENTION'),
+                   ("Dfzwadyumno'", 2901, 'MENTION'),
+                   ('Baratar', 3022, 'MENTION'),
+                   ('gOtamastu', 3082, 'MENTION')]},
+ {'doc_title': 'vol_7_chapter_3_subchapter_37_6.txt',
+  'fn_errors_md': [('Arjuni', 61, 'MENTION'),
+                   ('SalyAd', 256, 'MENTION'),
+                   ('ArjuneH', 764, 'MENTION'),
+                   ('BUtAni', 826, 'MENTION'),
+                   ('BArata', 846, 'MENTION'),
+                   ('SalyaBrAtary', 856, 'MENTION'),
+                   ('vAsudevAd', 1400, 'MENTION'),
+                   ('DanaMjayAt', 1433, 'MENTION'),
+                   ('savitur', 1650, 'MENTION')],
+  'fp_errors_md': [('SalyAdavarajaH', 256, 'MENTION'),
+                   ('yugaM', 497, 'MENTION'),
+                   ('Arjun', 764, 'MENTION'),
+                   ('Salya', 856, 'MENTION'),
+                   ('vAsudevA', 1400, 'MENTION'),
+                   ('DanaMjay', 1433, 'MENTION'),
+                   ('saviturma', 1650, 'MENTION'),
+                   ('sOBadro', 1778, 'MENTION')]}]
+01:55:59 - refined.evaluation.evaluation - INFO - Running entity disambiguation evaluation
+new surface form -  vol_3_chapter_16_subchapter_263_3.txt sinDUnAM  475 Q9927
+new surface form -  vol_3_chapter_16_subchapter_263_3.txt sinDUnAM  932 Q9927
+new surface form -  vol_9_chapter_1_subchapter_117_22.txt kftavarmARaM  2730 Q5957
+new surface form -  vol_1_chapter_5_subchapter_31_20.txt vasavo  1403 Q11679
+new surface form -  vol_12_chapter_1_subchapter_71_72.txt pitaro  1888 Q8386
+new surface form -  vol_8_chapter_1_subchapter_27_28.txt paYcAlAnahanat  4232 Q7902
+new surface form -  vol_1_chapter_11_subchapter_173_10.txt ikzvAkavo  873 Q4604
+new surface form -  vol_3_chapter_11_subchapter_196_16.txt kapotaromARaM  3242 Q5383
+new surface form -  vol_3_chapter_7_subchapter_115_37.txt prasenajitaM  107 Q8593
+new surface form -  vol_13_chapter_1_subchapter_74_75.txt vedAnAM  234 Q11773
+new surface form -  vol_13_chapter_1_subchapter_74_75.txt pitaro  2937 Q8386
+new surface form -  vol_14_chapter_2_subchapter_196_14.txt pitara  1902 Q8386
+new surface form -  vol_3_chapter_11_subchapter_226_46.txt kArtikeyasya  706 Q9952
+new surface form -  vol_1_chapter_7_subchapter_79_16.txt devayAnIkfte  2018 Q3319
+new surface form -  vol_13_chapter_1_subchapter_88_89.txt ASlezAyAM  376 Q57
+new surface form -  vol_1_chapter_14_subchapter_210_12.txt viSvakarmARaM  916 Q11914
+new surface form -  vol_7_chapter_8_subchapter_196_4.txt kuravo  1054 Q6239
+new surface form -  vol_3_chapter_6_subchapter_63_13.txt nEzaDAnAM  1091 Q7509
+new surface form -  vol_3_chapter_6_subchapter_63_13.txt vidarBARAM  4111 Q11970
+new surface form -  vol_12_chapter_3_subchapter_113_114.txt vedAntAnAM  2008 Q11785
+new surface form -  vol_5_chapter_6_subchapter_212_70.txt DArtarAzwrazu  3709 Q3805
+new surface form -  vol_1_chapter_4_subchapter_10_8.txt vedAnAM  1414 Q11773
+new surface form -  vol_3_chapter_7_subchapter_91_13.txt rakzoByo  434 Q8920
+new surface form -  vol_3_chapter_7_subchapter_91_13.txt rakzasva  530 Q8920
+new surface form -  vol_3_chapter_9_subchapter_170_7.txt tridivOkasAm  2246 Q10920
+new surface form -  vol_1_chapter_5_subchapter_36_25.txt kaSyapasya  2995 Q5022
+new surface form -  vol_3_chapter_11_subchapter_224_44.txt saptarzIRAM  412 Q9516
+new surface form -  vol_3_chapter_11_subchapter_224_44.txt saptarzIRAM  1290 Q9516
+new surface form -  vol_3_chapter_10_subchapter_180_6.txt brahmarzIRAM  3324 Q1782
+new surface form -  vol_3_chapter_10_subchapter_180_6.txt agastayena  3465 Q214
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  5189 Q11773
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  5322 Q11773
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  6398 Q11773
+new surface form -  vol_14_chapter_2_subchapter_209_27.txt pitaro  5654 Q8386
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  4905 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  4996 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  5084 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  5270 Q2082
+new surface form -  vol_4_chapter_3_subchapter_36_13.txt virAwasya  434 Q12161
+new surface form -  vol_9_chapter_2_subchapter_152_26.txt saMjayAnAM  5005 Q7902
+new surface form -  vol_9_chapter_2_subchapter_152_26.txt saMjayAnAM  5052 Q7902
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitfByo  31 Q8386
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitaro  280 Q8386
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitaro  509 Q8386
+new surface form -  vol_4_chapter_1_subchapter_3_4.txt dupadasya  165 Q3703
+new surface form -  vol_5_chapter_1_subchapter_81_10.txt tridivOkasaH  331 Q10920
+new surface form -  vol_13_chapter_1_subchapter_78_79.txt vasUnAM  1782 Q11679
+new surface form -  vol_9_chapter_2_subchapter_137_11.txt viprarvasizWasya  237 Q11659
+new surface form -  vol_12_chapter_2_subchapter_169_40.txt kaSyapasya  119 Q5022
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitaro  1038 Q8386
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitara  1818 Q8386
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitaro  1886 Q8386
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt virAwasya  1412 Q12161
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt bandiBiH  3819 Q11521
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt suBadrAyAM  4740 Q10104
+new surface form -  vol_1_chapter_14_subchapter_203_5.txt dupadaputrARAM  664 Q3708
+new surface form -  vol_1_chapter_14_subchapter_203_5.txt kuravo  2556 Q6239
+new surface form -  vol_1_chapter_11_subchapter_170_7.txt aMSumantaM  1237 Q10478
+new surface form -  vol_2_chapter_9_subchapter_284_6.txt vErAmAMH  951 Q11389
+new surface form -  vol_8_chapter_1_subchapter_52_53.txt saMSaptakAnAM  103 Q9356
+new surface form -  vol_8_chapter_1_subchapter_52_53.txt parivarDanaMjayam  4079 Q801
+new surface form -  vol_1_chapter_18_subchapter_228_8.txt viprarziAhmaRo  2039 Q7040
+new surface form -  vol_3_chapter_11_subchapter_225_45.txt saptarzIRAM  905 Q9516
+new surface form -  vol_5_chapter_6_subchapter_183_41.txt prozWapadAByAM  249 Q1244
+new surface form -  vol_13_chapter_1_subchapter_2_3.txt brahmarzIRAM  1299 Q1782
+new surface form -  vol_7_chapter_5_subchapter_119_36.txt mAtyakiM  2851 Q9732
+new surface form -  vol_7_chapter_5_subchapter_122_39.txt trigartAnAM  1090 Q10928
+new surface form -  vol_14_chapter_2_subchapter_259_77.txt Bfgavo  4201 Q1543
+new surface form -  vol_9_chapter_2_subchapter_136_10.txt vEcitravIryaRaH  136 Q3512
+new surface form -  vol_9_chapter_2_subchapter_136_10.txt nEmizIyARAM  251 Q7502
+new surface form -  vol_3_chapter_6_subchapter_61_11.txt vasavo  2115 Q11679
+new surface form -  vol_14_chapter_2_subchapter_232_50.txt yakzARAM  566 Q12536
+new surface form -  vol_3_chapter_8_subchapter_159_2.txt maRimantaM  6374 Q7070
+new surface form -  vol_6_chapter_4_subchapter_109_67.txt dupadaSca  703 Q3703
+new surface form -  vol_6_chapter_4_subchapter_109_67.txt SiKARqanam  3753 Q2622
+*****************************
+
+
+Dataset name: WIKI_DEV
+
+****************
+************
+f1: 0.9059
+accuracy: 0.9001
+gold_recall: 0.9892
+p: 0.9118
+r: 0.9001
+num_gold_spans: 6945
+************
+
+*****************************
+
+
+01:56:06 - refined.evaluation.evaluation - INFO - Printing ED errors
+[{'doc_title': 'vol_13_chapter_1_subchapter_81_82.txt',
+  'fn_errors': [],
+  'fp_errors': []},
+ {'doc_title': 'vol_6_chapter_3_subchapter_27_16.txt',
+  'fn_errors': [('brahmo', 1341, 'Q1743'),
+                ('brahmA', 1360, 'Q1743'),
+                ('pArTA', 1983, 'Q801'),
+                ('BArata', 2294, 'Q801'),
+                ('kOnteya', 3606, 'Q801'),
+                ('BaratarzaBa', 3752, 'Q801')],
+  'fp_errors': [('brahmo', 1341, 'Q1741'),
+                ('brahmA', 1360, 'Q1741'),
+                ('pArTA', 1983, 'Q8185'),
+                ('BArata', 2294, 'Q12633'),
+                ('kOnteya', 3606, 'Q12633'),
+                ('BaratarzaBa', 3752, 'Q12633')]},
+ {'doc_title': 'vol_3_chapter_16_subchapter_263_3.txt',
+  'fn_errors': [('sinDUnAM ', 475, 'Q9927'), ('sinDUnAM ', 932, 'Q9927')],
+  'fp_errors': []},
+ {'doc_title': 'vol_9_chapter_1_subchapter_117_22.txt',
+  'fn_errors': [('BArata', 371, 'Q3508'),
+                ('BArata', 718, 'Q3508'),
+                ('BaratarzaBa', 755, 'Q3508'),
+                ('BArata', 1925, 'Q3508'),
+                ('kftavarmARaM ', 2730, 'Q5957'),
+                ('BaratarzaBa', 3022, 'Q3508'),
+                ('gOtamas', 3082, 'Q5903'),
+                ('BArata', 3388, 'Q3508'),
+                ('Baratasattama', 4090, 'Q3508'),
+                ('BArata', 4188, 'Q3508')],
+  'fp_errors': [('BArata', 371, 'Q12633'),
+                ('BArata', 718, 'Q12633'),
+                ('BaratarzaBa', 755, 'Q12633'),
+                ('BArata', 1925, 'Q12633'),
+                ('BaratarzaBa', 3022, 'Q12633'),
+                ('gOtamas', 3082, 'Q4085'),
+                ('BArata', 3388, 'Q12633'),
+                ('Baratasattama', 4090, 'Q12633'),
+                ('BArata', 4188, 'Q12633')]},
+ {'doc_title': 'vol_7_chapter_3_subchapter_37_6.txt',
+  'fn_errors': [('BArata', 846, 'Q3508')],
+  'fp_errors': [('BArata', 846, 'Q12633')]}]
+01:56:06 - refined.training.fine_tune.fine_tune - INFO - Using ED performance for checkpoint metric
+01:56:06 - refined.training.fine_tune.fine_tune - INFO - Using EL performance for checkpoint metric
+model save
+01:56:06 - refined.training.fine_tune.fine_tune - INFO - Starting epoch number 4
+01:56:06 - refined.training.fine_tune.fine_tune - INFO - lr: 0.004999743533299138
+01:56:06 - refined.training.fine_tune.fine_tune - INFO - lr: 4.9997435332991385e-05
+01:56:06 - refined.training.fine_tune.fine_tune - INFO - lr: 0.004999743533299138
+01:56:06 - refined.training.fine_tune.fine_tune - INFO - lr: 4.9997435332991385e-05
+01:56:06 - refined.training.fine_tune.fine_tune - INFO - lr: 4.9997435332991385e-05
+01:56:30 - refined.training.fine_tune.fine_tune - INFO - TLoss: 0.27680867368524725

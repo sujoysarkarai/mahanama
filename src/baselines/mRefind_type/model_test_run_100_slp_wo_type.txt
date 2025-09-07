@@ -1,0 +1,145 @@
+Namespace(batch_size=8, candidate_dropout=0.0, checkpoint_every_n_steps=500, checkpoint_metric='ed', data_dir='/home/gourav-pg/.cache/refined', device='cuda:0', download_files=True, ed_dropout=0.05, ed_threshold=0.15, el=True, entity_set='wikipedia', epochs=100, et_dropout=0.1, experiment_name='1745335503', gradient_accumulation_steps=1, lr=5e-05, mask_prob=0.7, mask_random_prob=0.05, max_mentions=100, n_gpu=1, num_candidates_eval=30, num_candidates_train=30, num_warmup_steps=10, output_dir='fine_tuned_models', restore_model_path=None, resume=False, transformer_name='google/muril-base-cased', use_precomputed_descriptions=False)
+15:25:03 - refined.training.train.training_args - INFO - Using batch size 8 as n_gpu is 1.
+resource files-
+{'roberta_base_model': '/home/gourav-pg/.cache/refined/roberta-base/pytorch_model.bin', 'roberta_base_model_config': '/home/gourav-pg/.cache/refined/roberta-base/config.json', 'roberta_base_vocab': '/home/gourav-pg/.cache/refined/roberta-base/vocab.json', 'roberta_base_tokenizer_merges': '/home/gourav-pg/.cache/refined/roberta-base/merges.txt', 'wiki_pem': '/home/gourav-pg/.cache/refined/wikipedia_data/pem.lmdb', 'class_to_label': '/home/gourav-pg/.cache/refined/wikipedia_data/class_to_label.json', 'human_qcodes': '/home/gourav-pg/.cache/refined/wikipedia_data/human_qcodes.json', 'class_to_idx': '/home/gourav-pg/.cache/refined/wikipedia_data/class_to_idx.json', 'qcode_to_idx': '/home/gourav-pg/.cache/refined/wikipedia_data/qcode_to_idx.lmdb', 'qcode_idx_to_class_idx': '/home/gourav-pg/.cache/refined/wikipedia_data/qcode_to_class_tns_6269457-138.np', 'subclasses': '/home/gourav-pg/.cache/refined/wikipedia_data/subclasses.lmdb', 'descriptions_tns': '/home/gourav-pg/.cache/refined/wikipedia_data/descriptions_tns.pt', 'nltk_sentence_splitter_english': '/home/gourav-pg/.cache/refined/wikipedia_data/nltk_sentence_splitter_english.pickle'}
+{'wikipedia_training_dataset': '/home/gourav-pg/.cache/refined/datasets/wikipedia_links_aligned_spans.json'}
+resource files-
+{'roberta_base_model': '/home/gourav-pg/.cache/refined/roberta-base/pytorch_model.bin', 'roberta_base_model_config': '/home/gourav-pg/.cache/refined/roberta-base/config.json', 'roberta_base_vocab': '/home/gourav-pg/.cache/refined/roberta-base/vocab.json', 'roberta_base_tokenizer_merges': '/home/gourav-pg/.cache/refined/roberta-base/merges.txt', 'wiki_pem': '/home/gourav-pg/.cache/refined/wikipedia_data/pem.lmdb', 'class_to_label': '/home/gourav-pg/.cache/refined/wikipedia_data/class_to_label.json', 'human_qcodes': '/home/gourav-pg/.cache/refined/wikipedia_data/human_qcodes.json', 'class_to_idx': '/home/gourav-pg/.cache/refined/wikipedia_data/class_to_idx.json', 'qcode_to_idx': '/home/gourav-pg/.cache/refined/wikipedia_data/qcode_to_idx.lmdb', 'qcode_idx_to_class_idx': '/home/gourav-pg/.cache/refined/wikipedia_data/qcode_to_class_tns_6269457-138.np', 'subclasses': '/home/gourav-pg/.cache/refined/wikipedia_data/subclasses.lmdb', 'descriptions_tns': '/home/gourav-pg/.cache/refined/wikipedia_data/descriptions_tns.pt', 'qcode_to_wiki': '/home/gourav-pg/.cache/refined/wikipedia_data/qcode_to_wiki.lmdb', 'nltk_sentence_splitter_english': '/home/gourav-pg/.cache/refined/wikipedia_data/nltk_sentence_splitter_english.pickle'}
+15:25:36 - refined.evaluation.evaluation_error - INFO - Running entity linking evaluation
+with singleton cluster -
+gold_cluster_count =  2900
+pred_cluster_count =  2518
+gold_mention_count =  6831
+pred_mention_count =  6685
+total_correct_cluster =  1687  =  0.5817241379310345 %
+total_conflated_cluster =  51  =  0.017586206896551725 %
+total_divided_cluster =  165  =  0.056896551724137934 %
+total_missing_cluster =  997  =  0.34379310344827585 %
+total_extra_cluster =  457
+
+mention =  {'missing': 1301, 'extra': 2128}
+*****************************
+
+
+Dataset name: WIKI_DEV
+
+****************
+************
+f1: 0.6586
+accuracy: 0.5626
+gold_recall: 0.9893
+p: 0.7940
+r: 0.5626
+num_gold_spans: 6831
+************
+*******MD*****
+MD_f1: 0.6295, (p: 0.6364, r: 0.6227)
+*****************
+
+*****************************
+
+
+15:25:42 - refined.evaluation.evaluation_error - INFO - Running entity disambiguation evaluation
+new surface form -  vol_3_chapter_16_subchapter_263_3.txt sinDUnAM  475 Q9927
+new surface form -  vol_3_chapter_16_subchapter_263_3.txt sinDUnAM  932 Q9927
+new surface form -  vol_9_chapter_1_subchapter_117_22.txt kftavarmARaM  2730 Q5957
+new surface form -  vol_1_chapter_5_subchapter_31_20.txt vasavo  1403 Q11679
+new surface form -  vol_12_chapter_1_subchapter_71_72.txt pitaro  1888 Q8386
+new surface form -  vol_8_chapter_1_subchapter_27_28.txt paYcAlAnahanat  4232 Q7902
+new surface form -  vol_1_chapter_11_subchapter_173_10.txt ikzvAkavo  873 Q4604
+new surface form -  vol_3_chapter_11_subchapter_196_16.txt kapotaromARaM  3242 Q5383
+new surface form -  vol_3_chapter_7_subchapter_115_37.txt prasenajitaM  107 Q8593
+new surface form -  vol_13_chapter_1_subchapter_74_75.txt vedAnAM  234 Q11773
+new surface form -  vol_13_chapter_1_subchapter_74_75.txt pitaro  2937 Q8386
+new surface form -  vol_14_chapter_2_subchapter_196_14.txt pitara  1902 Q8386
+new surface form -  vol_3_chapter_11_subchapter_226_46.txt kArtikeyasya  706 Q9952
+new surface form -  vol_1_chapter_7_subchapter_79_16.txt devayAnIkfte  2018 Q3319
+new surface form -  vol_13_chapter_1_subchapter_88_89.txt ASlezAyAM  376 Q57
+new surface form -  vol_1_chapter_14_subchapter_210_12.txt viSvakarmARaM  916 Q11914
+new surface form -  vol_7_chapter_8_subchapter_196_4.txt kuravo  1054 Q6239
+new surface form -  vol_3_chapter_6_subchapter_63_13.txt nEzaDAnAM  1091 Q7509
+new surface form -  vol_3_chapter_6_subchapter_63_13.txt vidarBARAM  4111 Q11970
+new surface form -  vol_12_chapter_3_subchapter_113_114.txt vedAntAnAM  2008 Q11785
+new surface form -  vol_5_chapter_6_subchapter_212_70.txt DArtarAzwrazu  3709 Q3805
+new surface form -  vol_1_chapter_4_subchapter_10_8.txt vedAnAM  1414 Q11773
+new surface form -  vol_3_chapter_7_subchapter_91_13.txt rakzoByo  434 Q8920
+new surface form -  vol_3_chapter_7_subchapter_91_13.txt rakzasva  530 Q8920
+new surface form -  vol_3_chapter_9_subchapter_170_7.txt tridivOkasAm  2246 Q10920
+new surface form -  vol_1_chapter_5_subchapter_36_25.txt kaSyapasya  2995 Q5022
+new surface form -  vol_3_chapter_11_subchapter_224_44.txt saptarzIRAM  412 Q9516
+new surface form -  vol_3_chapter_11_subchapter_224_44.txt saptarzIRAM  1290 Q9516
+new surface form -  vol_3_chapter_10_subchapter_180_6.txt brahmarzIRAM  3324 Q1782
+new surface form -  vol_3_chapter_10_subchapter_180_6.txt agastayena  3465 Q214
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  5189 Q11773
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  5322 Q11773
+new surface form -  vol_5_chapter_4_subchapter_114_3.txt vedAnAM  6398 Q11773
+new surface form -  vol_14_chapter_2_subchapter_209_27.txt pitaro  5654 Q8386
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  4905 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  4996 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  5084 Q2082
+new surface form -  vol_12_chapter_3_subchapter_92_93.txt cirakArikaH  5270 Q2082
+new surface form -  vol_4_chapter_3_subchapter_36_13.txt virAwasya  434 Q12161
+new surface form -  vol_9_chapter_2_subchapter_152_26.txt saMjayAnAM  5005 Q7902
+new surface form -  vol_9_chapter_2_subchapter_152_26.txt saMjayAnAM  5052 Q7902
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitfByo  31 Q8386
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitaro  280 Q8386
+new surface form -  vol_13_chapter_1_subchapter_87_88.txt pitaro  509 Q8386
+new surface form -  vol_4_chapter_1_subchapter_3_4.txt dupadasya  165 Q3703
+new surface form -  vol_5_chapter_1_subchapter_81_10.txt tridivOkasaH  331 Q10920
+new surface form -  vol_13_chapter_1_subchapter_78_79.txt vasUnAM  1782 Q11679
+new surface form -  vol_9_chapter_2_subchapter_137_11.txt viprarvasizWasya  237 Q11659
+new surface form -  vol_12_chapter_2_subchapter_169_40.txt kaSyapasya  119 Q5022
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitaro  1038 Q8386
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitara  1818 Q8386
+new surface form -  vol_12_chapter_3_subchapter_171_172.txt pitaro  1886 Q8386
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt virAwasya  1412 Q12161
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt bandiBiH  3819 Q11521
+new surface form -  vol_7_chapter_4_subchapter_71_1.txt suBadrAyAM  4740 Q10104
+new surface form -  vol_1_chapter_14_subchapter_203_5.txt dupadaputrARAM  664 Q3708
+new surface form -  vol_1_chapter_14_subchapter_203_5.txt kuravo  2556 Q6239
+new surface form -  vol_1_chapter_11_subchapter_170_7.txt aMSumantaM  1237 Q10478
+new surface form -  vol_2_chapter_9_subchapter_284_6.txt vErAmAMH  951 Q11389
+new surface form -  vol_8_chapter_1_subchapter_52_53.txt saMSaptakAnAM  103 Q9356
+new surface form -  vol_8_chapter_1_subchapter_52_53.txt parivarDanaMjayam  4079 Q801
+new surface form -  vol_1_chapter_18_subchapter_228_8.txt viprarziAhmaRo  2039 Q7040
+new surface form -  vol_3_chapter_11_subchapter_225_45.txt saptarzIRAM  905 Q9516
+new surface form -  vol_5_chapter_6_subchapter_183_41.txt prozWapadAByAM  249 Q1244
+new surface form -  vol_13_chapter_1_subchapter_2_3.txt brahmarzIRAM  1299 Q1782
+new surface form -  vol_7_chapter_5_subchapter_119_36.txt mAtyakiM  2851 Q9732
+new surface form -  vol_7_chapter_5_subchapter_122_39.txt trigartAnAM  1090 Q10928
+new surface form -  vol_14_chapter_2_subchapter_259_77.txt Bfgavo  4201 Q1543
+new surface form -  vol_9_chapter_2_subchapter_136_10.txt vEcitravIryaRaH  136 Q3512
+new surface form -  vol_9_chapter_2_subchapter_136_10.txt nEmizIyARAM  251 Q7502
+new surface form -  vol_3_chapter_6_subchapter_61_11.txt vasavo  2115 Q11679
+new surface form -  vol_14_chapter_2_subchapter_232_50.txt yakzARAM  566 Q12536
+new surface form -  vol_3_chapter_8_subchapter_159_2.txt maRimantaM  6374 Q7070
+with singleton cluster -
+gold_cluster_count =  2900
+pred_cluster_count =  3168
+gold_mention_count =  6831
+pred_mention_count =  6831
+total_correct_cluster =  2538  =  0.8751724137931034 %
+total_conflated_cluster =  94  =  0.032413793103448274 %
+total_divided_cluster =  268  =  0.09241379310344827 %
+total_missing_cluster =  0  =  0.0 %
+total_extra_cluster =  0
+
+mention =  {'missing': 0, 'extra': 0}
+*****************************
+
+
+Dataset name: WIKI_DEV
+
+****************
+************
+f1: 0.9061
+accuracy: 0.9012
+gold_recall: 0.9893
+p: 0.9111
+r: 0.9012
+num_gold_spans: 6831
+************
+
+*****************************
+
+

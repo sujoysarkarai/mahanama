@@ -1,0 +1,7 @@
+cd data_processing/
+python convert_conll_to_txt_sanskrit.py 
+python process_sanskrit_mahabharat.py /../../coref_resources/data/sanskrit_slp_dual -model=longformer
+cd ..
+
+env CUDA_VISIBLE_DEVICES=1 python -u main.py experiment=sanskrit_slp_dual model/doc_encoder/transformer=longformer_large override_encoder=True train=True
+

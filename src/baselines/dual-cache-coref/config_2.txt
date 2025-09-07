@@ -1,0 +1,17 @@
+env CUDA_VISIBLE_DEVICES=1 python -u main.py experiment=sanskrit_mahabharat model/doc_encoder/transformer=longformer_large override_encoder=True train=True
+xln robata longformaer
+
+python main.py experiment=sanskrit_mahabharat paths.model_dir=../models/default_tok_model_2_corrected_sanskrit_mahabharat_12168c40d9812bc167fd639abf3e47f1/  model/doc_encoder/transformer=longformer_large override_encoder=True train=False
+
+python process_sanskrit_mahabharat.py /../../coref_resources/data/sanskrit_mahabharat -model=longformer 
+
+# men pass
+# model 2
+# 1000_1000
+default_tok_model_2_corrected_sanskrit_mahabharat_d8f0bd460f7f304373fa12f5ba1aa2f8
+python main.py experiment=sanskrit_mahabharat paths.model_dir=../models/default_tok_model_2_corrected_sanskrit_mahabharat_d8f0bd460f7f304373fa12f5ba1aa2f8/  model/doc_encoder/transformer=longformer_large override_encoder=True train=False
+
+python main.py experiment=sanskrit_mahabharat paths.model_dir=../models/default_tok_model_2_corrected_sanskrit_mahabharat_12168c40d9812bc167fd639abf3e47f1/  model/doc_encoder/transformer=longformer_large override_encoder=True train=False
+
+
+python main.py experiment=sanskrit_mahabharat paths.model_dir=../models/default_tok_model_2_corrected_sanskrit_mahabharat_d8f0bd460f7f304373fa12f5ba1aa2f8/  model/doc_encoder/transformer=longformer_large override_encoder=True train=False
