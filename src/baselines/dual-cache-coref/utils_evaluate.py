@@ -158,71 +158,7 @@ def full_coref_evaluation(
 
         with open(log_score_dir, 'a') as file:
             file.write(f"- Cache {cache_mode} Correct {correct_cnt} F-score: {result_dict['fscore']:.3f} {perf_str}\n")
-        # try:
-        #     # Check if the dataset has CoNLL annotations to begin with
-        #     if not dataset_config.get("has_conll", False):
-        #         return result_dict
-        #
-        #     # (1) Only use CoNLL evaluator script for final evaluation
-        #     # (2) CoNLL score only makes sense when the evaluation is using the canonical cluster threshold
-        #     # (3) Check if the scorer and CoNLL annotation directory exist
-        #     is_canonical = (
-        #         dataset_config.cluster_threshold
-        #         == dataset_config.canonical_cluster_threshold
-        #     )
-        #     try:
-        #         path_exists_bool = path.exists(
-        #             config.paths.conll_scorer
-        #         ) and path.exists(conll_data_dir[dataset])
-        #     except:
-        #         # This exception occurs when NoneType is passed along
-        #         path_exists_bool = False
-        #
-        #     if final_eval and is_canonical and path_exists_bool:
-        #         logger.info("\n\nUsing CoNLL scorer")
-        #         gold_path = path.join(conll_data_dir[dataset], f"{split}.conll")
-        #         prediction_file = path.join(log_dir, f"{split}.conll")
-        #
-        #         print(path.abspath(gold_path))
-        #         print(path.abspath(prediction_file))
-        #         print(config.paths.conll_scorer)
-        #
-        #         conll_results = evaluate_conll(
-        #             config.paths.conll_scorer,
-        #             gold_path,
-        #             coref_predictions,
-        #             subtoken_maps,
-        #             prediction_file,
-        #         )
-        #
-        #         for indv_metric in config.metrics:
-        #             result_dict[indv_metric]["recall"] = round(
-        #                 conll_results[indv_metric.lower()]["r"], 1
-        #             )
-        #             result_dict[indv_metric]["precision"] = round(
-        #                 conll_results[indv_metric.lower()]["p"], 1
-        #             )
-        #             result_dict[indv_metric]["fscore"] = round(
-        #                 conll_results[indv_metric.lower()]["f"], 1
-        #             )
-        #
-        #         average_f1 = sum(
-        #             results["f"] for results in conll_results.values()
-        #         ) / len(conll_results)
-        #         result_dict["fscore"] = round(average_f1, 1)
-        #
-        #         logger.info(
-        #             "(CoNLL) F-score : %.1f, MUC: %.1f, Bcub: %.1f, CEAFE: %.1f"
-        #             % (
-        #                 average_f1,
-        #                 conll_results["muc"]["f"],
-        #                 conll_results["bcub"]["f"],
-        #                 conll_results["ceafe"]["f"],
-        #             )
-        #         )
-        #         logger.info("Prediction file: %s" % path.abspath(prediction_file))
-        # except AttributeError:
-        #     pass
+        
 
         logger.info("Oracle F-score: %.3f" % oracle_evaluator.get_prf()[2])
         logger.info(path.abspath(log_file))
@@ -278,7 +214,7 @@ def targeted_coref_evaluation(
             mention_to_predicted = get_mention_to_cluster(predicted_clusters)
 
             pron_span = tuple(document["pronoun_span"])
-            a_pred, b_pred = False, False  # Default prediction is assumed to be False
+            a_pred, b_pred = False, False  
 
             if pron_span in mention_to_predicted:
                 pron_cluster = mention_to_predicted[pron_span]
