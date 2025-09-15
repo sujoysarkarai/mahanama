@@ -27,7 +27,7 @@ For more details, see the [CorefUD format documentation](https://ufal.mff.cuni.c
   - Each subchapter is stored in **CoNLL-U (CorefUD)** format.
   - 
 - **Knowledge Base (`data/kb/`)**  
-  - `entries.json`: English descriptions of all entities of the index.
+  - `entries.json`: English descriptions of all entiries of the index.
 ---
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
