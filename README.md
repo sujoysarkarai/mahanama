@@ -30,7 +30,7 @@ For more details, see the [CorefUD format documentation](https://ufal.mff.cuni.c
     
   
 - **Knowledge Base (`data/kb/`)**  
-  - `entries.json`: English descriptions of all entries of the index.
+  - `entity_metadata.json`: English descriptions of all entries of the index.
 ---
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
