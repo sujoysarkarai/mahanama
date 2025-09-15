@@ -1,0 +1,683 @@
+# newdoc id = Mahābhārata_Volume_2_Chapter_5_Subchapter_264
+# global.Entity = eid-etype-head-identity-other
+# sent_id = MBh_CE_2_5_MND_vol-i_264_1
+# text = vESampAyana uvAca tataH kumAravizaye SreRimantamaTAjayat . kosalADipatiM cEva bfhadbalamariMdamaH ..
+1	vESampAyana	_	_	_	_	_	_	_	Entity=(e11327-person---vESampAyana)|ittnim=11327,vESampAyana,vol_2,ver_1075,vESampAyana
+2	uvAca	_	_	_	_	_	_	_	_
+3	tataH	_	_	_	_	_	_	_	_
+4-5	kumAravizaye	_	_	_	_	_	_	_	_
+4	kumAra	_	_	_	_	_	_	_	Entity=(e6105-person---kumAra)|ittnim=6105,kumAra,vol_2,ver_1075,kumAra
+5	vizaye	_	_	_	_	_	_	_	_
+6-8	SreRimantamaTAjayat	_	_	_	_	_	_	_	_
+6	SreRimantam	_	_	_	_	_	_	_	Entity=(e2697-person---SreRimat)|ittnim=2697,SreRimat,vol_2,ver_1075,SreRimat
+7	aTa	_	_	_	_	_	_	_	_
+8	ajayat	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_
+10-11	kosalADipatiM	_	_	_	_	_	_	_	_
+10	kosala		_	_	_	_	_	_	Entity=(e1835-person---bfhadbala|ittnim=5815,kosalADipati,vol_2,ver_1075,kosalADipati
+11	aDipati	_	_	_	_	_	_	_	Entity=e1835)
+12-13	cEva	_	_	_	_	_	_	_	_
+12	ca	_	_	_	_	_	_	_	_
+13	eva	_	_	_	_	_	_	_	_
+14-15	bfhadbalamariMdamaH	_	_	_	_	_	_	_	_
+14	bfhadbalam	_	_	_	_	_	_	_	Entity=(e1835-person---bfhadbala)|ittnim=1835,bfhadbala,vol_2,ver_1075,bfhadbala
+15	ariMdamaH	_	_	_	_	_	_	_	_
+16	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_2
+# text = ayoDyAyAM tu DarmajYaM dIrGayajYaM mahAbalam . ajayat pARqavaSrezWo nAtitIvraRa karmaRA ..
+1-2	ayoDyAyAM	_	_	_	_	_	_	_	_
+1	ayoDyA	_	_	_	_	_	_	_	Entity=(e1048-location---ayoDyA)|ittnim=1048,ayoDyA,vol_2,ver_1076,ayoDyA
+2	yA	_	_	_	_	_	_	_	_
+3	tu	_	_	_	_	_	_	_	_
+4-5	DarmajYaM	_	_	_	_	_	_	_	_
+4	Darma	_	_	_	_	_	_	_	_
+5	jYa	_	_	_	_	_	_	_	_
+6-7	dIrGayajYaM	_	_	_	_	_	_	_	_
+6	dIrGa		_	_	_	_	_	_	Entity=(e3616-person---dIrGaprajYa|ittnim=3621,dIrGayajYa,vol_2,ver_1076,dIrGayajYa
+7	yajYa	_	_	_	_	_	_	_	Entity=e3616)
+8-9	mahAbalam	_	_	_	_	_	_	_	_
+8	mahA	_	_	_	_	_	_	_	_
+9	balam	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_
+11	ajayat	_	_	_	_	_	_	_	_
+12-14	pARqavaSrezWo	_	_	_	_	_	_	_	_
+12	pARqava		_	_	_	_	_	_	Entity=(e1454-person---BIma|ittnim=7979,pARqavaSrezWa,vol_2,ver_1076,pARqavaSrezWa
+13	SrezWA	_	_	_	_	_	_	_	Entity=e1454)
+14	u	_	_	_	_	_	_	_	_
+15-16	nAtitIvraRa	_	_	_	_	_	_	_	_
+15	na	_	_	_	_	_	_	_	_
+16	atitIvraRa	_	_	_	_	_	_	_	_
+17	karmaRA	_	_	_	_	_	_	_	_
+18	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_3
+# text = tato gopAlakakzaM ca sottarAnapi kosalAn . mallAnAmaDipaM cEva pArTivaM cAjayat praBuH ..
+1-2	tato	_	_	_	_	_	_	_	_
+1	tatA	_	_	_	_	_	_	_	_
+2	u	_	_	_	_	_	_	_	_
+3-4	gopAlakakzaM	_	_	_	_	_	_	_	_
+3	gopAla		_	_	_	_	_	_	Entity=(e4209-location---gopAlakakza|ittnim=4209,gopAlakakza,vol_2,ver_1077,gopAlakakza
+4	kakza	_	_	_	_	_	_	_	Entity=e4209)
+5	ca	_	_	_	_	_	_	_	_
+6-8	sottarAnapi	_	_	_	_	_	_	_	_
+6	sA	_	_	_	_	_	_	_	_
+7	uttarAn	_	_	_	_	_	_	_	_
+8	api	_	_	_	_	_	_	_	_
+9	kosalAn	_	_	_	_	_	_	_	Entity=(e5810-person---kosala)|ittnim=5810,kosala,vol_2,ver_1077,kosala
+10	.	_	_	_	_	_	_	_	_
+11-12	mallAnAmaDipaM	_	_	_	_	_	_	_	_
+11	mallAnAm	_	_	_	_	_	_	_	Entity=(e7005-person---malla)|ittnim=7005,malla,vol_2,ver_1077,malla
+12	aDipa	_	_	_	_	_	_	_	_
+13-14	cEva	_	_	_	_	_	_	_	_
+13	ca	_	_	_	_	_	_	_	_
+14	eva	_	_	_	_	_	_	_	_
+15	pArTiva	_	_	_	_	_	_	_	_
+16-17	cAjayat	_	_	_	_	_	_	_	_
+16	ca	_	_	_	_	_	_	_	_
+17	ajayat	_	_	_	_	_	_	_	_
+18	praBuH	_	_	_	_	_	_	_	_
+19	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_4
+# text = tato himavataH pArSva samaByetya jalodBavam . sarvamalpena kAlena deSaM cakre vaSaM balI ..
+1-2	tato	_	_	_	_	_	_	_	_
+1	tatA	_	_	_	_	_	_	_	_
+2	u	_	_	_	_	_	_	_	_
+3	himavataH	_	_	_	_	_	_	_	Entity=(e4493-person---himavat)|ittnim=4493,himavat,vol_2,ver_1078,himavat
+4	pArSva	_	_	_	_	_	_	_	_
+5-7	samaByetya	_	_	_	_	_	_	_	_
+5	sama	_	_	_	_	_	_	_	_
+6	BI	_	_	_	_	_	_	_	_
+7	etya	_	_	_	_	_	_	_	_
+8-9	jalodBavam	_	_	_	_	_	_	_	_
+8	jala	_	_	_	_	_	_	_	_
+9	udBavam	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_
+11-12	sarvamalpena	_	_	_	_	_	_	_	_
+11	sarvam	_	_	_	_	_	_	_	_
+12	alpena	_	_	_	_	_	_	_	_
+13	kAlena	_	_	_	_	_	_	_	_
+14	deSa	_	_	_	_	_	_	_	_
+15	cakre	_	_	_	_	_	_	_	_
+16	vaSa	_	_	_	_	_	_	_	_
+17	balI	_	_	_	_	_	_	_	_
+18	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_5
+# text = evaM bahuviDAn deSAn vijigye BaratarzaBaH . BallAwamaBito jigye SuktimantaM ca parvatam ..
+1	eva	_	_	_	_	_	_	_	_
+2-3	bahuviDAn	_	_	_	_	_	_	_	_
+2	bahu	_	_	_	_	_	_	_	_
+3	viDAn	_	_	_	_	_	_	_	_
+4	deSAn	_	_	_	_	_	_	_	_
+5	vijigye	_	_	_	_	_	_	_	_
+6-7	BaratarzaBaH	_	_	_	_	_	_	_	_
+6	Barata		_	_	_	_	_	_	Entity=(e1454-person---BIma|ittnim=1359,BaratarzaBa,vol_2,ver_1079,BaratarzaBa
+7	fzaBaH	_	_	_	_	_	_	_	Entity=e1454)
+8	.	_	_	_	_	_	_	_	_
+9-10	BallAwamaBito	_	_	_	_	_	_	_	_
+9	BallAwam	_	_	_	_	_	_	_	Entity=(e1292-location---BallAwa)|ittnim=1292,BallAwa,vol_2,ver_1079,BallAwa
+10	aBitas	_	_	_	_	_	_	_	_
+11	jigye	_	_	_	_	_	_	_	_
+12	Suktimantam	_	_	_	_	_	_	_	Entity=(e2825-location---Suktimat)|ittnim=2825,Suktimat,vol_2,ver_1079,Suktimat
+13	ca	_	_	_	_	_	_	_	_
+14	parvatam	_	_	_	_	_	_	_	_
+15	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_6
+# text = pARqavaH sumahAvIryo balena balinAM varaH . sa kASirAjaM samare subAhumanivartinam ..
+1	pARqavaH	_	_	_	_	_	_	_	Entity=(e1454-person---BIma)|ittnim=7971,pARqava,vol_2,ver_1080,pARqava
+2-4	sumahAvIryo	_	_	_	_	_	_	_	_
+2	sumahA	_	_	_	_	_	_	_	_
+3	vIryA	_	_	_	_	_	_	_	_
+4	u	_	_	_	_	_	_	_	_
+5	balena	_	_	_	_	_	_	_	_
+6	balinA	_	_	_	_	_	_	_	_
+7	varaH	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_
+9	sa	_	_	_	_	_	_	_	_
+10-11	kASirAjaM	_	_	_	_	_	_	_	_
+10	kASi		_	_	_	_	_	_	Entity=(e10083-person---subAhu|ittnim=4999,kASirAja,vol_2,ver_1080,kASirAja
+11	rAja	_	_	_	_	_	_	_	Entity=e10083)
+12	samare	_	_	_	_	_	_	_	_
+13-16	subAhumanivartinam	_	_	_	_	_	_	_	_
+13	su		_	_	_	_	_	_	Entity=(e10083-person---subAhu|ittnim=4999,kASirAja,vol_2,ver_1080,subAhu
+14	bAhum	_	_	_	_	_	_	_	Entity=e10083)
+15	a	_	_	_	_	_	_	_	_
+16	nivartinam	_	_	_	_	_	_	_	_
+17	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_7
+# text = vaSe cakre mahAbAhurBImo BImaparAkramaH . tataH supArSvamaBitastaTA rAjapatiM kraTam .. yuDyamAnaM balAt saMKye vijigye pARqavarzaBaH . tato matsyAn mahAtejA maladAMSca mahAbalAn ..
+1	vaSe	_	_	_	_	_	_	_	_
+2	cakre	_	_	_	_	_	_	_	_
+3-5	mahAbAhurBImo	_	_	_	_	_	_	_	_
+3	mahAbAhuH	_	_	_	_	_	_	_	_
+4	BImA	_	_	_	_	_	_	_	Entity=(e1454-person---BIma)|ittnim=1454,BIma,vol_2,ver_1081,BIma
+5	u	_	_	_	_	_	_	_	_
+6-7	BImaparAkramaH	_	_	_	_	_	_	_	_
+6	BIma	_	_	_	_	_	_	_	Entity=(e1454-person---BIma)|ittnim=1454,BIma,vol_2,ver_1081,BIma
+7	parAkramaH	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_
+9	tataH	_	_	_	_	_	_	_	_
+10-12	supArSvamaBitastaTA	_	_	_	_	_	_	_	_
+10	supArSvam	_	_	_	_	_	_	_	Entity=(e10328-person---supArSva)|ittnim=10328,supArSva,vol_2,ver_1081,supArSva
+11	aBitaH	_	_	_	_	_	_	_	_
+12	taTA	_	_	_	_	_	_	_	_
+13-14	rAjapatiM	_	_	_	_	_	_	_	_
+13	rAja	_	_	_	_	_	_	_	_
+14	pati	_	_	_	_	_	_	_	_
+15	kraTam	_	_	_	_	_	_	_	Entity=(e5836-person---kraTa)|ittnim=5836,kraTa,vol_2,ver_1081,kraTa
+16	..	_	_	_	_	_	_	_	_
+17	yuDyamAna	_	_	_	_	_	_	_	_
+18	balAt	_	_	_	_	_	_	_	_
+19	saNKye	_	_	_	_	_	_	_	_
+20	vijigye	_	_	_	_	_	_	_	_
+21-22	pARqavarzaBaH	_	_	_	_	_	_	_	_
+21	pARqava		_	_	_	_	_	_	Entity=(e1454-person---BIma|ittnim=7994,pARqavarzaBa,vol_2,ver_1082,pARqavarzaBa
+22	fzaBaH	_	_	_	_	_	_	_	Entity=e1454)
+23	.	_	_	_	_	_	_	_	_
+24-25	tato	_	_	_	_	_	_	_	_
+24	tatA	_	_	_	_	_	_	_	_
+25	u	_	_	_	_	_	_	_	_
+26	matsyAn	_	_	_	_	_	_	_	Entity=(e7228-person---matsya)|ittnim=7228,matsya,vol_2,ver_1082,matsya
+27-28	mahAtejA	_	_	_	_	_	_	_	_
+27	mahA	_	_	_	_	_	_	_	_
+28	tejA	_	_	_	_	_	_	_	_
+29-30	maladAMSca	_	_	_	_	_	_	_	_
+29	maladAn	_	_	_	_	_	_	_	Entity=(e6982-person---malada)|ittnim=6982,malada,vol_2,ver_1082,malada
+30	ca	_	_	_	_	_	_	_	_
+31-32	mahAbalAn	_	_	_	_	_	_	_	_
+31	mahA	_	_	_	_	_	_	_	_
+32	balAn	_	_	_	_	_	_	_	_
+33	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_8
+# text = anaGAnaBayAMScEva paSuBUmiM ca sarvaSaH . nivftya ca mahAbAhurmadaDAraM mahIDaram ..
+1-4	anaGAnaBayAMScEva	_	_	_	_	_	_	_	_
+1	anaGAn	_	_	_	_	_	_	_	_
+2	aBayAn	_	_	_	_	_	_	_	_
+3	ca	_	_	_	_	_	_	_	_
+4	eva	_	_	_	_	_	_	_	_
+5-6	paSuBUmiM	_	_	_	_	_	_	_	_
+5	paSu		_	_	_	_	_	_	Entity=(e7807-location---paSuBUmI|ittnim=7807,paSuBUmI,vol_2,ver_1083,paSuBUmI
+6	BUmim	_	_	_	_	_	_	_	Entity=e7807)
+7	ca	_	_	_	_	_	_	_	_
+8	sarvaSaH	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_
+10	nivftya	_	_	_	_	_	_	_	_
+11	ca	_	_	_	_	_	_	_	_
+12-14	mahAbAhurmadaDAraM	_	_	_	_	_	_	_	_
+12	mahAbAhuH	_	_	_	_	_	_	_	_
+13	mada		_	_	_	_	_	_	Entity=(e6580-person---madaDAra|ittnim=6580,madaDAra,vol_2,ver_1083,madaDAra
+14	DAra	_	_	_	_	_	_	_	Entity=e6580)
+15	mahIDaram	_	_	_	_	_	_	_	Entity=(e6580-person---madaDAra)|ittnim=6921,mahIDara,vol_2,ver_1083,mahIDara
+16	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_9
+# text = somaDeyAMSca nirjitya prayayAvuttarAmuKaH . vatsaBUmiM ca kOnteyo vijigye balavAn balAt ..
+1-2	somaDeyAMSca	_	_	_	_	_	_	_	_
+1	somaDeyAn	_	_	_	_	_	_	_	Entity=(e9983-person---somaDeya)|ittnim=9983,somaDeya,vol_2,ver_1084,somaDeya
+2	ca	_	_	_	_	_	_	_	_
+3	nirjitya	_	_	_	_	_	_	_	_
+4-6	prayayAvuttarAmuKaH	_	_	_	_	_	_	_	_
+4	prayayO	_	_	_	_	_	_	_	_
+5	uttara	_	_	_	_	_	_	_	_
+6	AmuKaH	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_
+8-9	vatsaBUmiM	_	_	_	_	_	_	_	_
+8	vatsa	_	_	_	_	_	_	_	_
+9	BUmim	_	_	_	_	_	_	_	_
+10	ca	_	_	_	_	_	_	_	_
+11	kOnteyaH	_	_	_	_	_	_	_	Entity=(e1454-person---BIma)|ittnim=5538,kOnteya,vol_2,ver_1084,kOnteya
+12	vijigye	_	_	_	_	_	_	_	_
+13	balavAn	_	_	_	_	_	_	_	_
+14	balAt	_	_	_	_	_	_	_	_
+15	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_10
+# text = BargARAmaDipaM cEva nizadADipati taTA . vijigye BUmipAlAMSca maRimatpramuKAn bahUn .
+1-2	BargARAmaDipaM	_	_	_	_	_	_	_	_
+1	BargARAm	_	_	_	_	_	_	_	Entity=(e1372-person---Barga)|ittnim=1372,Barga,vol_2,ver_1085,Barga
+2	aDipa	_	_	_	_	_	_	_	_
+3-4	cEva	_	_	_	_	_	_	_	_
+3	ca	_	_	_	_	_	_	_	_
+4	eva	_	_	_	_	_	_	_	_
+5-6	nizadADipati	_	_	_	_	_	_	_	_
+5	nizada		_	_	_	_	_	_	Entity=(e7726-person---nizAdADipati|ittnim=7726,nizAdADipati,vol_2,ver_1085,nizAdADipati
+6	aDipati	_	_	_	_	_	_	_	Entity=e7726)
+7	taTA	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_
+9	vijigye	_	_	_	_	_	_	_	_
+10-11	BUmipAlAMSca	_	_	_	_	_	_	_	_
+10	BUmipAlAn	_	_	_	_	_	_	_	_
+11	ca	_	_	_	_	_	_	_	_
+12-13	maRimatpramuKAn	_	_	_	_	_	_	_	_
+12	maRimat	_	_	_	_	_	_	_	Entity=(e7071-person---maRimat)|ittnim=7071,maRimat,vol_2,ver_1085,maRimat
+13	pramuKAn	_	_	_	_	_	_	_	_
+14	bahUn	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_11
+# text = tato dakziRamallAMSca BogavantaM ca parvatam . tarasEvAjayad BImo nAtitIvraRa karmaRA ..
+1-2	tato	_	_	_	_	_	_	_	_
+1	tatA	_	_	_	_	_	_	_	_
+2	u	_	_	_	_	_	_	_	_
+3-5	dakziRamallAMSca	_	_	_	_	_	_	_	_
+3	dakziRa	_	_	_	_	_	_	_	_
+4	mallAn	_	_	_	_	_	_	_	Entity=(e7005-person---malla)|ittnim=7005,malla,vol_2,ver_1086,malla
+5	ca	_	_	_	_	_	_	_	_
+6	Bogavantam	_	_	_	_	_	_	_	Entity=(e1512-location---Bogavat)|ittnim=1512,Bogavat,vol_2,ver_1086,Bogavat
+7	ca	_	_	_	_	_	_	_	_
+8	parvatam	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_
+10-12	tarasEvAjayad	_	_	_	_	_	_	_	_
+10	tarasA	_	_	_	_	_	_	_	_
+11	eva	_	_	_	_	_	_	_	_
+12	ajayat	_	_	_	_	_	_	_	_
+13-14	BImo	_	_	_	_	_	_	_	_
+13	BImA	_	_	_	_	_	_	_	_
+14	u	_	_	_	_	_	_	_	_
+15-16	nAtitIvraRa	_	_	_	_	_	_	_	_
+15	na	_	_	_	_	_	_	_	_
+16	atitIvraRa	_	_	_	_	_	_	_	_
+17	karmaRA	_	_	_	_	_	_	_	_
+18	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_12
+# text = SarmakAn varmakAMScEva vyajayat sAntvapUrvakam . vEdehakaM ca rAjAnaM janakaM jagatIpatim .. vijigye puruzavyAGro nAtitIvraRa karmaRA . SakAMSca barbarAMScEva ajayagacCadmapUrvakam ..
+1	SarmakAn	_	_	_	_	_	_	_	Entity=(e2486-person---Sarmaka)|ittnim=2486,Sarmaka,vol_2,ver_1087,Sarmaka
+2-4	varmakAMScEva	_	_	_	_	_	_	_	_
+2	varmakAn	_	_	_	_	_	_	_	Entity=(e11597-person---varmaka)|ittnim=11597,varmaka,vol_2,ver_1087,varmaka
+3	ca	_	_	_	_	_	_	_	_
+4	eva	_	_	_	_	_	_	_	_
+5-6	vyajayat	_	_	_	_	_	_	_	_
+5	vyaja	_	_	_	_	_	_	_	_
+6	yat	_	_	_	_	_	_	_	_
+7-8	sAntvapUrvakam	_	_	_	_	_	_	_	_
+7	sAntva	_	_	_	_	_	_	_	_
+8	pUrvakam	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_
+10	vEdehakam	_	_	_	_	_	_	_	Entity=(e11355-misc---vEdehaka)|ittnim=11355,vEdehaka,vol_2,ver_1087,vEdehaka
+11	ca	_	_	_	_	_	_	_	_
+12-13	rAjAnaM	_	_	_	_	_	_	_	_
+12	rAjA	_	_	_	_	_	_	_	_
+13	na	_	_	_	_	_	_	_	_
+14	janaka	_	_	_	_	_	_	_	Entity=(e4769-person---janaka)|ittnim=4769,janaka,vol_2,ver_1087,janaka
+15-16	jagatIpatim	_	_	_	_	_	_	_	_
+15	jagatI	_	_	_	_	_	_	_	_
+16	patim	_	_	_	_	_	_	_	_
+17	..	_	_	_	_	_	_	_	_
+18	vijigye	_	_	_	_	_	_	_	_
+19-22	puruzavyAGro	_	_	_	_	_	_	_	_
+19	puruza	_	_	_	_	_	_	_	_
+20	vI	_	_	_	_	_	_	_	_
+21	AGrA	_	_	_	_	_	_	_	_
+22	u	_	_	_	_	_	_	_	_
+23-24	nAtitIvraRa	_	_	_	_	_	_	_	_
+23	na	_	_	_	_	_	_	_	_
+24	atitIvraRa	_	_	_	_	_	_	_	_
+25	karmaRA	_	_	_	_	_	_	_	_
+26	.	_	_	_	_	_	_	_	_
+27-28	SakAMSca	_	_	_	_	_	_	_	_
+27	SakAn	_	_	_	_	_	_	_	Entity=(e2252-person---Saka)|ittnim=2252,Saka,vol_2,ver_1088,Saka
+28	ca	_	_	_	_	_	_	_	_
+29-31	barbarAMScEva	_	_	_	_	_	_	_	_
+29	barbarAn	_	_	_	_	_	_	_	Entity=(e1216-person---barbara)|ittnim=1216,barbara,vol_2,ver_1088,barbara
+30	ca	_	_	_	_	_	_	_	_
+31	eva	_	_	_	_	_	_	_	_
+32-35	ajayagacCadmapUrvakam	_	_	_	_	_	_	_	_
+32	ajaya	_	_	_	_	_	_	_	_
+33	gacCat	_	_	_	_	_	_	_	_
+34	ma	_	_	_	_	_	_	_	_
+35	pUrvakam	_	_	_	_	_	_	_	_
+36	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_13
+# text = vEdehasTastu kOnteya indraparvatamantikAt . kirAtAnAmaDipatInajayat sapta pARqava ..
+1-3	vEdehasTastu	_	_	_	_	_	_	_	_
+1	vEdeha	_	_	_	_	_	_	_	Entity=(e11982-person---videha)|ittnim=11352,vEdeha,vol_2,ver_1089,vEdeha
+2	sTaH	_	_	_	_	_	_	_	_
+3	tu	_	_	_	_	_	_	_	_
+4	kOnteya	_	_	_	_	_	_	_	Entity=(e1454-person---BIma)|ittnim=5538,kOnteya,vol_2,ver_1089,kOnteya
+5-7	indraparvatamantikAt	_	_	_	_	_	_	_	_
+5	indra		_	_	_	_	_	_	Entity=(e4645-location---indraparvata|ittnim=4645,indraparvata,vol_2,ver_1089,indraparvata
+6	parvatam	_	_	_	_	_	_	_	Entity=e4645)
+7	antikAt	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_
+9-11	kirAtAnAmaDipatInajayat	_	_	_	_	_	_	_	_
+9	kirAtAnAm	_	_	_	_	_	_	_	_
+10	aDipatIn	_	_	_	_	_	_	_	_
+11	ajayat	_	_	_	_	_	_	_	_
+12	sapta	_	_	_	_	_	_	_	_
+13	pARqava	_	_	_	_	_	_	_	Entity=(e1454-person---BIma)|ittnim=7971,pARqava,vol_2,ver_1089,pARqava
+14	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_14
+# text = tataH suhmAn prasuhmAMSca sapakzAnativIryavAn . vijitya yuDi kOnteyo mAgaDAnaByaDAd balI .. daRqaM ca daRqaDAraM ca vijitya pfTivIpatIn . tEreva sahitEH sarvErgirivrajamupAdravat ..
+1	tataH	_	_	_	_	_	_	_	_
+2	suhmAn	_	_	_	_	_	_	_	Entity=(e8601-person---prasuhma)|ittnim=10215,suhma,vol_2,ver_1090,suhma
+3-4	prasuhmAMSca	_	_	_	_	_	_	_	_
+3	prasuhmAn	_	_	_	_	_	_	_	Entity=(e8601-person---prasuhma)|ittnim=8601,prasuhma,vol_2,ver_1090,prasuhma
+4	ca	_	_	_	_	_	_	_	_
+5-7	sapakzAnativIryavAn	_	_	_	_	_	_	_	_
+5	sapakza	_	_	_	_	_	_	_	_
+6	Anati	_	_	_	_	_	_	_	_
+7	vIryavAn	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_
+9	vijitya	_	_	_	_	_	_	_	_
+10	yuDi	_	_	_	_	_	_	_	_
+11	kOnteyaH	_	_	_	_	_	_	_	Entity=(e1454-person---BIma)|ittnim=5538,kOnteya,vol_2,ver_1090,kOnteya
+12-13	mAgaDAnaByaDAd	_	_	_	_	_	_	_	_
+12	mAgaDAn	_	_	_	_	_	_	_	Entity=(e6704-person---mAgaDa)|ittnim=6704,mAgaDa,vol_2,ver_1090,mAgaDa
+13	aByaDAt	_	_	_	_	_	_	_	_
+14	balI	_	_	_	_	_	_	_	_
+15	..	_	_	_	_	_	_	_	_
+16	daRqa	_	_	_	_	_	_	_	Entity=(e3104-person---daRqa)|ittnim=3104,daRqa,vol_2,ver_1091,daRqa
+17	ca	_	_	_	_	_	_	_	_
+18	daRqaDAraM	_	_	_	_	_	_	_	Entity=(e3104-person---daRqa)|ittnim=3104,daRqa,vol_2,ver_1091,daRqa
+19	ca	_	_	_	_	_	_	_	_
+20	vijitya	_	_	_	_	_	_	_	_
+21-22	pfTivIpatIn	_	_	_	_	_	_	_	_
+21	pfTivI	_	_	_	_	_	_	_	_
+22	patIn	_	_	_	_	_	_	_	_
+23	.	_	_	_	_	_	_	_	_
+24-25	tEreva	_	_	_	_	_	_	_	_
+24	tEH	_	_	_	_	_	_	_	_
+25	eva	_	_	_	_	_	_	_	_
+26	sahitEH	_	_	_	_	_	_	_	_
+27-29	sarvErgirivrajamupAdravat	_	_	_	_	_	_	_	_
+27	sarvEH	_	_	_	_	_	_	_	_
+28	girivrajam	_	_	_	_	_	_	_	Entity=(e8898-location---rAjagfha)|ittnim=4168,girivraja,vol_2,ver_1091,girivraja
+29	upAdravat	_	_	_	_	_	_	_	_
+30	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_15
+# text = jArAsaMDiM sAntvayitvA kare ca viniveSya ha . tEreva sahitEH sarvEH karRamaByadravad balI ..
+1-2	jArAsaMDiM	_	_	_	_	_	_	_	_
+1	jArA	_	_	_	_	_	_	_	_
+2	sanDim	_	_	_	_	_	_	_	_
+3	sAntvayitvA	_	_	_	_	_	_	_	_
+4	kare	_	_	_	_	_	_	_	_
+5	ca	_	_	_	_	_	_	_	_
+6	viniveSya	_	_	_	_	_	_	_	_
+7	ha	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_
+9-10	tEreva	_	_	_	_	_	_	_	_
+9	tEH	_	_	_	_	_	_	_	_
+10	eva	_	_	_	_	_	_	_	_
+11	sahitEH	_	_	_	_	_	_	_	_
+12	sarvEH	_	_	_	_	_	_	_	_
+13-14	karRamaByadravad	_	_	_	_	_	_	_	_
+13	karRam	_	_	_	_	_	_	_	Entity=(e5432-person---karRa)|ittnim=5432,karRa,vol_2,ver_1092,karRa
+14	aByadravat	_	_	_	_	_	_	_	_
+15	balI	_	_	_	_	_	_	_	_
+16	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_16
+# text = sa kampayanniva mahIM balena caturaNgiRA . yuyuDe pARqavaSrezWaH karRenAmitraGAtinA ..
+1	sa	_	_	_	_	_	_	_	_
+2-3	kampayanniva	_	_	_	_	_	_	_	_
+2	kampayan	_	_	_	_	_	_	_	_
+3	iva	_	_	_	_	_	_	_	_
+4	mahI	_	_	_	_	_	_	_	_
+5	balena	_	_	_	_	_	_	_	_
+6-8	caturaNgiRA	_	_	_	_	_	_	_	_
+6	ca	_	_	_	_	_	_	_	_
+7	tu	_	_	_	_	_	_	_	_
+8	raNgiRA	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_
+10	yuyuDe	_	_	_	_	_	_	_	_
+11-12	pARqavaSrezWaH	_	_	_	_	_	_	_	_
+11	pARqava		_	_	_	_	_	_	Entity=(e1454-person---BIma|ittnim=7979,pARqavaSrezWa,vol_2,ver_1093,pARqavaSrezWa
+12	SrezWaH	_	_	_	_	_	_	_	Entity=e1454)
+13-15	karRenAmitraGAtinA	_	_	_	_	_	_	_	_
+13	karRena	_	_	_	_	_	_	_	Entity=(e5432-person---karRa)|ittnim=5432,karRa,vol_2,ver_1093,karRa
+14	amitra	_	_	_	_	_	_	_	_
+15	GAtinA	_	_	_	_	_	_	_	_
+16	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_17
+# text = sa karRaM yuDi nirjitya vaSe kftvA ca BArata . tato vijigye balavAn rAjYaH parvatavAsinaH ..
+1	sa	_	_	_	_	_	_	_	_
+2	karRa	_	_	_	_	_	_	_	Entity=(e5432-person---karRa)|ittnim=5432,karRa,vol_2,ver_1094,karRa
+3	yuDi	_	_	_	_	_	_	_	_
+4	nirjitya	_	_	_	_	_	_	_	_
+5	vaSe	_	_	_	_	_	_	_	_
+6	kftvA	_	_	_	_	_	_	_	_
+7	ca	_	_	_	_	_	_	_	_
+8	BArata	_	_	_	_	_	_	_	Entity=(e4777-person---janamejaya)|ittnim=1336,BArata,vol_2,ver_1094,BArata
+9	.	_	_	_	_	_	_	_	_
+10-11	tato	_	_	_	_	_	_	_	_
+10	tatA	_	_	_	_	_	_	_	_
+11	u	_	_	_	_	_	_	_	_
+12	vijigye	_	_	_	_	_	_	_	_
+13	balavAn	_	_	_	_	_	_	_	_
+14	rAjYaH	_	_	_	_	_	_	_	_
+15-16	parvatavAsinaH	_	_	_	_	_	_	_	_
+15	parvata	_	_	_	_	_	_	_	_
+16	vAsinaH	_	_	_	_	_	_	_	_
+17	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_18
+# text = aTa modAgirO cEva rAjAnaM balavattaram . pARqavo bAhuvIryeRa nijaGAna mahAmfDe ..
+1	aTa	_	_	_	_	_	_	_	_
+2	modAgirO	_	_	_	_	_	_	_	Entity=(e7339-location---modAgiri)|ittnim=7339,modAgiri,vol_2,ver_1095,modAgiri
+3-4	cEva	_	_	_	_	_	_	_	_
+3	ca	_	_	_	_	_	_	_	_
+4	eva	_	_	_	_	_	_	_	_
+5-6	rAjAnaM	_	_	_	_	_	_	_	_
+5	rAjA	_	_	_	_	_	_	_	_
+6	na	_	_	_	_	_	_	_	_
+7	balavattaram	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_
+9	pARqavaH	_	_	_	_	_	_	_	Entity=(e1454-person---BIma)|ittnim=7971,pARqava,vol_2,ver_1095,pARqava
+10-11	bAhuvIryeRa	_	_	_	_	_	_	_	_
+10	bAhu	_	_	_	_	_	_	_	_
+11	vIryeRa	_	_	_	_	_	_	_	_
+12	nijaGAna	_	_	_	_	_	_	_	_
+13-14	mahAmfDe	_	_	_	_	_	_	_	_
+13	mahA	_	_	_	_	_	_	_	_
+14	mfDe	_	_	_	_	_	_	_	_
+15	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_19
+# text = tataH puRqrADipaM vIraM vAsudevaM mahAbalam . kOSikIkacCanilayaM rAjAnaM ca mahOjasam ..
+1	tataH	_	_	_	_	_	_	_	_
+2-3	puRqrADipaM	_	_	_	_	_	_	_	_
+2	puRqra		_	_	_	_	_	_	Entity=(e11689-person---vAsudeva|ittnim=8752,puRqrADipa,vol_2,ver_1096,puRqrADipa
+3	aDipa	_	_	_	_	_	_	_	Entity=e11689)
+4	vIra	_	_	_	_	_	_	_	_
+5	vAsudeva	_	_	_	_	_	_	_	Entity=(e11689-person---vAsudeva)|ittnim=8752,puRqrADipa,vol_2,ver_1096,vAsudeva
+6-7	mahAbalam	_	_	_	_	_	_	_	_
+6	mahA	_	_	_	_	_	_	_	_
+7	balam	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_
+9-11	kOSikIkacCanilayaM	_	_	_	_	_	_	_	_
+9	kOSikI	_	_	_	_	_	_	_	Entity=(e5521-location---kOSikI)|ittnim=5521,kOSikI,vol_2,ver_1096,kOSikI
+10	kacCa	_	_	_	_	_	_	_	_
+11	nilaya	_	_	_	_	_	_	_	_
+12-13	rAjAnaM	_	_	_	_	_	_	_	_
+12	rAjA	_	_	_	_	_	_	_	_
+13	na	_	_	_	_	_	_	_	_
+14	ca	_	_	_	_	_	_	_	_
+15-16	mahOjasam	_	_	_	_	_	_	_	_
+15	mahA		_	_	_	_	_	_	Entity=(e6868-person---mahOjas|ittnim=6868,mahOjas,vol_2,ver_1096,mahOjas
+16	ojasam	_	_	_	_	_	_	_	Entity=e6868)
+17	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_20
+# text = uBO balaBftO vIrAvuBO tIvraparAkramO . nirjityAjI mahArAja vaNgarAjamupAdravat ..
+1	uBO	_	_	_	_	_	_	_	_
+2-3	balaBftO	_	_	_	_	_	_	_	_
+2	bala	_	_	_	_	_	_	_	_
+3	BftO	_	_	_	_	_	_	_	_
+4-5	vIrAvuBO	_	_	_	_	_	_	_	_
+4	vIrO	_	_	_	_	_	_	_	_
+5	uBO	_	_	_	_	_	_	_	_
+6-7	tIvraparAkramO	_	_	_	_	_	_	_	_
+6	tIvra	_	_	_	_	_	_	_	_
+7	parAkramO	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_
+9-10	nirjityAjI	_	_	_	_	_	_	_	_
+9	nirjitya	_	_	_	_	_	_	_	_
+10	AjI	_	_	_	_	_	_	_	_
+11	mahArAja	_	_	_	_	_	_	_	_
+12-14	vaNgarAjamupAdravat	_	_	_	_	_	_	_	_
+12	vaNga	_	_	_	_	_	_	_	_
+13	rAjam	_	_	_	_	_	_	_	_
+14	upAdravat	_	_	_	_	_	_	_	_
+15	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_21
+# text = samudrasenaM nirjitya candrasenaM ca pArTivam . tAmraliptaM ca rAjAnaM karvawADipatiM taTA ..
+1	samudrasenam	_	_	_	_	_	_	_	Entity=(e9400-person---samudrasena)|ittnim=9400,samudrasena,vol_2,ver_1098,samudrasena
+2	nirjitya	_	_	_	_	_	_	_	_
+3	candrasena	_	_	_	_	_	_	_	Entity=(e1978-person---candrasena)|ittnim=1978,candrasena,vol_2,ver_1098,candrasena
+4	ca	_	_	_	_	_	_	_	_
+5	pArTivam	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_
+7	tAmraliptam	_	_	_	_	_	_	_	Entity=(e10734-person---tAmralipta)|ittnim=10734,tAmralipta,vol_2,ver_1098,tAmralipta
+8	ca	_	_	_	_	_	_	_	_
+9-10	rAjAnaM	_	_	_	_	_	_	_	_
+9	rAjA	_	_	_	_	_	_	_	_
+10	na	_	_	_	_	_	_	_	_
+11-12	karvawADipatiM	_	_	_	_	_	_	_	_
+11	karvawa	_	_	_	_	_	_	_	Entity=(e5490-person---karvawa)|ittnim=5490,karvawa,vol_2,ver_1098,karvawa
+12	aDipatim	_	_	_	_	_	_	_	_
+13	taTA	_	_	_	_	_	_	_	_
+14	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_22
+# text = suhyAnAmaDipaM cEva ye ca sAgaravAsinaH . sarvAn mlecCagaRAMScEva vijigye BaratarzaBaH ..
+1-2	suhyAnAmaDipaM	_	_	_	_	_	_	_	_
+1	suhyAnAm	_	_	_	_	_	_	_	_
+2	aDipam	_	_	_	_	_	_	_	_
+3-4	cEva	_	_	_	_	_	_	_	_
+3	ca	_	_	_	_	_	_	_	_
+4	eva	_	_	_	_	_	_	_	_
+5	ye	_	_	_	_	_	_	_	_
+6	ca	_	_	_	_	_	_	_	_
+7-8	sAgaravAsinaH	_	_	_	_	_	_	_	_
+7	sAgara	_	_	_	_	_	_	_	_
+8	vAsinaH	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_
+10	sarvAn	_	_	_	_	_	_	_	_
+11-14	mlecCagaRAMScEva	_	_	_	_	_	_	_	_
+11	mlecCa	_	_	_	_	_	_	_	Entity=(e7337-person---mlecCa)|ittnim=7337,mlecCa,vol_2,ver_1099,mlecCa
+12	gaRAn	_	_	_	_	_	_	_	_
+13	ca	_	_	_	_	_	_	_	_
+14	eva	_	_	_	_	_	_	_	_
+15	vijigye	_	_	_	_	_	_	_	_
+16-17	BaratarzaBaH	_	_	_	_	_	_	_	_
+16	Barata		_	_	_	_	_	_	Entity=(e4777-person---janamejaya|ittnim=1359,BaratarzaBa,vol_2,ver_1099,BaratarzaBa
+17	fzaBaH	_	_	_	_	_	_	_	Entity=e4777)
+18	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_23
+# text = evaM bahuviDAn deSAn vijitya pavanAtmajaH . vasu teBya upAdAya lOhityamagamad balI ..
+1	eva	_	_	_	_	_	_	_	_
+2-3	bahuviDAn	_	_	_	_	_	_	_	_
+2	bahu	_	_	_	_	_	_	_	_
+3	viDAn	_	_	_	_	_	_	_	_
+4	deSAn	_	_	_	_	_	_	_	_
+5	vijitya	_	_	_	_	_	_	_	_
+6	pavanAtmajaH	_	_	_	_	_	_	_	Entity=(e1454-person---BIma)|ittnim=8310,pavanAtmaja,vol_2,ver_1100,pavanAtmaja
+7	.	_	_	_	_	_	_	_	_
+8	vasu	_	_	_	_	_	_	_	_
+9	teByaH	_	_	_	_	_	_	_	_
+10	upAdAya	_	_	_	_	_	_	_	_
+11-12	lOhityamagamad	_	_	_	_	_	_	_	_
+11	lOhityam	_	_	_	_	_	_	_	Entity=(e6484-location---lohita)|ittnim=6458,lOhitya,vol_2,ver_1100,lOhitya
+12	agamat	_	_	_	_	_	_	_	_
+13	balI	_	_	_	_	_	_	_	_
+14	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_24
+# text = sa sarvAn mlecCanfpatIn sAgarAnUpavAsinaH . karamAhArayAmAsa ratnAni viviDAni ca ..
+1	sa	_	_	_	_	_	_	_	_
+2	sarvAn	_	_	_	_	_	_	_	_
+3-4	mlecCanfpatIn	_	_	_	_	_	_	_	_
+3	mlecCa	_	_	_	_	_	_	_	Entity=(e7337-person---mlecCa)|ittnim=7337,mlecCa,vol_2,ver_1101,mlecCa
+4	nfpatIn	_	_	_	_	_	_	_	_
+5-7	sAgarAnUpavAsinaH	_	_	_	_	_	_	_	_
+5	sAgara	_	_	_	_	_	_	_	_
+6	anUpa	_	_	_	_	_	_	_	_
+7	vAsinaH	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_
+9-11	karamAhArayAmAsa	_	_	_	_	_	_	_	_
+9	karam	_	_	_	_	_	_	_	_
+10	AhArayAma	_	_	_	_	_	_	_	_
+11	Asa	_	_	_	_	_	_	_	_
+12	ratnAni	_	_	_	_	_	_	_	_
+13	viviDAni	_	_	_	_	_	_	_	_
+14	ca	_	_	_	_	_	_	_	_
+15	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_25
+# text = candanAguruvastrARi maRimOktikakambalam . kAYcanaM rajata cEva vidrumaM ca mahADanam ..
+1-3	candanAguruvastrARi	_	_	_	_	_	_	_	_
+1	candana	_	_	_	_	_	_	_	_
+2	aguru	_	_	_	_	_	_	_	_
+3	vastrARi	_	_	_	_	_	_	_	_
+4-6	maRimOktikakambalam	_	_	_	_	_	_	_	_
+4	maRi	_	_	_	_	_	_	_	_
+5	mOktika	_	_	_	_	_	_	_	_
+6	kambalam	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_
+8	kAYcana	_	_	_	_	_	_	_	_
+9	rajata	_	_	_	_	_	_	_	_
+10-11	cEva	_	_	_	_	_	_	_	_
+10	ca	_	_	_	_	_	_	_	_
+11	eva	_	_	_	_	_	_	_	_
+12	vidrumam	_	_	_	_	_	_	_	_
+13	ca	_	_	_	_	_	_	_	_
+14-15	mahADanam	_	_	_	_	_	_	_	_
+14	mahA	_	_	_	_	_	_	_	_
+15	Danam	_	_	_	_	_	_	_	_
+16	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_26
+# text = te kowiSatasaMKyena kOnteyaM mahatA tadA . aByavarzan mahAtmAnaM DanavarzeRa pARqavam ..
+1	te	_	_	_	_	_	_	_	_
+2-4	kowiSatasaMKyena	_	_	_	_	_	_	_	_
+2	kowi	_	_	_	_	_	_	_	_
+3	Sata	_	_	_	_	_	_	_	_
+4	saNKyena	_	_	_	_	_	_	_	_
+5	kOnteya	_	_	_	_	_	_	_	Entity=(e1454-person---BIma)|ittnim=5538,kOnteya,vol_2,ver_1103,kOnteya
+6	mahatA	_	_	_	_	_	_	_	_
+7	tadA	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_
+9	aByavarzan	_	_	_	_	_	_	_	_
+10-12	mahAtmAnaM	_	_	_	_	_	_	_	_
+10	mahA	_	_	_	_	_	_	_	_
+11	AtmA	_	_	_	_	_	_	_	_
+12	na	_	_	_	_	_	_	_	_
+13-14	DanavarzeRa	_	_	_	_	_	_	_	_
+13	Dana	_	_	_	_	_	_	_	_
+14	varzeRa	_	_	_	_	_	_	_	_
+15	pARqavam	_	_	_	_	_	_	_	Entity=(e1454-person---BIma)|ittnim=7971,pARqava,vol_2,ver_1103,pARqava
+16	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_CE_2_5_MND_vol-i_264_27
+# text = indraprasTamupAgamya BImo BImaparAkramaH . nivedayAmAsa tadA DarmarAjAya tad Danam ..
+1-2	indraprasTamupAgamya	_	_	_	_	_	_	_	_
+1	indraprasTam	_	_	_	_	_	_	_	_
+2	upAgamya	_	_	_	_	_	_	_	_
+3-4	BImo	_	_	_	_	_	_	_	_
+3	BImA	_	_	_	_	_	_	_	Entity=(e1454-person---BIma)|ittnim=1454,BIma,vol_2,ver_1104,BIma
+4	u	_	_	_	_	_	_	_	_
+5-6	BImaparAkramaH	_	_	_	_	_	_	_	_
+5	BIma	_	_	_	_	_	_	_	Entity=(e1454-person---BIma)|ittnim=1454,BIma,vol_2,ver_1104,BIma
+6	parAkramaH	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_
+8-9	nivedayAmAsa	_	_	_	_	_	_	_	_
+8	nivedayAma	_	_	_	_	_	_	_	_
+9	Asa	_	_	_	_	_	_	_	_
+10	tadA	_	_	_	_	_	_	_	_
+11	DarmarAjAya	_	_	_	_	_	_	_	Entity=(e12633-person---yuDizWira)|ittnim=3438,DarmarAja,vol_2,ver_1104,DarmarAja
+12	tat	_	_	_	_	_	_	_	_
+13	Danam	_	_	_	_	_	_	_	_
+14	..	_	_	_	_	_	_	_	_
+
