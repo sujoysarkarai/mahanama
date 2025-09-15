@@ -70,7 +70,7 @@ Thus, **vfzavAhanaH** refers to **Siva (e2661)**.
 
 ```
 
-# sent\_id = MBh\_CE\_13\_1\_MND\_vol-ix\_18\_39
+# sent_id = MBh_CE_13_1_MND_vol-ix_18_39
 
 ```
 
