@@ -25,9 +25,12 @@ For more details, see the [CorefUD format documentation](https://ufal.mff.cuni.c
 - **Annotated Text (`data/conllu/`)**  
   - Organized by **18 volumes**, each containing multiple **subchapters**.  
   - Each subchapter is stored in **CoNLL-U (CorefUD)** format.
-  - 
+  -  The text tokens are encoded in the  
+    **[Sanskrit Library Phonetic Basic Encoding Scheme (SLP1)](https://en.wikipedia.org/wiki/SLP1)**.  
+    
+  
 - **Knowledge Base (`data/kb/`)**  
-  - `entries.json`: English descriptions of all entiries of the index.
+  - `entries.json`: English descriptions of all entries of the index.
 ---
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
