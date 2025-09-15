@@ -22,7 +22,7 @@ For more details, see the [CorefUD format documentation](https://ufal.mff.cuni.c
 ---
 
 ##  Data
-- **Annotated Text (`data/conllu/`)**  
+- **Annotated Text (`data/mahanama_conllu/`)**  
   - Organized by **18 volumes**, each containing multiple **subchapters**.  
   - Each subchapter is stored in **CoNLL-U (CorefUD)** format.
   -  The text tokens are encoded in the  
