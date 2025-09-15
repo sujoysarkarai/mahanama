@@ -4,7 +4,7 @@
 
 ---
 
-## 📖 Description
+## Description
 **Mahānāma** is a large-scale dataset for end-to-end **Entity Discovery and Linking (EDL)** in Sanskrit.  
 Drawn from the *Mahābhārata*, the world’s longest epic, the dataset comprises **over 109,000 named entity mentions**.  
 
@@ -15,11 +15,11 @@ Drawn from the *Mahābhārata*, the world’s longest epic, the dataset comprise
 ---
 
 
-## ⚡ Format
+##  Format
 The dataset follows the **CorefUD** standard for representing entities and mentions.  
 For more details, see the [CorefUD format documentation](https://ufal.mff.cuni.cz/corefud).  
 
 ---
 
-[![License](https://img.shields.io/badge/License-MIT-orange)](LICENSE)
-python scripts/load_dataset.py --input data/volume_1.conllu
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
