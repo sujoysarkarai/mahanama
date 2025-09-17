@@ -1,0 +1,659 @@
+# newdoc id = Mahābhārata_Volume_14_Chapter_2_Subchapter_240
+# global.Entity = eid-etype-head-identity
+# sent_id = MBh_14_2_240_1
+# mnd_reference = vol-ix_240_1
+# text = vESampAyana uvAca evamuktastu kfzRena Darmaputro yuDizWiraH . vyAsamAmantrya meDAvI tato vacanamabravIt ..
+1	vESampAyana	_	_	_	_	_	_	_	Entity=(e11327-person--vESampAyana)|base_name=vESampAyana|ittnim=vESampAyana,11327,ce_vol_14,ver_2083
+2	uvAca	_	_	_	_	_	_	_	_
+3-5	evamuktastu	_	_	_	_	_	_	_	_
+3	evam	_	_	_	_	_	_	_	_
+4	uktaH	_	_	_	_	_	_	_	_
+5	tu	_	_	_	_	_	_	_	_
+6	kfzRena	_	_	_	_	_	_	_	Entity=(e5907-person--kfzRa)|base_name=kfzRa|ittnim=kfzRa,5907,ce_vol_14,ver_2083
+7	DarmaputraH	_	_	_	_	_	_	_	Entity=(e12633-person--yuDizWira)|base_name=Darmaputra|ittnim=yuDizWira,12633,ce_vol_14,ver_2083
+8	yuDizWiraH	_	_	_	_	_	_	_	Entity=(e12633-person--yuDizWira)|base_name=yuDizWira|ittnim=yuDizWira,12633,ce_vol_14,ver_2083
+9	.	_	_	_	_	_	_	_	_
+10-11	vyAsamAmantrya	_	_	_	_	_	_	_	_
+10	vyAsam	_	_	_	_	_	_	_	Entity=(e12416-person--vyAsa)|base_name=vyAsa|ittnim=vyAsa,12416,ce_vol_14,ver_2083
+11	Amantrya	_	_	_	_	_	_	_	_
+12	meDAvI	_	_	_	_	_	_	_	_
+13-14	tato	_	_	_	_	_	_	_	_
+13	tatA	_	_	_	_	_	_	_	_
+14	u	_	_	_	_	_	_	_	_
+15-16	vacanamabravIt	_	_	_	_	_	_	_	_
+15	vacanam	_	_	_	_	_	_	_	_
+16	abravIt	_	_	_	_	_	_	_	_
+17	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_2
+# mnd_reference = vol-ix_240_2
+# text = yadA kAlaM BavAn vetti hayameDasya tattvataH . dIkzayasva tadA mAM tvaM tvayyAyatto hi me kratuH ..
+1	yadA	_	_	_	_	_	_	_	_
+2	kAla	_	_	_	_	_	_	_	_
+3	BavAn	_	_	_	_	_	_	_	_
+4	vetti	_	_	_	_	_	_	_	_
+5	hayameDasya	_	_	_	_	_	_	_	_
+6	tattvataH	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_
+8	dIkzayasva	_	_	_	_	_	_	_	_
+9	tadA	_	_	_	_	_	_	_	_
+10	mA	_	_	_	_	_	_	_	_
+11	tvam	_	_	_	_	_	_	_	_
+12-14	tvayyAyatto	_	_	_	_	_	_	_	_
+12	tvayi	_	_	_	_	_	_	_	_
+13	AyattA	_	_	_	_	_	_	_	_
+14	u	_	_	_	_	_	_	_	_
+15	hi	_	_	_	_	_	_	_	_
+16	me	_	_	_	_	_	_	_	_
+17	kratuH	_	_	_	_	_	_	_	_
+18	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_3
+# mnd_reference = vol-ix_240_3
+# text = vyAsa uvAca ahaM pElo'Ta kOnteya yAjYavalkyastaTEva ca . viDAnaM yad yaTAkAlaM tat kartAro na saMSayaH ..
+1	vyAsa	_	_	_	_	_	_	_	Entity=(e12416-person--vyAsa)|base_name=vyAsa|ittnim=vyAsa,12416,ce_vol_14,ver_2085
+2	uvAca	_	_	_	_	_	_	_	_
+3	aha	_	_	_	_	_	_	_	_
+4-5	pElo'Ta	_	_	_	_	_	_	_	_
+4	pElaH	_	_	_	_	_	_	_	Entity=(e7851-person--pEla)|base_name=pEla|ittnim=pEla,7851,ce_vol_14,ver_2085
+5	aTa	_	_	_	_	_	_	_	_
+6	kOnteya	_	_	_	_	_	_	_	Entity=(e12633-person--yuDizWira)|base_name=kOnteya|ittnim=kOnteya,5540,ce_vol_14,ver_2085
+7-9	yAjYavalkyastaTEva	_	_	_	_	_	_	_	_
+7	yAjYavalkyaH	_	_	_	_	_	_	_	Entity=(e12525-person--yAjYavalkya)|base_name=yAjYavalkya|ittnim=yAjYavalkya,12525,ce_vol_14,ver_2085
+8	taTA	_	_	_	_	_	_	_	_
+9	eva	_	_	_	_	_	_	_	_
+10	ca	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_
+12	viDAna	_	_	_	_	_	_	_	_
+13	yat	_	_	_	_	_	_	_	_
+14	yaTAkAlam	_	_	_	_	_	_	_	_
+15	tat	_	_	_	_	_	_	_	_
+16-17	kartAro	_	_	_	_	_	_	_	_
+16	kartA	_	_	_	_	_	_	_	_
+17	aro	_	_	_	_	_	_	_	_
+18	na	_	_	_	_	_	_	_	_
+19	saMSayaH	_	_	_	_	_	_	_	_
+20	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_4
+# mnd_reference = vol-ix_240_4
+# text = cEtryAM hi pOrRamAsyAM tu tava dIkzA Bavizyati . samBArAH samBiyantAM ca yajYArTaM puruzarzaBa ..
+1	cEtryA	_	_	_	_	_	_	_	Entity=(e1895-misc--cEtrI)|base_name=cEtrI|ittnim=cEtrI,1895,ce_vol_14,ver_2086
+2	hi	_	_	_	_	_	_	_	_
+3	pOrRamAsyA	_	_	_	_	_	_	_	_
+4	tu	_	_	_	_	_	_	_	_
+5	tava	_	_	_	_	_	_	_	_
+6	dIkzA	_	_	_	_	_	_	_	_
+7	Bavizyati	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_
+9	samBArAH	_	_	_	_	_	_	_	_
+10	samBiyantAm	_	_	_	_	_	_	_	_
+11	ca	_	_	_	_	_	_	_	_
+12-13	yajYArTaM	_	_	_	_	_	_	_	_
+12	yajYa	_	_	_	_	_	_	_	_
+13	arTa	_	_	_	_	_	_	_	_
+14-15	puruzarzaBa	_	_	_	_	_	_	_	_
+14	puruza	_	_	_	_	_	_	_	_
+15	fzaBa	_	_	_	_	_	_	_	_
+16	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_5
+# mnd_reference = vol-ix_240_5
+# text = aSvavidyAvidaScEva sUtA viprASca tadvidaH . meDyamaSvaM parIkzantAM tava yajYArTasidDaye ..
+1-5	aSvavidyAvidaScEva	_	_	_	_	_	_	_	_
+1	aSva	_	_	_	_	_	_	_	_
+2	vidyA	_	_	_	_	_	_	_	_
+3	vidaH	_	_	_	_	_	_	_	_
+4	ca	_	_	_	_	_	_	_	_
+5	eva	_	_	_	_	_	_	_	_
+6	sUtA	_	_	_	_	_	_	_	_
+7-8	viprASca	_	_	_	_	_	_	_	_
+7	viprAH	_	_	_	_	_	_	_	_
+8	ca	_	_	_	_	_	_	_	_
+9-10	tadvidaH	_	_	_	_	_	_	_	_
+9	tat	_	_	_	_	_	_	_	_
+10	vidaH	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_
+12-13	meDyamaSvaM	_	_	_	_	_	_	_	_
+12	meDyam	_	_	_	_	_	_	_	_
+13	aSva	_	_	_	_	_	_	_	_
+14-15	parIkzantAM	_	_	_	_	_	_	_	_
+14	parI	_	_	_	_	_	_	_	_
+15	kzantA	_	_	_	_	_	_	_	_
+16	tava	_	_	_	_	_	_	_	_
+17-19	yajYArTasidDaye	_	_	_	_	_	_	_	_
+17	yajYa	_	_	_	_	_	_	_	_
+18	arTa	_	_	_	_	_	_	_	_
+19	sidDaye	_	_	_	_	_	_	_	_
+20	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_6
+# mnd_reference = vol-ix_240_6
+# text = tamutsfja yaTASAstraM pfTivIM sAgarAmbarAm . sa paryetu yaSo dIptaM tava pArTiva darSayan ..
+1-2	tamutsfja	_	_	_	_	_	_	_	_
+1	tam	_	_	_	_	_	_	_	_
+2	utsfja	_	_	_	_	_	_	_	_
+3	yaTASAstram	_	_	_	_	_	_	_	_
+4	pfTivI	_	_	_	_	_	_	_	_
+5-6	sAgarAmbarAm	_	_	_	_	_	_	_	_
+5	sAgara	_	_	_	_	_	_	_	_
+6	ambarAm	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_
+8	sa	_	_	_	_	_	_	_	_
+9	paryetu	_	_	_	_	_	_	_	_
+10	yaSaH	_	_	_	_	_	_	_	_
+11	dIpta	_	_	_	_	_	_	_	_
+12	tava	_	_	_	_	_	_	_	_
+13	pArTiva	_	_	_	_	_	_	_	_
+14	darSayan	_	_	_	_	_	_	_	_
+15	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_7
+# mnd_reference = vol-ix_240_7
+# text = vESampAyana uvAca ityuktaH sa taTetyuktvA pARqavaH pfTivIpatiH . cakAra sarve rAjendra yaToktaM brahmavAdinA ..
+1	vESampAyana	_	_	_	_	_	_	_	Entity=(e11327-person--vESampAyana)|base_name=vESampAyana|ittnim=vESampAyana,11327,ce_vol_14,ver_2089
+2	uvAca	_	_	_	_	_	_	_	_
+3-4	ityuktaH	_	_	_	_	_	_	_	_
+3	iti	_	_	_	_	_	_	_	_
+4	uktaH	_	_	_	_	_	_	_	_
+5	sa	_	_	_	_	_	_	_	_
+6-8	taTetyuktvA	_	_	_	_	_	_	_	_
+6	taTA	_	_	_	_	_	_	_	_
+7	iti	_	_	_	_	_	_	_	_
+8	uktvA	_	_	_	_	_	_	_	_
+9	pARqavaH	_	_	_	_	_	_	_	Entity=(e12633-person--yuDizWira)|base_name=pARqava|ittnim=pARqava,7975,ce_vol_14,ver_2089
+10-11	pfTivIpatiH	_	_	_	_	_	_	_	_
+10	pfTivI	_	_	_	_	_	_	_	_
+11	patiH	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_
+13	cakAra	_	_	_	_	_	_	_	_
+14	sarve	_	_	_	_	_	_	_	_
+15-16	rAjendra	_	_	_	_	_	_	_	_
+15	rAja	_	_	_	_	_	_	_	_
+16	indra	_	_	_	_	_	_	_	_
+17-18	yaToktaM	_	_	_	_	_	_	_	_
+17	yaTA	_	_	_	_	_	_	_	_
+18	ukta	_	_	_	_	_	_	_	_
+19-20	brahmavAdinA	_	_	_	_	_	_	_	_
+19	brahma	_	_	_	_	_	_	_	_
+20	vAdinA	_	_	_	_	_	_	_	_
+21	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_8
+# mnd_reference = vol-ix_240_8
+# text = samBarAScEva rAjendra sarve saMkalpitA'Bavan . sa samBArAn samAhftya nfpo DarmasutastadA .. nyavedayadameyAtmA kfzRadvEpAyanAya vE .
+1-3	samBarAScEva	_	_	_	_	_	_	_	_
+1	samBarAH	_	_	_	_	_	_	_	_
+2	ca	_	_	_	_	_	_	_	_
+3	eva	_	_	_	_	_	_	_	_
+4-5	rAjendra	_	_	_	_	_	_	_	_
+4	rAja	_	_	_	_	_	_	_	_
+5	indra	_	_	_	_	_	_	_	_
+6	sarve	_	_	_	_	_	_	_	_
+7-8	saMkalpitA'Bavan	_	_	_	_	_	_	_	_
+7	saNkalpitA	_	_	_	_	_	_	_	_
+8	aBavan	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_
+10	sa	_	_	_	_	_	_	_	_
+11	samBArAn	_	_	_	_	_	_	_	_
+12	samAhftya	_	_	_	_	_	_	_	_
+13-15	nfpo	_	_	_	_	_	_	_	_
+13	nf	_	_	_	_	_	_	_	_
+14	pA	_	_	_	_	_	_	_	_
+15	u	_	_	_	_	_	_	_	_
+16-18	DarmasutastadA	_	_	_	_	_	_	_	_
+16	Darma	_	_	_	_	_	_	_	_
+17	sutaH	_	_	_	_	_	_	_	_
+18	tadA	_	_	_	_	_	_	_	_
+19	..	_	_	_	_	_	_	_	_
+20-22	nyavedayadameyAtmA	_	_	_	_	_	_	_	_
+20	nyavedayat	_	_	_	_	_	_	_	_
+21	ameya	_	_	_	_	_	_	_	_
+22	AtmA	_	_	_	_	_	_	_	_
+23-24	kfzRadvEpAyanAya	_	_	_	_	_	_	_	_
+23	kfzRa	_	_	_	_	_	_	_	_
+24	dvEpAyanAya	_	_	_	_	_	_	_	_
+25	vE	_	_	_	_	_	_	_	_
+26	.	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_9
+# mnd_reference = vol-ix_240_9
+# text = tato'bravInmahAtejA vyAso DarmAtmajaM nfpam .. yaTAkAlaM yaTAyogaM sajjAH sma tava dIkzaRe .
+1-4	tato'bravInmahAtejA	_	_	_	_	_	_	_	_
+1	tataH	_	_	_	_	_	_	_	_
+2	abravIt	_	_	_	_	_	_	_	_
+3	mahA	_	_	_	_	_	_	_	_
+4	tejA	_	_	_	_	_	_	_	_
+5-6	vyAso	_	_	_	_	_	_	_	_
+5	vyAsa	_	_	_	_	_	_	_	Entity=(e12416-person--vyAsa)|base_name=vyAsa|ittnim=vyAsa,12416,ce_vol_14,ver_2091
+6	u	_	_	_	_	_	_	_	_
+7	DarmAtmajam	_	_	_	_	_	_	_	Entity=(e12633-person--yuDizWira)|base_name=DarmAtmaja|ittnim=yuDizWira,12633,ce_vol_14,ver_2091
+8	nfpam	_	_	_	_	_	_	_	_
+9	..	_	_	_	_	_	_	_	_
+10	yaTAkAlam	_	_	_	_	_	_	_	_
+11	yaTAyogam	_	_	_	_	_	_	_	_
+12	sajjAH	_	_	_	_	_	_	_	_
+13	sma	_	_	_	_	_	_	_	_
+14	tava	_	_	_	_	_	_	_	_
+15	dIkzaRe	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_10
+# mnd_reference = vol-ix_240_10
+# text = sPyaSca kUrcaSca sOvarRo yaccAnyadapi kOrava .. tatra yogyaM Bavet kiMcid rOkmaM tat kriyatAmiti .
+1-2	sPyaSca	_	_	_	_	_	_	_	_
+1	sPyaH	_	_	_	_	_	_	_	_
+2	ca	_	_	_	_	_	_	_	_
+3-4	kUrcaSca	_	_	_	_	_	_	_	_
+3	kUrcaH	_	_	_	_	_	_	_	_
+4	ca	_	_	_	_	_	_	_	_
+5-6	sOvarRo	_	_	_	_	_	_	_	_
+5	sOvarRA	_	_	_	_	_	_	_	_
+6	u	_	_	_	_	_	_	_	_
+7-10	yaccAnyadapi	_	_	_	_	_	_	_	_
+7	yat	_	_	_	_	_	_	_	_
+8	ca	_	_	_	_	_	_	_	_
+9	anyat	_	_	_	_	_	_	_	_
+10	api	_	_	_	_	_	_	_	_
+11	kOrava	_	_	_	_	_	_	_	Entity=(e12633-person--yuDizWira)|base_name=kOrava|ittnim=kOrava,5562,ce_vol_14,ver_2092
+12	..	_	_	_	_	_	_	_	_
+13	tatra	_	_	_	_	_	_	_	_
+14	yogyam	_	_	_	_	_	_	_	_
+15	Bavet	_	_	_	_	_	_	_	_
+16	kiMcid	_	_	_	_	_	_	_	_
+17	rOkmam	_	_	_	_	_	_	_	_
+18	tat	_	_	_	_	_	_	_	_
+19-20	kriyatAmiti	_	_	_	_	_	_	_	_
+19	kriyatAm	_	_	_	_	_	_	_	_
+20	iti	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_11
+# mnd_reference = vol-ix_240_11
+# text = aSvaScotsfjyatAmadya pfTvyAmaTa yaTAkramam . suguptaM caratAM cApi yaTASAstraM yaTAviDi ..
+1-4	aSvaScotsfjyatAmadya	_	_	_	_	_	_	_	_
+1	aSvaH	_	_	_	_	_	_	_	_
+2	ca	_	_	_	_	_	_	_	_
+3	utsfjyatAm	_	_	_	_	_	_	_	_
+4	adya	_	_	_	_	_	_	_	_
+5-6	pfTvyAmaTa	_	_	_	_	_	_	_	_
+5	pfTvyAm	_	_	_	_	_	_	_	_
+6	aTa	_	_	_	_	_	_	_	_
+7-8	yaTAkramam	_	_	_	_	_	_	_	_
+7	yaTA	_	_	_	_	_	_	_	_
+8	kramam	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_
+10-11	suguptaM	_	_	_	_	_	_	_	_
+10	su	_	_	_	_	_	_	_	_
+11	guptam	_	_	_	_	_	_	_	_
+12	caratA	_	_	_	_	_	_	_	_
+13-14	cApi	_	_	_	_	_	_	_	_
+13	ca	_	_	_	_	_	_	_	_
+14	api	_	_	_	_	_	_	_	_
+15	yaTASAstram	_	_	_	_	_	_	_	_
+16-17	yaTAviDi	_	_	_	_	_	_	_	_
+16	yaTA	_	_	_	_	_	_	_	_
+17	viDi	_	_	_	_	_	_	_	_
+18	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_12
+# mnd_reference = vol-ix_240_12
+# text = yuDizWira uvAca ayamaSvo yaTA brahmannustfzwaH pfTivImimAm . carizyati yaTAkAmaM tatra vE saMviDIyatAm ..
+1	yuDizWira	_	_	_	_	_	_	_	Entity=(e12633-person--yuDizWira)|base_name=yuDizWira|ittnim=yuDizWira,12633,ce_vol_14,ver_2095
+2	uvAca	_	_	_	_	_	_	_	_
+3-5	ayamaSvo	_	_	_	_	_	_	_	_
+3	ayam	_	_	_	_	_	_	_	_
+4	aSvA	_	_	_	_	_	_	_	_
+5	u	_	_	_	_	_	_	_	_
+6	yaTA	_	_	_	_	_	_	_	_
+7-8	brahmannustfzwaH	_	_	_	_	_	_	_	_
+7	brahman	_	_	_	_	_	_	_	_
+8	nustfzwaH	_	_	_	_	_	_	_	_
+9-10	pfTivImimAm	_	_	_	_	_	_	_	_
+9	pfTivIm	_	_	_	_	_	_	_	_
+10	imAm	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_
+12	carizyati	_	_	_	_	_	_	_	_
+13-14	yaTAkAmaM	_	_	_	_	_	_	_	_
+13	yaTA	_	_	_	_	_	_	_	_
+14	kAma	_	_	_	_	_	_	_	_
+15	tatra	_	_	_	_	_	_	_	_
+16	vE	_	_	_	_	_	_	_	_
+17	saMviDIyatAm	_	_	_	_	_	_	_	_
+18	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_13
+# mnd_reference = vol-ix_240_13
+# text = pfTivIM paryawantaM hi turagaM kAmacAriRam . kaH pAlayediti mune tad BavAn vaktumarhati ..
+1	pfTivI	_	_	_	_	_	_	_	_
+2	paryawantam	_	_	_	_	_	_	_	_
+3	hi	_	_	_	_	_	_	_	_
+4	turagam	_	_	_	_	_	_	_	_
+5-6	kAmacAriRam	_	_	_	_	_	_	_	_
+5	kAma	_	_	_	_	_	_	_	_
+6	cAriRam	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_
+8	kaH	_	_	_	_	_	_	_	_
+9-10	pAlayediti	_	_	_	_	_	_	_	_
+9	pAlayet	_	_	_	_	_	_	_	_
+10	iti	_	_	_	_	_	_	_	_
+11	mune	_	_	_	_	_	_	_	_
+12	tat	_	_	_	_	_	_	_	_
+13	BavAn	_	_	_	_	_	_	_	_
+14-15	vaktumarhati	_	_	_	_	_	_	_	_
+14	vaktum	_	_	_	_	_	_	_	_
+15	arhati	_	_	_	_	_	_	_	_
+16	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_14
+# mnd_reference = vol-ix_240_14
+# text = vESampAyana uvAca ityuktaH sa tu rAjendra kfzRadvEpAyano'bravIt . BImasenAdavarajaH SrezWaH sarvaDanuzmatAm .. jizRuH sahizRurDazRuSca sa enaM pAlayizyati . SaktaH sa hi mahIM jetuM nivAtakavacAntakaH ..
+1	vESampAyana	_	_	_	_	_	_	_	Entity=(e11327-person--vESampAyana)|base_name=vESampAyana|ittnim=vESampAyana,11327,ce_vol_14,ver_2097
+2	uvAca	_	_	_	_	_	_	_	_
+3-4	ityuktaH	_	_	_	_	_	_	_	_
+3	iti	_	_	_	_	_	_	_	_
+4	uktaH	_	_	_	_	_	_	_	_
+5	sa	_	_	_	_	_	_	_	_
+6	tu	_	_	_	_	_	_	_	_
+7-8	rAjendra	_	_	_	_	_	_	_	_
+7	rAja	_	_	_	_	_	_	_	_
+8	indra	_	_	_	_	_	_	_	_
+9-11	kfzRadvEpAyano'bravIt	_	_	_	_	_	_	_	_
+9	kfzRa	_	_	_	_	_	_	_	_
+10	dvEpAyanaH	_	_	_	_	_	_	_	_
+11	abravIt	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_
+13-14	BImasenAdavarajaH	_	_	_	_	_	_	_	_
+13	BImasenAt	_	_	_	_	_	_	_	Entity=(e1454-person--BIma)|base_name=BIma|ittnim=BIma,1454,ce_vol_14,ver_2097
+14	avarajaH	_	_	_	_	_	_	_	_
+15	SrezWaH	_	_	_	_	_	_	_	_
+16-17	sarvaDanuzmatAm	_	_	_	_	_	_	_	_
+16	sarva	_	_	_	_	_	_	_	_
+17	DanuzmatAm	_	_	_	_	_	_	_	_
+18	..	_	_	_	_	_	_	_	_
+19	jizRuH	_	_	_	_	_	_	_	Entity=(e801-person--arjuna)|base_name=jizRu|ittnim=arjuna,801,ce_vol_14,ver_2098
+20-22	sahizRurDazRuSca	_	_	_	_	_	_	_	_
+20	sahizRuH	_	_	_	_	_	_	_	_
+21	DazRuH	_	_	_	_	_	_	_	_
+22	ca	_	_	_	_	_	_	_	_
+23	saH	_	_	_	_	_	_	_	_
+24	enam	_	_	_	_	_	_	_	_
+25	pAlayizyati	_	_	_	_	_	_	_	_
+26	.	_	_	_	_	_	_	_	_
+27	SaktaH	_	_	_	_	_	_	_	_
+28	sa	_	_	_	_	_	_	_	_
+29	hi	_	_	_	_	_	_	_	_
+30	mahI	_	_	_	_	_	_	_	_
+31	jetum	_	_	_	_	_	_	_	_
+32-34	nivAtakavacAntakaH	_	_	_	_	_	_	_	_
+32	nivAta		_	_	_	_	_	_	Entity=(e801-person--arjuna|base_name=nivAtakavacAntaka|ittnim=nivAtakavacAntaka,7756,ce_vol_14,ver_2098
+33	kavaca	_	_	_	_	_	_	_	_
+34	antakaH	_	_	_	_	_	_	_	Entity=e801)
+35	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_15
+# mnd_reference = vol-ix_240_15
+# text = tasmin vastrARi divyAni divyaM saMhananaM taTA . divyaM DanuScezuDI ca sa enamanuyAsyati ..
+1	tasmin	_	_	_	_	_	_	_	_
+2	vastrARi	_	_	_	_	_	_	_	_
+3	divyAni	_	_	_	_	_	_	_	_
+4	divya	_	_	_	_	_	_	_	_
+5	saMhanana	_	_	_	_	_	_	_	_
+6	taTA	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_
+8	divya	_	_	_	_	_	_	_	_
+9-11	DanuScezuDI	_	_	_	_	_	_	_	_
+9	DanuH	_	_	_	_	_	_	_	_
+10	ca	_	_	_	_	_	_	_	_
+11	izuDI	_	_	_	_	_	_	_	_
+12	ca	_	_	_	_	_	_	_	_
+13	saH	_	_	_	_	_	_	_	_
+14-15	enamanuyAsyati	_	_	_	_	_	_	_	_
+14	enam	_	_	_	_	_	_	_	_
+15	anuyAsyati	_	_	_	_	_	_	_	_
+16	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_16
+# mnd_reference = vol-ix_240_16
+# text = sa hi DarmArTakuSalaH sarvavidyAviSAradaH . yaTASAstraM nfpaSrezWa cArayizyati te hayam ..
+1	sa	_	_	_	_	_	_	_	_
+2	hi	_	_	_	_	_	_	_	_
+3-5	DarmArTakuSalaH	_	_	_	_	_	_	_	_
+3	Darma	_	_	_	_	_	_	_	_
+4	arTa	_	_	_	_	_	_	_	_
+5	kuSalaH	_	_	_	_	_	_	_	_
+6	sarvavidyAviSAradaH	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_
+8	yaTASAstram	_	_	_	_	_	_	_	_
+9-10	nfpaSrezWa	_	_	_	_	_	_	_	_
+9	nfpa	_	_	_	_	_	_	_	_
+10	SrezWa	_	_	_	_	_	_	_	_
+11	cArayizyati	_	_	_	_	_	_	_	_
+12	te	_	_	_	_	_	_	_	_
+13	hayam	_	_	_	_	_	_	_	_
+14	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_17
+# mnd_reference = vol-ix_240_17
+# text = rAjaputro mahAbAhuH SyAmo rAjIvalocanaH . aBimanyoH pitA vIraH sa enaM pAlayizyati ..
+1-4	rAjaputro	_	_	_	_	_	_	_	_
+1	rAja	_	_	_	_	_	_	_	_
+2	pu	_	_	_	_	_	_	_	_
+3	trA	_	_	_	_	_	_	_	_
+4	u	_	_	_	_	_	_	_	_
+5	mahAbAhuH	_	_	_	_	_	_	_	_
+6-7	SyAmo	_	_	_	_	_	_	_	_
+6	SyAmA	_	_	_	_	_	_	_	_
+7	u	_	_	_	_	_	_	_	_
+8-9	rAjIvalocanaH	_	_	_	_	_	_	_	_
+8	rAjIva	_	_	_	_	_	_	_	_
+9	locanaH	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_
+11	aBimanyoH	_	_	_	_	_	_	_	Entity=(e13-person--aBimanyu)|base_name=aBimanyu|ittnim=aBimanyu,13,ce_vol_14,ver_2101
+12	pitA	_	_	_	_	_	_	_	_
+13	vIraH	_	_	_	_	_	_	_	_
+14	saH	_	_	_	_	_	_	_	_
+15	enam	_	_	_	_	_	_	_	_
+16	pAlayizyati	_	_	_	_	_	_	_	_
+17	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_18
+# mnd_reference = vol-ix_240_18
+# text = BImaseno'pi tejasvI kOnteyo'mitavikramaH . samarTo rakzituM rAzwra nakulaSca viSAmpate ..
+1-2	BImaseno'pi	_	_	_	_	_	_	_	_
+1	BImasenaH	_	_	_	_	_	_	_	Entity=(e1454-person--BIma)|base_name=BIma|ittnim=BIma,1454,ce_vol_14,ver_2102
+2	api	_	_	_	_	_	_	_	_
+3	tejasvI	_	_	_	_	_	_	_	_
+4-6	kOnteyo'mitavikramaH	_	_	_	_	_	_	_	_
+4	kOnteyaH	_	_	_	_	_	_	_	Entity=(e1454-person--BIma)|base_name=kOnteya|ittnim=kOnteya,5538,ce_vol_14,ver_2102
+5	amita	_	_	_	_	_	_	_	_
+6	vikramaH	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_
+8-9	samarTo	_	_	_	_	_	_	_	_
+8	samarTA	_	_	_	_	_	_	_	_
+9	u	_	_	_	_	_	_	_	_
+10-11	rakzituM	_	_	_	_	_	_	_	_
+10	rakzi	_	_	_	_	_	_	_	_
+11	tu	_	_	_	_	_	_	_	_
+12	rAzwra	_	_	_	_	_	_	_	_
+13-14	nakulaSca	_	_	_	_	_	_	_	_
+13	nakulaH	_	_	_	_	_	_	_	Entity=(e7528-person--nakula)|base_name=nakula|ittnim=nakula,7528,ce_vol_14,ver_2102
+14	ca	_	_	_	_	_	_	_	_
+15	viSAmpate	_	_	_	_	_	_	_	_
+16	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_19
+# mnd_reference = vol-ix_240_19
+# text = sahadevastu kOravya samADAsyati budDimAn . kuwumbatantraM viDivat sarvameva mahAyaSAH ..
+1-2	sahadevastu	_	_	_	_	_	_	_	_
+1	sahadevaH	_	_	_	_	_	_	_	Entity=(e9239-person--sahadeva)|base_name=sahadeva|ittnim=sahadeva,9239,ce_vol_14,ver_2103
+2	tu	_	_	_	_	_	_	_	_
+3	kOravya	_	_	_	_	_	_	_	Entity=(e12633-person--yuDizWira)|base_name=kOravya|ittnim=kOravya,5628,ce_vol_14,ver_2103
+4	samADAsyati	_	_	_	_	_	_	_	_
+5	budDimAn	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_
+7-8	kuwumbatantraM	_	_	_	_	_	_	_	_
+7	kuwumba	_	_	_	_	_	_	_	_
+8	tantra	_	_	_	_	_	_	_	_
+9	viDivat	_	_	_	_	_	_	_	_
+10-11	sarvameva	_	_	_	_	_	_	_	_
+10	sarvam	_	_	_	_	_	_	_	_
+11	eva	_	_	_	_	_	_	_	_
+12-13	mahAyaSAH	_	_	_	_	_	_	_	_
+12	mahA	_	_	_	_	_	_	_	_
+13	yaSAH	_	_	_	_	_	_	_	_
+14	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_20
+# mnd_reference = vol-ix_240_20
+# text = tat tu sarve yaTAnyAyamuktaH kurukulodvahaH . cakAra PAlgunaM cApi saMdideSa hayaM prati ..
+1	tat	_	_	_	_	_	_	_	_
+2	tu	_	_	_	_	_	_	_	_
+3	sarve	_	_	_	_	_	_	_	_
+4-6	yaTAnyAyamuktaH	_	_	_	_	_	_	_	_
+4	yaTA	_	_	_	_	_	_	_	_
+5	nyAya	_	_	_	_	_	_	_	_
+6	muktaH	_	_	_	_	_	_	_	_
+7-9	kurukulodvahaH	_	_	_	_	_	_	_	_
+7	kuru		_	_	_	_	_	_	Entity=(e12633-person--yuDizWira|base_name=kurukulodvaha|ittnim=kurukulodvaha,6295,ce_vol_14,ver_2104
+8	kula	_	_	_	_	_	_	_	_
+9	udvahaH	_	_	_	_	_	_	_	Entity=e12633)
+10	.	_	_	_	_	_	_	_	_
+11	cakAra	_	_	_	_	_	_	_	_
+12	PAlguna	_	_	_	_	_	_	_	Entity=(e801-person--arjuna)|base_name=PAlguna|ittnim=arjuna,801,ce_vol_14,ver_2104
+13-14	cApi	_	_	_	_	_	_	_	_
+13	ca	_	_	_	_	_	_	_	_
+14	api	_	_	_	_	_	_	_	_
+15	sandideSa	_	_	_	_	_	_	_	_
+16	haya	_	_	_	_	_	_	_	_
+17	prati	_	_	_	_	_	_	_	_
+18	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_21
+# mnd_reference = vol-ix_240_21
+# text = yuDizWira uvAca ehyarjuna tvayA vIra hayo'yaM paripAlyatAm . tvama rakzituM hyenaM nAnyaH kaScana mAnavaH ..
+1	yuDizWira	_	_	_	_	_	_	_	Entity=(e12633-person--yuDizWira)|base_name=yuDizWira|ittnim=yuDizWira,12633,ce_vol_14,ver_2105
+2	uvAca	_	_	_	_	_	_	_	_
+3-4	ehyarjuna	_	_	_	_	_	_	_	_
+3	ehi	_	_	_	_	_	_	_	_
+4	arjuna	_	_	_	_	_	_	_	Entity=(e801-person--arjuna)|base_name=arjuna|ittnim=arjuna,801,ce_vol_14,ver_2105
+5	tvayA	_	_	_	_	_	_	_	_
+6	vIra	_	_	_	_	_	_	_	_
+7-8	hayo'yaM	_	_	_	_	_	_	_	_
+7	hayaH	_	_	_	_	_	_	_	_
+8	ayam	_	_	_	_	_	_	_	_
+9	paripAlyatAm	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_
+11-12	tvama	_	_	_	_	_	_	_	_
+11	tu	_	_	_	_	_	_	_	_
+12	ama	_	_	_	_	_	_	_	_
+13-14	rakzituM	_	_	_	_	_	_	_	_
+13	rakzi	_	_	_	_	_	_	_	_
+14	tu	_	_	_	_	_	_	_	_
+15-16	hyenaM	_	_	_	_	_	_	_	_
+15	hi	_	_	_	_	_	_	_	_
+16	enam	_	_	_	_	_	_	_	_
+17-18	nAnyaH	_	_	_	_	_	_	_	_
+17	na	_	_	_	_	_	_	_	_
+18	anyaH	_	_	_	_	_	_	_	_
+19	kaScana	_	_	_	_	_	_	_	_
+20	mAnavaH	_	_	_	_	_	_	_	_
+21	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_22
+# mnd_reference = vol-ix_240_22
+# text = ye cApi tvaM mahAbAho pratyudyAnti narADipAH . tEvigraho yaTA na syAt taTA kAryaM tvayAnaGa ..
+1	ye	_	_	_	_	_	_	_	_
+2-3	cApi	_	_	_	_	_	_	_	_
+2	ca	_	_	_	_	_	_	_	_
+3	api	_	_	_	_	_	_	_	_
+4	tvam	_	_	_	_	_	_	_	_
+5	mahAbAho	_	_	_	_	_	_	_	_
+6-7	pratyudyAnti	_	_	_	_	_	_	_	_
+6	prati	_	_	_	_	_	_	_	_
+7	udyAnti	_	_	_	_	_	_	_	_
+8-9	narADipAH	_	_	_	_	_	_	_	_
+8	nara	_	_	_	_	_	_	_	_
+9	aDipAH	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_
+11	tEvigrahaH	_	_	_	_	_	_	_	_
+12	yaTA	_	_	_	_	_	_	_	_
+13	na	_	_	_	_	_	_	_	_
+14	syAt	_	_	_	_	_	_	_	_
+15	taTA	_	_	_	_	_	_	_	_
+16	kArya	_	_	_	_	_	_	_	_
+17-18	tvayAnaGa	_	_	_	_	_	_	_	_
+17	tvayA	_	_	_	_	_	_	_	_
+18	anaGa	_	_	_	_	_	_	_	_
+19	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_23
+# mnd_reference = vol-ix_240_23
+# text = AKyAtavyaSca BavatA yajYo'yaM mama sarvaSaH . pArTiveByo mahAbAho samaye gamyatAmiti ..
+1-2	AKyAtavyaSca	_	_	_	_	_	_	_	_
+1	AKyAtavyaH	_	_	_	_	_	_	_	_
+2	ca	_	_	_	_	_	_	_	_
+3	BavatA	_	_	_	_	_	_	_	_
+4-5	yajYo'yaM	_	_	_	_	_	_	_	_
+4	yajYaH	_	_	_	_	_	_	_	_
+5	ayam	_	_	_	_	_	_	_	_
+6	mama	_	_	_	_	_	_	_	_
+7	sarvaSaH	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_
+9-11	pArTiveByo	_	_	_	_	_	_	_	_
+9	pArTiva	_	_	_	_	_	_	_	_
+10	iByA	_	_	_	_	_	_	_	_
+11	u	_	_	_	_	_	_	_	_
+12	mahAbAho	_	_	_	_	_	_	_	_
+13	samaye	_	_	_	_	_	_	_	_
+14-15	gamyatAmiti	_	_	_	_	_	_	_	_
+14	gamyatAm	_	_	_	_	_	_	_	_
+15	iti	_	_	_	_	_	_	_	_
+16	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_24
+# mnd_reference = vol-ix_240_24
+# text = vESampAyana uvAca evamuktvA ca DarmAtmA BrAtaraM savyasAcinam . BImaM ca nakulaM cEva puraguptO samAdaDat ..
+1	vESampAyana	_	_	_	_	_	_	_	Entity=(e11327-person--vESampAyana)|base_name=vESampAyana|ittnim=vESampAyana,11327,ce_vol_14,ver_2108
+2	uvAca	_	_	_	_	_	_	_	_
+3-4	evamuktvA	_	_	_	_	_	_	_	_
+3	evam	_	_	_	_	_	_	_	_
+4	uktvA	_	_	_	_	_	_	_	_
+5	ca	_	_	_	_	_	_	_	_
+6-7	DarmAtmA	_	_	_	_	_	_	_	_
+6	Darma	_	_	_	_	_	_	_	_
+7	AtmA	_	_	_	_	_	_	_	_
+8	BrAtaram	_	_	_	_	_	_	_	_
+9	savyasAcinam	_	_	_	_	_	_	_	Entity=(e801-person--arjuna)|base_name=savyasAcin|ittnim=arjuna,801,ce_vol_14,ver_2108
+10	.	_	_	_	_	_	_	_	_
+11	BIma	_	_	_	_	_	_	_	Entity=(e1454-person--BIma)|base_name=BIma|ittnim=BIma,1454,ce_vol_14,ver_2108
+12	ca	_	_	_	_	_	_	_	_
+13	nakulam	_	_	_	_	_	_	_	Entity=(e7528-person--nakula)|base_name=nakula|ittnim=nakula,7528,ce_vol_14,ver_2108
+14-15	cEva	_	_	_	_	_	_	_	_
+14	ca	_	_	_	_	_	_	_	_
+15	eva	_	_	_	_	_	_	_	_
+16-17	puraguptO	_	_	_	_	_	_	_	_
+16	pura	_	_	_	_	_	_	_	_
+17	guptO	_	_	_	_	_	_	_	_
+18	samAdaDat	_	_	_	_	_	_	_	_
+19	..	_	_	_	_	_	_	_	_
+
+# sent_id = MBh_14_2_240_25
+# mnd_reference = vol-ix_240_25
+# text = kuwumbatantre tadA sahadevaM yuDAM patim . anumAnya mahIpAlaM DftarAzwra yuDizWiraH ..
+1-2	kuwumbatantre	_	_	_	_	_	_	_	_
+1	kuwumba	_	_	_	_	_	_	_	_
+2	tantre	_	_	_	_	_	_	_	_
+3	tadA	_	_	_	_	_	_	_	_
+4	sahadevam	_	_	_	_	_	_	_	Entity=(e9239-person--sahadeva)|base_name=sahadeva|ittnim=sahadeva,9239,ce_vol_14,ver_2109
+5	yuDA	_	_	_	_	_	_	_	_
+6	patim	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_
+8	anumAnya	_	_	_	_	_	_	_	_
+9-10	mahIpAlaM	_	_	_	_	_	_	_	_
+9	mahI	_	_	_	_	_	_	_	_
+10	pAla	_	_	_	_	_	_	_	_
+11	DftarAzwra	_	_	_	_	_	_	_	Entity=(e3508-person--DftarAzwra)|base_name=DftarAzwra|ittnim=DftarAzwra,3508,ce_vol_14,ver_2109
+12	yuDizWiraH	_	_	_	_	_	_	_	Entity=(e12633-person--yuDizWira)|base_name=yuDizWira|ittnim=yuDizWira,12633,ce_vol_14,ver_2109
+13	..	_	_	_	_	_	_	_	_
+
