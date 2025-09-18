@@ -6,12 +6,13 @@
 
 ## Description
 **Mahānāma** is a large-scale dataset for end-to-end **Entity Discovery and Linking (EDL)** in Sanskrit.  
-Drawn from the *Mahābhārata*, the world’s longest epic, the dataset comprises **over 109,000 named entity mentions**.  
+Drawn from the *Mahābhārata*, the world’s longest epic, the dataset comprises **over 109,000 named entity mentions**, and is aligned with an **English knowledge base** to support cross-lingual linking.  
 
 - Entity mentions are extracted from the reference work:  
   *Index to the Names in Mahābhārata*  
   [Online edition](https://www.sanskrit-lexicon.uni-koeln.de/scans/INMScan/2020/web/index.php)  
-- The dataset is divided into **18 volumes**.  
+- The dataset is divided into **18 volumes**.
+- Each entity cluster is linked to the knowledge base, which provides cross-lingual descriptions in English
 ---
 
 ##  Data
@@ -23,7 +24,7 @@ Drawn from the *Mahābhārata*, the world’s longest epic, the dataset comprise
     
   
 - **Knowledge Base (`data/kb/`)**  
-  - `entity_metadata.json`: English descriptions of all entries of the index.
+  - `knowledge_base.json`: English descriptions of all entries of the index.
 ---
 
 ##  Format
@@ -42,7 +43,6 @@ global.Entity = eid-etype-head-identity-other
 - **etype** → entity type (e.g., `person`)  
 - **head** → index of head word (not used in this dataset → left blank)  
 - **identity** → canonical name chosen from the variants of the entity  
-- **other** → links to the *Index to the Names in Mahābhārata*  
 
 ---
 ### Entity annotation
@@ -56,11 +56,13 @@ vfzavAhanaH    Entity=(e2661-person---Siva)|ittnim=2661,Siva,vol\_13,ver\_1347,v
   - `---`: (no head word)  
   - `Siva`: canonical identity name  
 
-- **ittnim=2661,Siva,vol_13,ver_1347,vfzavAhana**  
-  - `2661`: entry number in the [digitized Index to the Names in Mahābhārata](https://www.sanskrit-lexicon.uni-koeln.de/scans/INMScan/2020/web/index.php)  
-  - `Siva`: English gloss from the index  
+- **base_name=vfzavAhana**  
+  - uninflected form of the matched name in the verse  
+
+- **ittnim=2661,Siva,vol_13,ver_1347**  
+  - `2661`: entry number in the [digitized *Index to the Names in Mahābhārata*](https://www.sanskrit-lexicon.uni-koeln.de/scans/INMScan/2020/web/index.php)  
+  - `Siva`: English gloss (lookup key in the index, linked to ID 2661)  
   - `vol_13, ver_1347`: Calcutta Edition reference (Volume 13, Verse 1347)  
-  - `vfzavAhana`: lookup key in the index  
 
 Thus, **vfzavAhanaH** refers to **Siva (e2661)**.
 
@@ -76,9 +78,6 @@ Thus, **vfzavAhanaH** refers to **Siva (e2661)**.
 
 - **MBh_CE_13_1** → Calcutta Edition, Volume 13, Chapter 1  
 - **MND_vol-ix_18_39** → Reference to the [Itihasa dataset](https://github.com/rahular/itihasa), mapping to M. N. Dutt’s English translation (Volume IX, Subchapter 18, Verse 39)  
-
----
-
 
 
 ---
