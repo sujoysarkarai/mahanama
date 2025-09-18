@@ -95,23 +95,24 @@ The KB is stored as a JSON file, where each entry corresponds to an entity ID (`
 - **cluster_head** → boolean flag indicating the canonical head entry of the cluster  
 
 ---
-
 #### Example
 
 ```json
-"e3699": {
-  "key": "druma",
-  "description": "Druma, king of the Kimpuruṣas. ...",
-  "cleaned_description": "Druma was the king of the Kimpuruṣas, known as Kimpuruṣeśaḥ. ...", 
-  "aliases": ["e5752", "e5753", "e5754"],
-  "cluster_head": true
-},
+{
+  "e3699": {
+    "key": "druma",
+    "description": "Druma, king of the Kimpuruṣas. ...",
+    "cleaned_description": "Druma was the king of the Kimpuruṣas, known as Kimpuruṣeśaḥ. ...",
+    "aliases": ["e5752", "e5753", "e5754"],
+    "cluster_head": true
+  },
 
-"e5752": {
-  "key": "kimpuruzAcArya",
-  "description": "Kimpuruṣācārya (“leader of the Kimpuruṣas”) = Druma, ( °, ( °",
-  "cleaned_description": "Kimpuruṣācārya means leader of the Kimpuruṣas and is identified as Druma.",
-  "cluster_head": false
+  "e5752": {
+    "key": "kimpuruzAcArya",
+    "description": "Kimpuruṣācārya (“leader of the Kimpuruṣas”) = Druma, ( °, ( °",
+    "cleaned_description": "Kimpuruṣācārya means \"leader of the Kimpuruṣas\" and is identified as Druma.",
+    "cluster_head": false
+  }
 }
 ````
 
@@ -120,8 +121,8 @@ In this example:
 * `e3699` is the **cluster head** for **Druma**, the king of the Kimpuruṣas.
 * `e5752` is a **name variant** (*Kimpuruṣācārya*), connected to the same cluster via the `aliases` field.
 
-
-```
+---
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+````
