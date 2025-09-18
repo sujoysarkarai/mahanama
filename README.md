@@ -72,16 +72,56 @@ Thus, **vfzavAhanaH** refers to **Siva (e2661)**.
 
 ```
 
-# sent_id = MBh_CE_13_1_MND_vol-ix_18_39
+# sent_id = MBh_13_1_18_39
+# mnd_reference = MND_vol-ix_18_39
 
 ```
 
-- **MBh_CE_13_1** → Calcutta Edition, Volume 13, Chapter 1  
+- **MBh_13_1** → Calcutta Edition, Volume 13, Chapter 1  
 - **MND_vol-ix_18_39** → Reference to the [Itihasa dataset](https://github.com/rahular/itihasa), mapping to M. N. Dutt’s English translation (Volume IX, Subchapter 18, Verse 39)  
-
 
 ---
 
+### Knowledge Base
+
+The **Knowledge Base (KB)** that links each entity cluster to cross-lingual descriptions in English (derived from *Index to the Names in Mahābhārata*).  
+
+The KB is stored as a JSON file, where each entry corresponds to an entity ID (`eid`) and contains:  
+
+- **key** → unique ID  
+- **description** → description from the Index after removing the references   
+- **cleaned_description** → description prepared for readability  
+- **aliases** → list of other entity IDs that are name variants of the same entity  
+- **cluster_head** → boolean flag indicating the canonical head entry of the cluster  
+
+---
+
+#### Example
+
+```json
+"e3699": {
+  "key": "druma",
+  "description": "Druma, king of the Kimpuruṣas. ...,
+  "cleaned_description": "Druma was the king of the Kimpuruṣas, known as Kimpuruṣeśaḥ. ...
+  "aliases": ["e5752", "e5753", "e5754"],
+  "cluster_head": true
+},
+
+"e5752": {
+  "key": "kimpuruzAcArya",
+  "description": "Kimpuruṣācārya (“leader of the Kimpuruṣas”) = Druma, ( °, ( °",
+  "cleaned_description": "Kimpuruṣācārya means "leader of the Kimpuruṣas" and is identified as Druma.",
+  "cluster_head": false
+}
+````
+
+In this example:
+
+* `e3699` is the **cluster head** for **Druma**, the king of the Kimpuruṣas.
+* `e5752` is a **name variant** (*Kimpuruṣācārya*), connected to the same cluster via the `aliases` field.
+
+
+```
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
