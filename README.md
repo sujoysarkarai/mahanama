@@ -101,8 +101,8 @@ The KB is stored as a JSON file, where each entry corresponds to an entity ID (`
 ```json
 "e3699": {
   "key": "druma",
-  "description": "Druma, king of the Kimpuruṣas. ...,
-  "cleaned_description": "Druma was the king of the Kimpuruṣas, known as Kimpuruṣeśaḥ. ...
+  "description": "Druma, king of the Kimpuruṣas. ...",
+  "cleaned_description": "Druma was the king of the Kimpuruṣas, known as Kimpuruṣeśaḥ. ...", 
   "aliases": ["e5752", "e5753", "e5754"],
   "cluster_head": true
 },
@@ -110,7 +110,7 @@ The KB is stored as a JSON file, where each entry corresponds to an entity ID (`
 "e5752": {
   "key": "kimpuruzAcArya",
   "description": "Kimpuruṣācārya (“leader of the Kimpuruṣas”) = Druma, ( °, ( °",
-  "cleaned_description": "Kimpuruṣācārya means "leader of the Kimpuruṣas" and is identified as Druma.",
+  "cleaned_description": "Kimpuruṣācārya means leader of the Kimpuruṣas and is identified as Druma.",
   "cluster_head": false
 }
 ````
