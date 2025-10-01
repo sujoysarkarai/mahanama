@@ -1,13 +1,6 @@
-# dual-cache-coref
+This code is adapted from the paper:
 
-Please follow the instructions in https://github.com/shtoshni/fast-coref to get data, model and configurations. 
-
-Next, run 
-```
-python main.py experiment=litbank paths.model_dir=../models/joint_best/  model/doc_encoder/transformer=longformer_joint override_encoder=True train=False 
-```
-
-An example training command 
-```
-python -u main.py experiment=litbank model/doc_encoder/transformer=longformer_joint override_encoder=True train=True
-```
+**Dual Cache for Long Document Neural Coreference Resolution**  
+Qipeng Guo, Xiangkun Hu, Yue Zhang, Xipeng Qiu, Zheng Zhang (2023)  
+Paper: [https://aclanthology.org/2023.acl-long.851/](https://aclanthology.org/2023.acl-long.851/)  
+GitHub: [https://github.com/QipengGuo/dual-cache-coref](https://github.com/QipengGuo/dual-cache-coref)  
