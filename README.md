@@ -47,7 +47,7 @@ global.Entity = eid-etype-head-identity
 ---
 ### Entity annotation
 ```
-vfzavAhanaH    Entity=(e2661-person---Siva)||base_name=vfzavAhana|ittnim=2661,Siva,vol_13,ver_1347
+vfzavAhanaH    Entity=(e2661-person--Siva)||base_name=vfzavAhana|ittnim=2661,Siva,vol_13,ver_1347
 
 ```
 - **Entity=(e2661-person---Siva)**  
