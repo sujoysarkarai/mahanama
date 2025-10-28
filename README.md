@@ -1,6 +1,6 @@
 # Mahānāma: A Unique Testbed for Literary Entity Discovery and Linking
 
-[![Paper](https://img.shields.io/badge/Paper-EMNLP%202025-blue)](link)
+[![Paper](https://img.shields.io/badge/Paper-EMNLP%202025-blue)](https://arxiv.org/abs/2509.19844)
 
 ---
 
@@ -36,7 +36,7 @@ For more details, see the [CorefUD format documentation](https://ufal.mff.cuni.c
 Entity information is stored in the **`MISC` column** of the CoNLL-U files using the key:
 
 ```
-global.Entity = eid-etype-head-identity-other
+global.Entity = eid-etype-head-identity
 ```
 
 - **eid** → entity/cluster ID  
@@ -53,7 +53,7 @@ vfzavAhanaH    Entity=(e2661-person---Siva)||base_name=vfzavAhana|ittnim=2661,Si
 - **Entity=(e2661-person---Siva)**  
   - `e2661`: entity ID  
   - `person`: entity type  
-  - `---`: (no head word)  
+  - ``: (no head word)  
   - `Siva`: canonical identity name  
 
 - **base_name=vfzavAhana**  
